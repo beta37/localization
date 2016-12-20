@@ -1,10 +1,10 @@
 <item>
-  <title>My super page (edited)</title>
+  <title>Ma super page (édité)</title>
   <meta>
-    <description>Super page describes our service</description>
+    <description>Super page décrit notre service</description>
     <keywords>service,description</keywords>
   </meta>
-  <content type="text/html">
-    <![CDATA[<b>This</b> is HTML content.]]>
+  <content type="texte/html">
+    <![CDATA[<b>This</b> est contenu HTML.]]>
   </content>
 </item>
