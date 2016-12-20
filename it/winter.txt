@@ -1,7 +1,7 @@
-YEAR
+ANNO
 MOUNTH
-DAYS
-Winter
-Spring
-Summer
-Autumn
+GIORNI
+Inverno
+Primavera
+Estate
+Autunno
