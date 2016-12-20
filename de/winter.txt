@@ -1,7 +1,7 @@
-YEAR
-MOUNTH
-DAYS
+JAHR
+MONAT
+TAGE
 Winter
-Spring
-Summer
-Autumn
+Frühling
+Sommer
+Herbst
