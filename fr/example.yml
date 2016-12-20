@@ -1,93 +1,93 @@
 ---
-ref: example
+ref: exemple
 pageHeading:
-  <<: !import 'common/pageHeadings/evidenceRequirement'
-  title: 'Prove you have lived in the U.S. since June 15, 2007'
-  description: !markdown 'You answered in your application that **you have lived in the U.S. continuously since June 15, 2007.** The immigration officer reviewing your application will need to see evidence that this is true.'
+  <<: !import 'commune/pageHeadings/evidenceRequirement'
+  title: 'Prouver que vous avez vécu aux états-UNIS depuis le 15 juin 2007'
+  description: !markdown "Vous avez répondu à votre application **vous avez vécu aux états-UNIS de façon continue depuis le 15 juin 2007.** L'agent d'immigration de l'examen de votre application a besoin de voir des preuves que cela est vrai."
 selectEvidence1:
   evidenceTypeGroups1:
     - 
       evidenceTypes1:
-        - !import 'common/evidence/types/documentaionShowingPoliticalPartyMembership'
-        - !import 'common/evidence/types/confirmationThatVolunteeredForUSPoliticalParty'
-        - !import 'common/evidence/types/confirmationOfParticipationReligiousCommunity'
-        - !import 'common/evidence/types/creditCardStatement'
+        - !import 'commune/preuve/types/documentaionShowingPoliticalPartymembership'
+        - !import 'commune/preuve/types/confirmationThatVolunteeredForUSpoliticalparty'
+        - !import 'commune/preuve/types/confirmationOfParticipationReligiouscommunity'
+        - !import 'commune/preuve/types/creditCardStatement'
 learnMore1:
   questions1:
-    - !import 'common/evidence/categories/questions/howProveAffiliationCommunistPartyEndedBefore16thBirthday'
-    - !import 'common/evidence/categories/questions/whatIfNoDocumentationShowsCommunistPartyAffiliationEndedBefore16thBirthday'
-    - !import 'common/evidence/categories/questions/whatIfNodocumentsToProvePastAffiliationWithCommunistParty'
-    - !import 'common/evidence/categories/questions/whyAttachmentToUSConstitutionEvaluated'
+    - !import 'commune/preuve/catégories/questions/howProveAffiliationCommunistPartyendedbefore16thbirthday'
+    - !import 'common/evidence/categories/questions/whatIfNoDocumentationShowsCommunistpartyaffiliationendedbefore16thbirthday'
+    - !import 'commune/preuve/catégories/questions/whatIfNodocumentsToProvePastAffiliationwithcommunistparty'
+    - !import 'commune/preuve/catégories/questions/whyAttachmentToUSConstitutionEvaluated'
 learnMore:
   video:
-    fileUrl: !asset 'common/videos/example.mp4'
-    thumbnailUrl: !asset 'common/images/video.png'
-    caption: Watch Video - 2 minutes
+    fileUrl: !asset 'commune/vidéos/exemple.mp4'
+    thumbnailUrl: !asset 'common/images/vidéo.png'
+    caption: Regarder la Vidéo - 2 minutes
   download:
-    fileUrl: /images/download.pdf
-    thumbnailUrl: /images/download.png
+    fileUrl: /images/télécharger.pdf
+    thumbnailUrl: /images/télécharger.png
   questions:
-    - !import 'common/evidence/categories/questions/howProveServedHonorablyInMilitary'
+    - !import 'commune/preuve/catégories/questions/howProveServedHonorablyInMilitary'
 selectEvidence:
-  title: !markdown 'What evidence will you be able to send to **prove you have lived in the U.S. continuously since**'
-  description: !markdown 'When possible, the more evidence you can send, the better. If you choose an item below and later find you can’t get it, return here to change your selections before you file.'
+  title: !markdown 'Quelles sont les preuves que vous pourrez envoyer à **prouver que vous avez vécu aux états-UNIS de façon continue depuis**'
+  description: !markdown "Lorsque cela est possible, la preuve de plus que vous pouvez envoyer, le mieux. Si vous choisissez une option ci-dessous et de trouver plus tard que vous ne pouvez pas l'obtenir, de retour ici pour modifier vos choix avant de vous fichier."
   evidenceTypeGroups:
     - 
-      label: Example
+      label: Exemple
       evidenceTypes:
-        - !import 'common/evidence/types/militaryServiceRecord'
+        - !import 'commune/preuve/types/militaryServiceRecord'
 evidenceOmission:
-  <<: !import 'common/evidence/categories/omission/base'
+  <<: !import 'commune/preuve/catégories/omission/base'
   explanation:
     required: true
-    title: Why won't you be providing evidence to prove you are married to a U.S. Citizen?
-    instructions: 'You may include a description of your efforts to get evidence, and anything else you think is important for the immigration officer to consider. Please write in complete sentences.'
+    title: Pourquoi ne pas vous fournir de preuves pour prouver que vous êtes marié à un Citoyen AMÉRICAIN?
+    instructions: 'Vous pouvez inclure une description de vos efforts pour obtenir des preuves, et tout ce que vous pensez est important pour l''agent d''immigration à prendre en compte. S''il vous plaît écrivez des phrases complètes.'
   confirmation:
-    title: Do you understand the risks of not providing evidence to prove you are married to a U.S. Citizen?
-    label: 'Yes, I understand that even if my explanation above is good, if I do not provide any evidence to meet this requirement when I file, my application may be delayed, and I may receive a Request for Evidence (RFE) with a response deadline.'
+    title: Comprenez-vous les risques de ne pas fournir des preuves pour prouver que vous êtes marié à un Citoyen AMÉRICAIN?
+    label: 'Oui, je comprends que, même si mon explication ci-dessus est la bonne, si je n''ai aucune preuve pour répondre à cette exigence quand je file, ma demande pourrait être retardé, et je peut recevoir une Demande de Preuve (RFE) avec une date butoir de réponse.'
   learnMore:
     questions:
       - 
-        label: How will this affect my application?
-        content: "The immigration officer who reviews your application will want to see\nevidence that proves each requirement. Submitting your application\nwithout supporting evidence could lead to delays, and in some cases\neven denial."
+        label: Comment cela affectera ma demande?
+        content: "L'agent d'immigration qui examine votre demande vous voulez voir\ndes éléments de preuve qui prouve que chaque exigence. La soumission de votre application\nsans preuves à l'appui qui pourrait entraîner des retards, et, dans certains cas,\nmême le refus."
       - 
-        label: If I qualify another way do I still have to prove this requirement?
-        content: "If you have not been a permanent resident (green card holder) for at\nleast 4 years and 9 months, you might still qualify for U.S. citizenship\non another basis. You can go back to your application to review the\nother eligibility options and change your answer."
+        label: Si je peux bénéficier d'une autre manière dois-je continuer à prouver qu'à cette exigence?
+        content: "Si vous n'avez pas été un résident permanent (carte verte) pour au\nmoins de 4 ans et 9 mois, vous pouvez toujours être admissible à la citoyenneté AMÉRICAINE\nsur une autre base. Vous pouvez revenir à votre demande de révision de la\nd'autres options d'admissibilité et de modifier votre réponse."
       - 
-        label: Can I continue without providing evidence?
-        content: "If you have been a permanent resident (green card holder) for at least 4\nyears and 9 months and you have a good reason why you cannot provide the\nrequired evidence, you can still choose to continue. Please submit an\nexplanation to the immigration officer who reviews your case to explain\nwhy you cannot prove this requirement at this time."
-content1: "To prove that your gender has legally changed, you will need to submit the following:\n\n- A copy of your green card\n- A copy of documentation showing your change of gender, such as:\n- Official court order for a change of gender\n- Medical certification recognizing change of gender\n- Amended birth certificate\n- New passport biographical page\n- New driver’s license"
-pageId2: example
-title2: Before you proceed...
-subTitle2: Please read this important warning
-icon2: images/example.svg
-footerMessage2: Go to the next page to start assembling your Application Package...
-warningMessage2: "USCIS requires that applicants for U.S. citizenship have an unexpired green card that is valid for at least six more months.\n\n**\\*Your filing deadline is July 05, 2016.\\* If you miss this deadline you will need to apply to renew your green card before you can file your application for U.S. citizenship.**"
-pageId33: example
-title33: Supplies
-subTitle33: What you'll need
+        label: Puis-je continuer sans fournir de preuves?
+        content: "Si vous avez été un résident permanent (carte verte) pour au moins 4\nans et 9 mois, et vous avez une bonne raison pourquoi vous ne pouvez pas fournir l'\nla preuve requise, vous pouvez toujours choisir de continuer. Veuillez soumettre une\nexplication de l'agent d'immigration qui examine votre cas à expliquer\npourquoi vous ne pouvez pas prouver à cette exigence en ce moment."
+content1: "Pour prouver que votre sexe a légalement changé, vous devrez présenter les documents suivants:\n\n- Une copie de votre carte verte\n- Une copie de la documentation montrant votre changement de sexe, tels que:\n- Officielle de la cour pour changer de sexe\n- Un certificat médical reconnaissant que le changement de sexe\n- Modifié le certificat de naissance\n- Nouveau passeport biographiques page\n- Nouveau permis de conduire"
+pageId2: exemple
+title2: Avant de procéder...
+subTitle2: Veuillez lire cet avertissement important
+icon2: images/exemple.svg
+footerMessage2: Aller à la page suivante pour démarrer le montage de votre dossier de Demande...
+warningMessage2: "L'USCIS exige que les candidats à la citoyenneté des états-UNIS ont une durée non écoulée de la carte verte qui est valide pour au moins six mois de plus.\n\n**\\*Votre date limite de dépôt est le 05 juillet 2016.\\* Si vous manquez cette date, vous devrez appliquer pour renouveler votre carte verte avant, vous pouvez déposer votre demande de citoyenneté des états-UNIS.**"
+pageId33: exemple
+title33: Fournitures
+subTitle33: Ce dont vous aurez besoin
 instructions3: >
-  To build your Application Package, you will need:
+  Pour construire votre dossier de Demande, vous aurez besoin de:
 footerMessage3: >
-  Go to the next page to start assembling your Application Package...
+  Aller à la page suivante pour démarrer le montage de votre dossier de Demande...
 items3:
   - 
-    label: "**Printed copy of this filing packet** on 8.5” x 11” paper\n(about the same size as A4)"
-    icon: !asset 'common/images/example.svg'
+    label: "**Un exemplaire imprimé de ce dépôt de paquets** sur 8,5” x 11” papier\n(environ la même taille que A4)"
+    icon: !asset 'common/images/exemple.svg'
   - 
-    label: A clear **area to work** (desk, table, floor, etc)
-    icon: !asset 'common/images/example.svg'
+    label: Claire **zone de travail** (de bureau, de table, de sol, etc)
+    icon: !asset 'common/images/exemple.svg'
   - 
-    label: '**Black ink pen** to sign documents and complete checklists'
-    icon: !asset 'common/images/example.svg'
-contentBeforeList12: "Dear **USCIS Immigration Officer**,\n\nOn the following page, you will find a completed form G-1450, \"Authorization for Credit Card Transactions\" to pay my application filing fees of ${{value 'context.filingPacketData.filingFees.totalAmount'}}{{value 'context.filingPacketData.filingFees.lineItemsDescription'}}."
+    label: '**À l''encre noire** pour signer des documents et des listes de vérification complète'
+    icon: !asset 'common/images/exemple.svg'
+contentBeforeList12: "Cher **USCIS Agent de l'Immigration**,\n\nSur la page suivante, vous trouverez un formulaire G-1450, \"l'Autorisation pour les Transactions par Carte de Crédit pour payer ma demande de frais de dépôt de ${{value 'context.filingPacketData.filingFees.totalAmount'}}{{value 'context.filingPacketData.filingFees.lineItemsDescription'}}."
 finalReview12:
-  instruction12: with correct attachment
-  content12: "**EITHER** the “Credit Card” version followed by a completed and signed G-1450\n**--OR--** the “Check/Money Order” version with check/money order attached by paperclip"
+  instruction12: avec une fixation correcte
+  content12: "**** La “Carte de Crédit” version suivie par un rempli et signé G-1450\n**--OU--** le “Chèque/mandat” la version avec chèque/attaché par un trombone"
   image12: !asset 'common/images/sectionCardOrCheck.svg'
   Forms attached: ""
-listType: forms-list
-body1: "Dear **USCIS Immigration Officer**,\n\nI, Oscar Sesequis hereby file an N-400, U.S. Citizenship Application with the following attached documents:\n\n{{value 'context.sectionList'}}\n\nPlease contact me should you have any questions or need further documentation.\n\nSigned,"
-caseNumber11: USCIS
-contentBeforeList11: "Dear **USCIS Immigration Officer**,\n\nI, {{value 'application.applicant.name.first'}} {{value 'application.applicant.name.last'}} hereby file an N-400, U.S. Citizenship Application with the following attached documents:"
+listType: les formulaires de liste
+body1: "Cher **USCIS Agent de l'Immigration**,\n\nJ', Oscar Sesequis par la présente à déposer une N-400, états-UNIS Demande de Citoyenneté avec les joints les documents suivants:\n\n{{value 'context.sectionList'}}\n\nVeuillez me contacter si vous avez des questions ou besoin de plus de documentation.\n\nSigné,"
+caseNumber11: L'USCIS
+contentBeforeList11: "Cher **USCIS Agent de l'Immigration**,\n\nJ', {{value 'application.applicant.name.first'}} {{value 'application.applicant.name.last'}} par la présente à déposer une N-400, états-UNIS Demande de Citoyenneté avec les joints les documents suivants:"
 sss: 1
