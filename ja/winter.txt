@@ -1,7 +1,7 @@
-年
+YEAR
 MOUNTH
-日
-冬
-春
-夏
-秋
+DAYS
+Winter
+Spring
+Summer
+Autumn
