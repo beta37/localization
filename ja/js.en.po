@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: test-github-5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-28 11:07+0300\n"
-"PO-Revision-Date: 2016-12-20 11:04+0200\n"
+"PO-Revision-Date: 2016-12-20 11:28+0200\n"
 "Last-Translator: integration <mikolay191237+48@gmail.com>\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -20,154 +20,154 @@ msgstr ""
 #: www/js/lib/items.js
 #: www/js/editor/plugins/plugins.js
 msgid "Error loading data."
-msgstr ""
+msgstr "エラーデータの読み込みます。"
 
 #: www/js/lib/files.js
 msgid "Retry"
-msgstr ""
+msgstr "リトライ"
 
 #: www/js/lib/files.js
 msgid "Nothing to dislpay"
-msgstr ""
+msgstr "もdislpay"
 
 #: www/js/lib/files.js
 #: www/js/lib/items.js
 msgid "Nothing to display"
-msgstr ""
+msgstr "何も表示"
 
 #: www/js/lib/files.js
 #: www/js/front/project_members.js
 #: www/js/front/profile_resources.js
 msgid "Name"
-msgstr ""
+msgstr "名称"
 
 #: www/js/lib/files.js
 #: www/js/front/project_files.js
 msgid "Go Back"
-msgstr ""
+msgstr "帰"
 
 #: www/js/lib/ui/editor-menu.js
 #: www/js/front/project_files.js
 msgid "Get %1$s version of %2$s for offline translation"
-msgstr ""
+msgstr "車%1$s版%2$sのためのオフライン翻訳"
 
 #: www/js/lib/ui/editor-menu.js
 #: www/js/front/project_files.js
 msgid "Get %1$s version of %2$s"
-msgstr ""
+msgstr "車%1$s版%2$s"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "all files"
-msgstr ""
+msgstr "すべてのファイル"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Get %1$s xliff version of %2$s for offline translation"
-msgstr ""
+msgstr "車%1$sxliff版%2$sのためのオフライン翻訳"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Get %1$s xliff version of %2$s"
-msgstr ""
+msgstr "車%1$sxliff版%2$s"
 
 #: www/js/lib/ui/editor-menu.js
 #: www/js/editor/plugins/change_visibility.js
 #: www/js/editor/views/translation.js
 msgid "Make String Visible"
-msgstr ""
+msgstr "作文字列を可視"
 
 #: www/js/lib/ui/editor-menu.js
 #: www/js/editor/plugins/change_visibility.js
 #: www/js/editor/views/translation.js
 msgid "Hide String"
-msgstr ""
+msgstr "隠し文字列"
 
 #: www/js/lib/ui/editor-menu.js
 #: www/js/editor/views/translation.js
 #: www/js/assets_editor/views/translation.js
 msgid "Add Context"
-msgstr ""
+msgstr "追加の文脈"
 
 #: www/js/lib/ui/editor-menu.js
 #: www/js/editor/views/translation.js
 #: www/js/assets_editor/views/translation.js
 msgid "Edit Context"
-msgstr ""
+msgstr "編集文脈"
 
 #: www/js/lib/ui/editor-menu.js
 #: www/js/editor/views/translation.js
 #: www/js/assets_editor/views/translation.js
 msgid "Request Context"
-msgstr ""
+msgstr "要求のContext"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Search in the Project"
-msgstr ""
+msgstr "検索でのプロジェクト"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Search in the File"
-msgstr ""
+msgstr "検索にはファイル"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "All strings"
-msgstr ""
+msgstr "すべての文字列"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "%1$s - %2$s - %3$s translation"
-msgstr ""
+msgstr "%1$s - %2$s - %3$s 翻訳"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Open %1$s %2$s translation page"
-msgstr ""
+msgstr "開%1$s %2$s訳ページ"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Open %s translation page"
-msgstr ""
+msgstr "開%s訳ページ"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "%s Translations"
-msgstr ""
+msgstr "%s翻訳"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Not allowed for this file"
-msgstr ""
+msgstr "不可このファイル"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Download a fresh version of this file translations"
-msgstr ""
+msgstr "ダウンロード新版のファイルの翻訳"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Upload and merge existing translations with the current ones at %s"
-msgstr ""
+msgstr "アップロードと合併し、既存の翻訳を現在のもので%s"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Download file in xliff format for offline translation"
-msgstr ""
+msgstr "ダウンロードファイルxliff形式のためのオフライン翻訳"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Upload translation from xliff format file and merge existing translations with the current ones at %s"
-msgstr ""
+msgstr "アップロードからxliff形式のファイルと統合、既存の翻訳を現在のもので%s"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Proofreading Mode"
-msgstr ""
+msgstr "校正モード"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Voting Mode"
-msgstr ""
+msgstr "議決権モード"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Untranslated: %s, not approved: %s"
-msgstr ""
+msgstr "翻訳:%sは、認められない:%s"
 
 #: www/js/lib/ui/editor-menu.js
 #: www/js/editor/plugins/plugins.js
 msgid "%s word"
 msgid_plural "%s words"
-msgstr[0] ""
+msgstr[0] "%s語"
 
 #: www/js/lib/guiders/guiders-1.2.8.js
 #: www/js/front/mobile_support.js
 msgid "Back"
-msgstr ""
+msgstr "裏"
 
 #: www/js/lib/guiders/guiders-1.2.8.js
 #: www/js/editor/plugins/custom_filter.js
@@ -188,213 +188,213 @@ msgstr ""
 #: www/js/front/integration.js
 #: www/js/professional_translations/controls/professional_translations.js
 msgid "Close"
-msgstr ""
+msgstr "近"
 
 #: www/js/lib/guiders/guiders-1.2.8.js
 #: www/js/editor/quick_user_guide_guiders.js
 msgid "Next"
-msgstr ""
+msgstr "次へ"
 
 #: www/js/lib/form_validation/formValidator.js
 msgid "Invalid email"
-msgstr ""
+msgstr "無効なメール"
 
 #: www/js/lib/form_validation/formValidator.js
 #: www/js/validators/validator.js
 msgid "Did you mean %s?"
-msgstr ""
+msgstr "もしかして%sすか？"
 
 #: www/js/lib/form_validation/formValidator.js
 msgid "Please enter a valid URL"
-msgstr ""
+msgstr "ご入力ください、有効なURL"
 
 #: www/js/lib/clipboard.js
 msgid "String URL"
-msgstr ""
+msgstr "String URL"
 
 #: www/js/lib/clipboard.js
 msgid "Copy to clipboard:"
-msgstr ""
+msgstr "クリップボードにコピー:"
 
 #: www/js/lib/highlight/highlight.js
 msgid "Tags should not be translated"
-msgstr ""
+msgstr "タグべきではない翻訳"
 
 #: www/js/lib/highlight/highlight.js
 msgid "XML tags should not be translated"
-msgstr ""
+msgstr "XMLのタグなの翻訳"
 
 #: www/js/lib/highlight/highlight.js
 msgid "HTML entities should not be translated"
-msgstr ""
+msgstr "HTMLエンティティのトラブルなの翻訳"
 
 #: www/js/lib/highlight/highlight.js
 msgid "This is line break"
-msgstr ""
+msgstr "ここは改行"
 
 #: www/js/lib/highlight/highlight.js
 msgid "This variable should not be translated"
-msgstr ""
+msgstr "この変数のべきではない翻訳"
 
 #: www/js/lib/highlight/highlight.js
 msgid "Special symbols should not be translated"
-msgstr ""
+msgstr "半角カタカナや特殊記号はないの翻訳"
 
 #: www/js/lib/highlight/highlight.js
 msgid "Space characters should not be translated"
-msgstr ""
+msgstr "スペース文字なの翻訳"
 
 #: www/js/lib/highlight/highlight.js
 msgid "Tab should not be translated"
-msgstr ""
+msgstr "タブべきではない翻訳"
 
 #: www/js/lib/jquery.jgrowl.js
 msgid "Close all"
-msgstr ""
+msgstr "すべての"
 
 #: www/js/lib/items.js
 msgid "All <b>%d</b> items on this page are selected."
-msgstr ""
+msgstr "すべての<b>%d</b>事項このページを選択します。"
 
 #: www/js/lib/items.js
 msgid "One item on this page is selected."
-msgstr ""
+msgstr "一品このページを選択します。"
 
 #: www/js/lib/items.js
 #: www/js/proofread_editor/controls/phrases.js
 msgid "Select all <b>%d</b> that match current filtering rule"
-msgstr ""
+msgstr "すべて選択<b>%d</b>に一致する現在のフィルタリング規則"
 
 #: www/js/lib/items.js
 msgid "All <b>%d</b> items are selected."
-msgstr ""
+msgstr "すべての<b>%d</b>項目を選択します。"
 
 #: www/js/lib/items.js
 msgid "First page"
-msgstr ""
+msgstr "最初のページ"
 
 #: www/js/lib/items.js
 msgid "Last page"
-msgstr ""
+msgstr "最後のページ"
 
 #: www/js/lib/items.js
 msgid "Clear selection"
-msgstr ""
+msgstr "明らか選択"
 
 #: www/js/lib/items.js
 msgid "%1$d &mdash; %2$d of %3$d"
-msgstr ""
+msgstr "%1$d &mdash; %2$dの%3$d"
 
 #: www/js/lib/fileuploader.js
 msgid "{file} has invalid extension. Allowed are: {extensions}."
-msgstr ""
+msgstr "{file}は無効にします。 ついては、定められた:{extensions}ます。"
 
 #: www/js/lib/fileuploader.js
 msgid "{file} is too large, maximum file size is {sizeLimit}."
-msgstr ""
+msgstr "{file}は大きすぎると、最大ファイルサイズは{sizeLimit}ます。"
 
 #: www/js/lib/fileuploader.js
 msgid "{file} is too small, minimum file size is {minSizeLimit}."
-msgstr ""
+msgstr "{file}ものの、最小限のファイルサイズは{minSizeLimit}ます。"
 
 #: www/js/lib/fileuploader.js
 msgid "{file} is empty, try selecting another file."
-msgstr ""
+msgstr "{file}が空のみの選別のファイルです。"
 
 #: www/js/lib/fileuploader.js
 msgid "The files are being uploaded, if you leave now the upload will be cancelled."
-msgstr ""
+msgstr "のファイルをアップロードされた場合、お帰りのアップロードを中止する場合があります。※"
 
 #: www/js/validators/validator.js
 msgid "User name must be at least 3 characters."
-msgstr ""
+msgstr "ユーザー名は少なくとも3文字です。"
 
 #: www/js/validators/validator.js
 msgid "Please use only letters (a-z), numbers, and signs %s."
-msgstr ""
+msgstr "のみ使用してください文字（a-z）、数字、および標識%sます。"
 
 #: www/js/validators/validator.js
 msgid "The language name should not be longer than 50 characters."
-msgstr ""
+msgstr "言語の名称すべきでない以上50文字ます。"
 
 #: www/js/validators/validator.js
 msgid "Please use only letters (a-z)."
-msgstr ""
+msgstr "のみ使用してください文字（a-z）です。"
 
 #: www/js/validators/validator.js
 msgid "The crowdin code should not be less than 2 and longer than 4 characters."
-msgstr ""
+msgstr "のcrowdinコードすべきでない未満2以上4文字です。"
 
 #: www/js/validators/validator.js
 msgid "Three letters code must have 3 characters."
-msgstr ""
+msgstr "頭文字が文字コードは3文字です。"
 
 #: www/js/validators/validator.js
 msgid "Please use only letters (a-z) and sign %s."
-msgstr ""
+msgstr "のみ使用してください文字（a-z）-サ%sます。"
 
 #: www/js/validators/validator.js
 msgid "The locale code should not be longer than 7 characters."
-msgstr ""
+msgstr "ロケールをコードすべきでない以上7文字以内です。"
 
 #: www/js/validators/validator.js
 msgid "Identifier must be longer than 3 characters."
-msgstr ""
+msgstr "識別子以上の3文字です。"
 
 #: www/js/validators/validator.js
 #: www/js/front/integration.js
 msgid "No spaces or special characters allowed."
-msgstr ""
+msgstr "なし空間または特殊文字は許可されます。"
 
 #: www/js/validators/validator.js
 #: www/js/front/profile_settings.js
 msgid "Password is too short (minimum is 6 characters)"
-msgstr ""
+msgstr "パスワードが短い(最低6文字以内)"
 
 #: www/js/validators/validator.js
 msgid "The passwords don't match, please try again."
-msgstr ""
+msgstr "パスワードが一致しない、もう一度入力してください。"
 
 #: www/js/validators/validator.js
 msgid "Invalid email."
-msgstr ""
+msgstr "無効なメールします。"
 
 #: www/js/validators/validator.js
 msgid "Invalid date."
-msgstr ""
+msgstr "無効な日付ます。"
 
 #: www/js/validators/validator.js
 msgid "This option is required."
-msgstr ""
+msgstr "このオプションが必要です。"
 
 #: www/js/validators/validator.js
 msgid "You must select at least one target language."
-msgstr ""
+msgstr "を選択してください少なくとも一つの外国語力を身につけていきます。"
 
 #: www/js/validators/validator.js
 msgid "Url is not valid."
-msgstr ""
+msgstr "Urlが無効です。"
 
 #: www/js/editor/hotkeys.js
 #: www/js/proofread_editor/controls/suggestions.js
 msgid "Save Translation"
-msgstr ""
+msgstr "保存翻訳"
 
 #: www/js/editor/hotkeys.js
 msgid "Skip String"
-msgstr ""
+msgstr "スキップ文字列"
 
 #: www/js/editor/hotkeys.js
 msgid "Previous String"
-msgstr ""
+msgstr "前の文字列"
 
 #: www/js/editor/hotkeys.js
 msgid "Show/Hide Right Panel"
-msgstr ""
+msgstr "表示/非表示となっています。"
 
 #: www/js/editor/hotkeys.js
 msgid "Copy Translation From Source"
-msgstr ""
+msgstr "コピーし翻訳のソースから"
 
 #: www/js/editor/hotkeys.js
 #: www/js/editor/controls/suggestions.js
@@ -403,7 +403,7 @@ msgstr ""
 #: www/js/assets_editor/controls/suggestions.js
 #: www/js/assets_editor/views/suggestions.js
 msgid "Approve"
-msgstr ""
+msgstr "承認"
 
 #: www/js/editor/hotkeys.js
 #: www/js/editor/controls/suggestions.js
@@ -412,7 +412,7 @@ msgstr ""
 #: www/js/assets_editor/controls/suggestions.js
 #: www/js/assets_editor/views/suggestions.js
 msgid "Disapprove"
-msgstr ""
+msgstr "否認"
 
 #: www/js/editor/hotkeys.js
 #: www/js/editor/controls/suggestions.js
@@ -420,7 +420,7 @@ msgstr ""
 #: www/js/proofread_editor/controls/suggestions.js
 #: www/js/assets_editor/controls/suggestions.js
 msgid "Vote Up"
-msgstr ""
+msgstr "投票まで"
 
 #: www/js/editor/hotkeys.js
 #: www/js/editor/controls/suggestions.js
@@ -428,73 +428,73 @@ msgstr ""
 #: www/js/proofread_editor/controls/suggestions.js
 #: www/js/assets_editor/controls/suggestions.js
 msgid "Vote Down"
-msgstr ""
+msgstr "投票下"
 
 #: www/js/editor/hotkeys.js
 msgid "Show/Hide String"
-msgstr ""
+msgstr "表示-非表示を切り替える文字列"
 
 #: www/js/editor/hotkeys.js
 msgid "Show/Hide String Context"
-msgstr ""
+msgstr "表示-非表示を切り替える文字列の文脈"
 
 #: www/js/editor/hotkeys.js
 msgid "Edit String Context"
-msgstr ""
+msgstr "編集文字列の文脈"
 
 #: www/js/editor/hotkeys.js
 msgid "Request String Comment"
-msgstr ""
+msgstr "要請文字列のコメント"
 
 #: www/js/editor/hotkeys.js
 msgid "Search"
-msgstr ""
+msgstr "検索"
 
 #: www/js/editor/hotkeys.js
 #: www/js/editor/plugins/replace.js
 msgid "Replace in Suggestions"
-msgstr ""
+msgstr "交換のご提案"
 
 #: www/js/editor/hotkeys.js
 #: www/js/editor/plugins/plugins.js
 msgid "Open File"
-msgstr ""
+msgstr "ファイルを開く"
 
 #: www/js/editor/hotkeys.js
 msgid "Next File"
-msgstr ""
+msgstr "次のファイル"
 
 #: www/js/editor/hotkeys.js
 msgid "Previous File"
-msgstr ""
+msgstr "前のファイル"
 
 #: www/js/editor/hotkeys.js
 msgid "Show/Hide File Context"
-msgstr ""
+msgstr "表示/非表示ファイルの文脈で"
 
 #: www/js/editor/hotkeys.js
 msgid "Edit File Context"
-msgstr ""
+msgstr "編集ファイルの文脈で"
 
 #: www/js/editor/hotkeys.js
 msgid "Request File Comment"
-msgstr ""
+msgstr "依頼ファイルのコメント"
 
 #: www/js/editor/hotkey_bindings.js
 msgid "Save Translation (%s)"
-msgstr ""
+msgstr "保存翻訳（%s)"
 
 #: www/js/editor/hotkey_bindings.js
 msgid "Previous String (%s)"
-msgstr ""
+msgstr "前の文字列(%s)"
 
 #: www/js/editor/hotkey_bindings.js
 msgid "Skip String (%s)"
-msgstr ""
+msgstr "スキップ文字列(%s)"
 
 #: www/js/editor/plugins/context_editor.js
 msgid "Screenshots"
-msgstr ""
+msgstr "画面表示"
 
 #: www/js/editor/plugins/context_editor.js
 #: www/js/editor/plugins/plugins.js
@@ -523,7 +523,7 @@ msgstr ""
 #: www/js/src/autofix.js
 #: www/js/assets_editor/controls/suggestions.js
 msgid "Cancel"
-msgstr ""
+msgstr "消"
 
 #: www/js/editor/plugins/context_editor.js
 #: www/js/editor/plugins/editor_settings.js
@@ -540,23 +540,23 @@ msgstr ""
 #: www/js/front/integration.js
 #: www/js/professional_translations/views/vendor.js
 msgid "Save"
-msgstr ""
+msgstr "保存"
 
 #: www/js/editor/plugins/plugins.js
 msgid "Hide Context"
-msgstr ""
+msgstr "非表示の文脈"
 
 #: www/js/editor/plugins/plugins.js
 msgid "Show Context"
-msgstr ""
+msgstr "ショーコ"
 
 #: www/js/editor/plugins/plugins.js
 msgid "Search through translation memory"
-msgstr ""
+msgstr "検索を通じて翻訳メモリ"
 
 #: www/js/editor/plugins/plugins.js
 #: www/js/front/tag_screenshot.js
 #: www/js/front/target_languages.js
 #: www/js/front/profile_resources.js
 msgid "Clear"
-msgstr ""
+msgstr "明らか"
