@@ -1,93 +1,93 @@
 ---
-ref: example
+ref: 例
 pageHeading:
-  <<: !import 'common/pageHeadings/evidenceRequirement'
-  title: 'Prove you have lived in the U.S. since June 15, 2007'
-  description: !markdown 'You answered in your application that **you have lived in the U.S. continuously since June 15, 2007.** The immigration officer reviewing your application will need to see evidence that this is true.'
+  <<: !import '共通/pageHeadings/evidenceRequirement'
+  title: '証明などに住んでいた、米国年月15日、2007年'
+  description: !markdown 'ご回答お願い**こじんまりとしていますが住んでいる米国から継続月15日、2007年ます。** の入国審査官の見直し書に記載された仕様(項目の必要証拠があります。'
 selectEvidence1:
   evidenceTypeGroups1:
     - 
       evidenceTypes1:
-        - !import 'common/evidence/types/documentaionShowingPoliticalPartyMembership'
-        - !import 'common/evidence/types/confirmationThatVolunteeredForUSPoliticalParty'
-        - !import 'common/evidence/types/confirmationOfParticipationReligiousCommunity'
-        - !import 'common/evidence/types/creditCardStatement'
+        - !import '共通/evidence/プ/documentaionShowingPoliticalPartymembership'
+        - !import '共通/evidence/プ/confirmationThatVolunteeredForUSpoliticalparty'
+        - !import '共通/evidence/プ/confirmationOfParticipationReligiouscommunity'
+        - !import '共通/evidence/プ/creditCardStatement'
 learnMore1:
   questions1:
-    - !import 'common/evidence/categories/questions/howProveAffiliationCommunistPartyEndedBefore16thBirthday'
-    - !import 'common/evidence/categories/questions/whatIfNoDocumentationShowsCommunistPartyAffiliationEndedBefore16thBirthday'
-    - !import 'common/evidence/categories/questions/whatIfNodocumentsToProvePastAffiliationWithCommunistParty'
-    - !import 'common/evidence/categories/questions/whyAttachmentToUSConstitutionEvaluated'
+    - !import '共通/evidence/カテゴリ/ご不明な点がございましたら/howProveAffiliationCommunistPartyendedbefore16thbirthday'
+    - !import 'common/evidence/categories/questions/whatIfNoDocumentationShowsCommunistpartyaffiliationendedbefore16thbirthday'
+    - !import '共通/evidence/カテゴリ/ご不明な点がございましたら/whatIfNodocumentsToProvePastAffiliationwithcommunistparty'
+    - !import '共通/evidence/カテゴリ/ご不明な点がございましたら/whyAttachmentToUSConstitutionEvaluated'
 learnMore:
   video:
-    fileUrl: !asset 'common/videos/example.mp4'
-    thumbnailUrl: !asset 'common/images/video.png'
-    caption: Watch Video - 2 minutes
+    fileUrl: !asset '共通／ビデオをインターネットなど/例です。mp4'
+    thumbnailUrl: !asset '共通/画像/ビデオです。png'
+    caption: 映像-2分
   download:
-    fileUrl: /images/download.pdf
-    thumbnailUrl: /images/download.png
+    fileUrl: /images/ダウンロードできます。pdf
+    thumbnailUrl: /images/ダウンロードできます。png
   questions:
-    - !import 'common/evidence/categories/questions/howProveServedHonorablyInMilitary'
+    - !import '共通/evidence/カテゴリ/ご不明な点がございましたら/howProveServedHonorablyInMilitary'
 selectEvidence:
-  title: !markdown 'What evidence will you be able to send to **prove you have lived in the U.S. continuously since**'
-  description: !markdown 'When possible, the more evidence you can send, the better. If you choose an item below and later find you can’t get it, return here to change your selections before you file.'
+  title: !markdown 'どの証拠を確保することができるのかをお送り**証明などに住んでいた米国から継続**'
+  description: !markdown '可能な場合は、エビデンス（根拠）に送ることができ、より良います。 を選択する項目は下降ぐことはできませんので、返却はこちらを変更選択する前にファイルです。'
   evidenceTypeGroups:
     - 
-      label: Example
+      label: 例
       evidenceTypes:
-        - !import 'common/evidence/types/militaryServiceRecord'
+        - !import '共通/evidence/プ/militaryServiceRecord'
 evidenceOmission:
-  <<: !import 'common/evidence/categories/omission/base'
+  <<: !import '共通/evidence/カテゴリ/省略/ベース'
   explanation:
     required: true
-    title: Why won't you be providing evidence to prove you are married to a U.S. Citizen?
-    instructions: 'You may include a description of your efforts to get evidence, and anything else you think is important for the immigration officer to consider. Please write in complete sentences.'
+    title: なぜなることを実証する証拠を証明する結婚される米国の国籍でないといけませんか？
+    instructions: 'などを含めても構いませんの説明をお得に必要な証拠の提出を何だと思い、入国審査官の考慮が必要となります。 書いてください文章作成します。'
   confirmation:
-    title: Do you understand the risks of not providing evidence to prove you are married to a U.S. Citizen?
-    label: 'Yes, I understand that even if my explanation above is good, if I do not provide any evidence to meet this requirement when I file, my application may be delayed, and I may receive a Request for Evidence (RFE) with a response deadline.'
+    title: いについてはご理解いただけたでしリスクを提供していない証拠だと結婚した米国の国籍でないといけませんか？
+    label: 'り理解している場合でも私の説明が良い場合がありませんの証拠はこの要件を満足するために、私がファイルは、私の適用が遅れることがあり、私が依頼を受けた証拠(RFE)応募締切です。'
   learnMore:
     questions:
       - 
-        label: How will this affect my application?
-        content: "The immigration officer who reviews your application will want to see\nevidence that proves each requirement. Submitting your application\nwithout supporting evidence could lead to delays, and in some cases\neven denial."
+        label: どのように影響するのは私ださい。
+        content: "外務者レビ書に記載された仕様(項目のみ\n証拠することを証明する各要です。 お申込み\nな根拠が遅れる場合\nも否定です。"
       - 
-        label: If I qualify another way do I still have to prove this requirement?
-        content: "If you have not been a permanent resident (green card holder) for at\nleast 4 years and 9 months, you might still qualify for U.S. citizenship\non another basis. You can go back to your application to review the\nother eligibility options and change your answer."
+        label: だから格別の言い方をしなければなりませんか。を証明するために制限はありますか？
+        content: "また永住者(グリーンカードホルダー）\n少なくとも4年9ヶ月かけるのが得のための米国市民権\n他のベースです。 きごへの適用の見直し\nその他の資格オプションを変更してください。"
       - 
-        label: Can I continue without providing evidence?
-        content: "If you have been a permanent resident (green card holder) for at least 4\nyears and 9 months and you have a good reason why you cannot provide the\nrequired evidence, you can still choose to continue. Please submit an\nexplanation to the immigration officer who reviews your case to explain\nwhy you cannot prove this requirement at this time."
-content1: "To prove that your gender has legally changed, you will need to submit the following:\n\n- A copy of your green card\n- A copy of documentation showing your change of gender, such as:\n- Official court order for a change of gender\n- Medical certification recognizing change of gender\n- Amended birth certificate\n- New passport biographical page\n- New driver’s license"
-pageId2: example
-title2: Before you proceed...
-subTitle2: Please read this important warning
-icon2: images/example.svg
-footerMessage2: Go to the next page to start assembling your Application Package...
-warningMessage2: "USCIS requires that applicants for U.S. citizenship have an unexpired green card that is valid for at least six more months.\n\n**\\*Your filing deadline is July 05, 2016.\\* If you miss this deadline you will need to apply to renew your green card before you can file your application for U.S. citizenship.**"
-pageId33: example
-title33: Supplies
-subTitle33: What you'll need
+        label: きなく提供する証拠すか？
+        content: "また永住者(グリーンカードホルダー）の少なくとも4\n年9ヶ月にだいたい理由を提供できないの\n必要な証拠できるものを選択して続行します。 を提出してください\n説明の際に入国審査官者レビ場合の説明\nなぜできないことを証明この要件です。"
+content1: "ることを証明性別は法令の変更、提出してください:\n\n-コピーグリーンカード\n-のコピー書類を提出すると変更では、性別、など\n-公式裁判所の命令の変更男女別\n-医療機器認証の認識の変化の男女\n改正出生証明書\n新しいパスポートの履歴のページ\n-運転免許証"
+pageId2: 例
+title2: 前進---
+subTitle2: お読みくださいこの重要な警告
+icon2: 画像の一例です。svg
+footerMessage2: 次のページ組み立て始め用パッケージ---
+warningMessage2: "USCIS申請のための米国籍をおいて未経過緑のカードの有効期限は少なくともいくことが何よりもます。\n\n**\\*お願締め切りは月05日2016年度ます。* ただこの締切日を適用しなければなりますの更新緑のカードできるファイルでのお申込み米国の国籍をとれません。**"
+pageId33: 例
+title33: 備品
+subTitle33: 何をする必要がありま
 instructions3: >
-  To build your Application Package, you will need:
+  の構築のためパッケージが必要となります：
 footerMessage3: >
-  Go to the next page to start assembling your Application Package...
+  次のページ組み立て始め用パッケージ---
 items3:
   - 
-    label: "**Printed copy of this filing packet** on 8.5” x 11” paper\n(about the same size as A4)"
-    icon: !asset 'common/images/example.svg'
+    label: "**印のコピーをこの出願のパケット**8.5\"x11\"論文\n(とほぼ同じサイズA4)"
+    icon: !asset '共通/画像の一例です。svg'
   - 
-    label: A clear **area to work** (desk, table, floor, etc)
-    icon: !asset 'common/images/example.svg'
+    label: 明**エリアで**(デスク内)、テーブルは、階など)
+    icon: !asset '共通/画像の一例です。svg'
   - 
-    label: '**Black ink pen** to sign documents and complete checklists'
-    icon: !asset 'common/images/example.svg'
-contentBeforeList12: "Dear **USCIS Immigration Officer**,\n\nOn the following page, you will find a completed form G-1450, \"Authorization for Credit Card Transactions\" to pay my application filing fees of ${{value 'context.filingPacketData.filingFees.totalAmount'}}{{value 'context.filingPacketData.filingFees.lineItemsDescription'}}."
+    label: '**黒インクペン**印の書類は、完全にチェックリスト'
+    icon: !asset '共通/画像の一例です。svg'
+contentBeforeList12: "Dear**USCIS入国審査官**は、\n\n以下のページの構成の自由度が高まり、完成したG-1450は、\"認可クレジットカードの取引\"の支払い及び出願等手数料${{value 'context.filingPacketData.filingFees.totalAmount'}}{{value 'context.filingPacketData.filingFees.lineItemsDescription'}}ます。"
 finalReview12:
-  instruction12: with correct attachment
-  content12: "**EITHER** the “Credit Card” version followed by a completed and signed G-1450\n**--OR--** the “Check/Money Order” version with check/money order attached by paperclip"
-  image12: !asset 'common/images/sectionCardOrCheck.svg'
+  instruction12: 正しい取付
+  content12: "****\"クレジットカード\"バージョンの後に完成し、署名したG-1450\n**--\"または\"-**は、\"チェックイン／マネース\"バージョン確認する為により取り付けプ"
+  image12: !asset '共通/images/sectionCardOrCheckます。svg'
   Forms attached: ""
-listType: forms-list
-body1: "Dear **USCIS Immigration Officer**,\n\nI, Oscar Sesequis hereby file an N-400, U.S. Citizenship Application with the following attached documents:\n\n{{value 'context.sectionList'}}\n\nPlease contact me should you have any questions or need further documentation.\n\nSigned,"
+listType: 形態-リスト
+body1: "Dear**USCIS入国審査官**は、\n\n私は、オスカー Sesequis以下のファイルはN-400は、米国市民権申請には下記の添付書類：\n\n{{value 'context.sectionList'}}\n\nご連絡くださいお問い必要とします。\n\n署名"
 caseNumber11: USCIS
-contentBeforeList11: "Dear **USCIS Immigration Officer**,\n\nI, {{value 'application.applicant.name.first'}} {{value 'application.applicant.name.last'}} hereby file an N-400, U.S. Citizenship Application with the following attached documents:"
+contentBeforeList11: "Dear**USCIS入国審査官**は、\n\nI,{{value 'application.applicant.name.first'}} {{value 'application.applicant.name.last'}}以下のファイルはN-400は、米国市民権申請には下記の添付書類："
 sss: 1
