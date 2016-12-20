@@ -1,7 +1,7 @@
-YEAR
-MOUNTH
-DAYS
-Winter
-Spring
-Summer
-Autumn
+Рік
+Місяць
+Днів
+Зима
+Весна
+Літо
+Осінь
