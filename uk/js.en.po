@@ -1,17 +1,17 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: integration-upload-localizatio\n"
+"Project-Id-Version: wp-phpunitcrowdindev3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-28 11:07+0300\n"
-"PO-Revision-Date: 2016-12-20 14:55+0200\n"
-"Last-Translator: ciri <Mikolay191237+137@gmail.com>\n"
+"PO-Revision-Date: 2017-01-11 07:51-0500\n"
+"Last-Translator: mikolay <mikolay@crowdin.com>\n"
 "Language-Team: Ukrainian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: crowdin.com\n"
-"X-Crowdin-Project: integration-upload-localizatio\n"
+"X-Crowdin-Project: wp-phpunitcrowdindev3\n"
 "X-Crowdin-Language: uk\n"
 "X-Crowdin-File: /master/en/js.en.po\n"
 "Language: uk_UA\n"
@@ -20,156 +20,156 @@ msgstr ""
 #: www/js/lib/items.js
 #: www/js/editor/plugins/plugins.js
 msgid "Error loading data."
-msgstr "Помилка завантаження даних."
+msgstr ""
 
 #: www/js/lib/files.js
 msgid "Retry"
-msgstr "Повторити"
+msgstr ""
 
 #: www/js/lib/files.js
 msgid "Nothing to dislpay"
-msgstr "Нічого токовищем"
+msgstr ""
 
 #: www/js/lib/files.js
 #: www/js/lib/items.js
 msgid "Nothing to display"
-msgstr "Нічого відображати"
+msgstr ""
 
 #: www/js/lib/files.js
 #: www/js/front/project_members.js
 #: www/js/front/profile_resources.js
 msgid "Name"
-msgstr "Назва"
+msgstr ""
 
 #: www/js/lib/files.js
 #: www/js/front/project_files.js
 msgid "Go Back"
-msgstr "Повернутися"
+msgstr ""
 
 #: www/js/lib/ui/editor-menu.js
 #: www/js/front/project_files.js
 msgid "Get %1$s version of %2$s for offline translation"
-msgstr "Вам %1$s версія %2$s для автономного перекладу"
+msgstr ""
 
 #: www/js/lib/ui/editor-menu.js
 #: www/js/front/project_files.js
 msgid "Get %1$s version of %2$s"
-msgstr "Вам %1$s версія %2$s"
+msgstr ""
 
 #: www/js/lib/ui/editor-menu.js
 msgid "all files"
-msgstr "всі файли"
+msgstr ""
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Get %1$s xliff version of %2$s for offline translation"
-msgstr "Вам %1$s Формат xliff версія %2$s для автономного перекладу"
+msgstr ""
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Get %1$s xliff version of %2$s"
-msgstr "Вам %1$s Формат xliff версія %2$s"
+msgstr ""
 
 #: www/js/lib/ui/editor-menu.js
 #: www/js/editor/plugins/change_visibility.js
 #: www/js/editor/views/translation.js
 msgid "Make String Visible"
-msgstr "Зробити Рядок Видимій"
+msgstr ""
 
 #: www/js/lib/ui/editor-menu.js
 #: www/js/editor/plugins/change_visibility.js
 #: www/js/editor/views/translation.js
 msgid "Hide String"
-msgstr "Приховати Рядок"
+msgstr ""
 
 #: www/js/lib/ui/editor-menu.js
 #: www/js/editor/views/translation.js
 #: www/js/assets_editor/views/translation.js
 msgid "Add Context"
-msgstr "Додати Контекст"
+msgstr ""
 
 #: www/js/lib/ui/editor-menu.js
 #: www/js/editor/views/translation.js
 #: www/js/assets_editor/views/translation.js
 msgid "Edit Context"
-msgstr "Редагування Контексту"
+msgstr ""
 
 #: www/js/lib/ui/editor-menu.js
 #: www/js/editor/views/translation.js
 #: www/js/assets_editor/views/translation.js
 msgid "Request Context"
-msgstr "Контекст Запиту"
+msgstr ""
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Search in the Project"
-msgstr "Пошук по проекту"
+msgstr ""
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Search in the File"
-msgstr "Пошук у файлі"
+msgstr ""
 
 #: www/js/lib/ui/editor-menu.js
 msgid "All strings"
-msgstr "Всі рядки"
+msgstr ""
 
 #: www/js/lib/ui/editor-menu.js
 msgid "%1$s - %2$s - %3$s translation"
-msgstr "%1$s - %2$s - %3$s переклад"
+msgstr ""
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Open %1$s %2$s translation page"
-msgstr "Відкрити %1$s %2$s сторінка переклад"
+msgstr ""
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Open %s translation page"
-msgstr "Відкрити сторінку переклад %s"
+msgstr ""
 
 #: www/js/lib/ui/editor-menu.js
 msgid "%s Translations"
-msgstr "%s Переклад"
+msgstr ""
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Not allowed for this file"
-msgstr "Не допускається для цього файла"
+msgstr ""
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Download a fresh version of this file translations"
-msgstr "Завантажити свіжу версію цього переклад файл"
+msgstr ""
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Upload and merge existing translations with the current ones at %s"
-msgstr "Завантажити і об'єднати існуючі переклади з поточних на %s"
+msgstr ""
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Download file in xliff format for offline translation"
-msgstr "Скачати файл в форматі xliff для автономного перекладу"
+msgstr ""
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Upload translation from xliff format file and merge existing translations with the current ones at %s"
-msgstr "Завантажити переклад з файлу формату xliff та злиття існуючих переказів з поточних на %s"
+msgstr ""
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Proofreading Mode"
-msgstr "Режим Вичитування"
+msgstr ""
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Voting Mode"
-msgstr "Режим Голосування"
+msgstr ""
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Untranslated: %s, not approved: %s"
-msgstr "Неперекладені: %s, не затверджені: %s"
+msgstr ""
 
 #: www/js/lib/ui/editor-menu.js
 #: www/js/editor/plugins/plugins.js
 msgid "%s word"
 msgid_plural "%s words"
-msgstr[0] "%s слово"
-msgstr[1] "%s слова"
-msgstr[2] "%s слова"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: www/js/lib/guiders/guiders-1.2.8.js
 #: www/js/front/mobile_support.js
 msgid "Back"
-msgstr "Тому"
+msgstr ""
 
 #: www/js/lib/guiders/guiders-1.2.8.js
 #: www/js/editor/plugins/custom_filter.js
@@ -190,213 +190,213 @@ msgstr "Тому"
 #: www/js/front/integration.js
 #: www/js/professional_translations/controls/professional_translations.js
 msgid "Close"
-msgstr "Поруч"
+msgstr ""
 
 #: www/js/lib/guiders/guiders-1.2.8.js
 #: www/js/editor/quick_user_guide_guiders.js
 msgid "Next"
-msgstr "Далі"
+msgstr ""
 
 #: www/js/lib/form_validation/formValidator.js
 msgid "Invalid email"
-msgstr "Неправильна адреса електронної пошти"
+msgstr ""
 
 #: www/js/lib/form_validation/formValidator.js
 #: www/js/validators/validator.js
 msgid "Did you mean %s?"
-msgstr "Ви мали на увазі %s?"
+msgstr ""
 
 #: www/js/lib/form_validation/formValidator.js
 msgid "Please enter a valid URL"
-msgstr "Будь ласка, введіть URL-адресу"
+msgstr ""
 
 #: www/js/lib/clipboard.js
 msgid "String URL"
-msgstr "Рядок URL"
+msgstr ""
 
 #: www/js/lib/clipboard.js
 msgid "Copy to clipboard:"
-msgstr "Копіювати в буфер обміну:"
+msgstr ""
 
 #: www/js/lib/highlight/highlight.js
 msgid "Tags should not be translated"
-msgstr "Теги не повинні бути переведені"
+msgstr ""
 
 #: www/js/lib/highlight/highlight.js
 msgid "XML tags should not be translated"
-msgstr "XML-теги не повинні бути переведені"
+msgstr ""
 
 #: www/js/lib/highlight/highlight.js
 msgid "HTML entities should not be translated"
-msgstr "HTML-суті не слід переводити"
+msgstr ""
 
 #: www/js/lib/highlight/highlight.js
 msgid "This is line break"
-msgstr "Це розрив рядка"
+msgstr ""
 
 #: www/js/lib/highlight/highlight.js
 msgid "This variable should not be translated"
-msgstr "Ця змінна не повинна бути переведена"
+msgstr ""
 
 #: www/js/lib/highlight/highlight.js
 msgid "Special symbols should not be translated"
-msgstr "Спеціальні символи не повинні бути переведені"
+msgstr ""
 
 #: www/js/lib/highlight/highlight.js
 msgid "Space characters should not be translated"
-msgstr "Пробіли не повинні бути переведені"
+msgstr ""
 
 #: www/js/lib/highlight/highlight.js
 msgid "Tab should not be translated"
-msgstr "Вкладки не повинні бути переведені"
+msgstr ""
 
 #: www/js/lib/jquery.jgrowl.js
 msgid "Close all"
-msgstr "Закрити всі"
+msgstr ""
 
 #: www/js/lib/items.js
 msgid "All <b>%d</b> items on this page are selected."
-msgstr "Всі <b>%d</b> на цій сторінці вибрані."
+msgstr ""
 
 #: www/js/lib/items.js
 msgid "One item on this page is selected."
-msgstr "Один пункт на цій сторінці, обрана."
+msgstr ""
 
 #: www/js/lib/items.js
 #: www/js/proofread_editor/controls/phrases.js
 msgid "Select all <b>%d</b> that match current filtering rule"
-msgstr "Вибрати всі <b>%d</b>, які відповідають поточні правила фільтрації"
+msgstr ""
 
 #: www/js/lib/items.js
 msgid "All <b>%d</b> items are selected."
-msgstr "Всі <b>%d</b> елементи обрані."
+msgstr ""
 
 #: www/js/lib/items.js
 msgid "First page"
-msgstr "Перша сторінка"
+msgstr ""
 
 #: www/js/lib/items.js
 msgid "Last page"
-msgstr "Остання сторінка"
+msgstr ""
 
 #: www/js/lib/items.js
 msgid "Clear selection"
-msgstr "Очистити вибір"
+msgstr ""
 
 #: www/js/lib/items.js
 msgid "%1$d &mdash; %2$d of %3$d"
-msgstr "%1$d &mdash; %2$d з %3$d"
+msgstr ""
 
 #: www/js/lib/fileuploader.js
 msgid "{file} has invalid extension. Allowed are: {extensions}."
-msgstr "{file} має неприпустиме розширення. Дозволені: {extensions}."
+msgstr ""
 
 #: www/js/lib/fileuploader.js
 msgid "{file} is too large, maximum file size is {sizeLimit}."
-msgstr "{file} занадто великий, максимальний розмір файлу {sizeLimit}."
+msgstr ""
 
 #: www/js/lib/fileuploader.js
 msgid "{file} is too small, minimum file size is {minSizeLimit}."
-msgstr "{file} занадто малий, мінімальний розмір файлу {minSizeLimit}."
+msgstr ""
 
 #: www/js/lib/fileuploader.js
 msgid "{file} is empty, try selecting another file."
-msgstr "{file} порожній, спробуйте вибрати інший файл."
+msgstr ""
 
 #: www/js/lib/fileuploader.js
 msgid "The files are being uploaded, if you leave now the upload will be cancelled."
-msgstr "Файли завантажуються, якщо ви залишите тепер завантаження буде скасовано."
+msgstr ""
 
 #: www/js/validators/validator.js
 msgid "User name must be at least 3 characters."
-msgstr "Ім'я користувача має бути не менше 3 символів."
+msgstr ""
 
 #: www/js/validators/validator.js
 msgid "Please use only letters (a-z), numbers, and signs %s."
-msgstr "Будь ласка, використовуйте тільки літери (A-Z), цифри і знаки %s."
+msgstr ""
 
 #: www/js/validators/validator.js
 msgid "The language name should not be longer than 50 characters."
-msgstr "Назва мови не повинні бути довшими 50 символів."
+msgstr ""
 
 #: www/js/validators/validator.js
 msgid "Please use only letters (a-z)."
-msgstr "Будь ласка, використовуйте лише літери (а-Z)."
+msgstr ""
 
 #: www/js/validators/validator.js
 msgid "The crowdin code should not be less than 2 and longer than 4 characters."
-msgstr "Код crowdin, а не повинна бути менше 2 та більше 4 символів."
+msgstr ""
 
 #: www/js/validators/validator.js
 msgid "Three letters code must have 3 characters."
-msgstr "Три літери коду повинні мати 3 персонажа."
+msgstr ""
 
 #: www/js/validators/validator.js
 msgid "Please use only letters (a-z) and sign %s."
-msgstr "Будь ласка, використовуйте тільки літери (A-Z) і знак %s."
+msgstr ""
 
 #: www/js/validators/validator.js
 msgid "The locale code should not be longer than 7 characters."
-msgstr "Код мови не повинно бути довше 7 символів."
+msgstr ""
 
 #: www/js/validators/validator.js
 msgid "Identifier must be longer than 3 characters."
-msgstr "Ідентифікатор повинен бути довше 3 символів."
+msgstr ""
 
 #: www/js/validators/validator.js
 #: www/js/front/integration.js
 msgid "No spaces or special characters allowed."
-msgstr "Без пробілів або спеціальних символів."
+msgstr ""
 
 #: www/js/validators/validator.js
 #: www/js/front/profile_settings.js
 msgid "Password is too short (minimum is 6 characters)"
-msgstr "Пароль занадто короткий (мінімум 6 символів)"
+msgstr ""
 
 #: www/js/validators/validator.js
 msgid "The passwords don't match, please try again."
-msgstr "Паролі не збігаються, будь-ласка, спробуйте знову."
+msgstr ""
 
 #: www/js/validators/validator.js
 msgid "Invalid email."
-msgstr "Неправильний адресу електронної пошти."
+msgstr ""
 
 #: www/js/validators/validator.js
 msgid "Invalid date."
-msgstr "Неприпустима Дата."
+msgstr ""
 
 #: www/js/validators/validator.js
 msgid "This option is required."
-msgstr "Цей параметр є обов'язковим."
+msgstr ""
 
 #: www/js/validators/validator.js
 msgid "You must select at least one target language."
-msgstr "Ви повинні вибрати щонайменше один цільову мову."
+msgstr ""
 
 #: www/js/validators/validator.js
 msgid "Url is not valid."
-msgstr "URL-адреса не є допустимим."
+msgstr ""
 
 #: www/js/editor/hotkeys.js
 #: www/js/proofread_editor/controls/suggestions.js
 msgid "Save Translation"
-msgstr "Зберегти Переклад"
+msgstr ""
 
 #: www/js/editor/hotkeys.js
 msgid "Skip String"
-msgstr "Пропустити Рядок"
+msgstr ""
 
 #: www/js/editor/hotkeys.js
 msgid "Previous String"
-msgstr "Попередні Рядки"
+msgstr ""
 
 #: www/js/editor/hotkeys.js
 msgid "Show/Hide Right Panel"
-msgstr "Показати/Приховати Праву Панель"
+msgstr ""
 
 #: www/js/editor/hotkeys.js
 msgid "Copy Translation From Source"
-msgstr "Копія Перекладу З Джерела"
+msgstr ""
 
 #: www/js/editor/hotkeys.js
 #: www/js/editor/controls/suggestions.js
@@ -405,7 +405,7 @@ msgstr "Копія Перекладу З Джерела"
 #: www/js/assets_editor/controls/suggestions.js
 #: www/js/assets_editor/views/suggestions.js
 msgid "Approve"
-msgstr "Затвердити"
+msgstr ""
 
 #: www/js/editor/hotkeys.js
 #: www/js/editor/controls/suggestions.js
@@ -414,7 +414,7 @@ msgstr "Затвердити"
 #: www/js/assets_editor/controls/suggestions.js
 #: www/js/assets_editor/views/suggestions.js
 msgid "Disapprove"
-msgstr "Неодобряю"
+msgstr ""
 
 #: www/js/editor/hotkeys.js
 #: www/js/editor/controls/suggestions.js
@@ -422,7 +422,7 @@ msgstr "Неодобряю"
 #: www/js/proofread_editor/controls/suggestions.js
 #: www/js/assets_editor/controls/suggestions.js
 msgid "Vote Up"
-msgstr "Голосувати"
+msgstr ""
 
 #: www/js/editor/hotkeys.js
 #: www/js/editor/controls/suggestions.js
@@ -430,73 +430,73 @@ msgstr "Голосувати"
 #: www/js/proofread_editor/controls/suggestions.js
 #: www/js/assets_editor/controls/suggestions.js
 msgid "Vote Down"
-msgstr "Голосування"
+msgstr ""
 
 #: www/js/editor/hotkeys.js
 msgid "Show/Hide String"
-msgstr "Показати/Приховати Рядок"
+msgstr ""
 
 #: www/js/editor/hotkeys.js
 msgid "Show/Hide String Context"
-msgstr "Показати/Приховати Рядок Контексті"
+msgstr ""
 
 #: www/js/editor/hotkeys.js
 msgid "Edit String Context"
-msgstr "Редагувати Строковому Контексті"
+msgstr ""
 
 #: www/js/editor/hotkeys.js
 msgid "Request String Comment"
-msgstr "Запит Рядок Коментаря"
+msgstr ""
 
 #: www/js/editor/hotkeys.js
 msgid "Search"
-msgstr "Пошук"
+msgstr ""
 
 #: www/js/editor/hotkeys.js
 #: www/js/editor/plugins/replace.js
 msgid "Replace in Suggestions"
-msgstr "Замініть у реченнях"
+msgstr ""
 
 #: www/js/editor/hotkeys.js
 #: www/js/editor/plugins/plugins.js
 msgid "Open File"
-msgstr "Відкрити Файл"
+msgstr ""
 
 #: www/js/editor/hotkeys.js
 msgid "Next File"
-msgstr "Наступний Файл"
+msgstr ""
 
 #: www/js/editor/hotkeys.js
 msgid "Previous File"
-msgstr "Попередній Файл"
+msgstr ""
 
 #: www/js/editor/hotkeys.js
 msgid "Show/Hide File Context"
-msgstr "Показати/Приховати Контекстне Файлу"
+msgstr ""
 
 #: www/js/editor/hotkeys.js
 msgid "Edit File Context"
-msgstr "Редагувати Файл Контексту"
+msgstr ""
 
 #: www/js/editor/hotkeys.js
 msgid "Request File Comment"
-msgstr "Прохання Прокоментувати Файл"
+msgstr ""
 
 #: www/js/editor/hotkey_bindings.js
 msgid "Save Translation (%s)"
-msgstr "Зберегти Переклад (%s)"
+msgstr ""
 
 #: www/js/editor/hotkey_bindings.js
 msgid "Previous String (%s)"
-msgstr "Попередні Рядки (%s)"
+msgstr ""
 
 #: www/js/editor/hotkey_bindings.js
 msgid "Skip String (%s)"
-msgstr "Пропустити Рядок (%s)"
+msgstr ""
 
 #: www/js/editor/plugins/context_editor.js
 msgid "Screenshots"
-msgstr "Скріншоти"
+msgstr ""
 
 #: www/js/editor/plugins/context_editor.js
 #: www/js/editor/plugins/plugins.js
@@ -525,7 +525,7 @@ msgstr "Скріншоти"
 #: www/js/src/autofix.js
 #: www/js/assets_editor/controls/suggestions.js
 msgid "Cancel"
-msgstr "Скасувати"
+msgstr ""
 
 #: www/js/editor/plugins/context_editor.js
 #: www/js/editor/plugins/editor_settings.js
@@ -542,23 +542,23 @@ msgstr "Скасувати"
 #: www/js/front/integration.js
 #: www/js/professional_translations/views/vendor.js
 msgid "Save"
-msgstr "Зберегти"
+msgstr ""
 
 #: www/js/editor/plugins/plugins.js
 msgid "Hide Context"
-msgstr "Приховати Контексті"
+msgstr ""
 
 #: www/js/editor/plugins/plugins.js
 msgid "Show Context"
-msgstr "Показати Контексті"
+msgstr ""
 
 #: www/js/editor/plugins/plugins.js
 msgid "Search through translation memory"
-msgstr "Пошук через пам'ять перекладів"
+msgstr ""
 
 #: www/js/editor/plugins/plugins.js
 #: www/js/front/tag_screenshot.js
 #: www/js/front/target_languages.js
 #: www/js/front/profile_resources.js
 msgid "Clear"
-msgstr "Зрозуміло"
+msgstr ""
