@@ -1,4 +1,3 @@
-base_path: /home/mikolay/code
 files:
   - source: /en/*
     translation: /%two_letters_code%/%original_file_name%
