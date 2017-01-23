@@ -1,4 +1,139 @@
 ---
+ref: exemple
+pageHeading:
+  <<: !import 'commune/pageHeadings/evidenceRequirement'
+  title: 'Prouver que vous avez vécu aux états-UNIS depuis le 15 juin 2007'
+  description: !markdown 'Vous avez répondu à votre application **vous avez vécu aux états-UNIS de façon continue depuis le 15 juin 2007.** L''agent d''immigration de l''examen de votre application a besoin de voir des preuves que cela est vrai.'
+selectEvidence1:
+  evidenceTypeGroups1:
+    - 
+      evidenceTypes1:
+        - !import commune/preuve/types/documentaionShowingPoliticalPartymembership
+        - !import commune/preuve/types/confirmationThatVolunteeredForUSpoliticalparty
+        - !import commune/preuve/types/confirmationOfParticipationReligiouscommunity
+        - !import commune/preuve/types/creditCardStatement
+learnMore1:
+  questions1:
+    - !import commune/preuve/catégories/questions/howProveAffiliationCommunistPartyendedbefore16thbirthday
+    - !import common/evidence/categories/questions/whatIfNoDocumentationShowsCommunistpartyaffiliationendedbefore16thbirthday
+    - !import commune/preuve/catégories/questions/whatIfNodocumentsToProvePastAffiliationwithcommunistparty
+    - !import commune/preuve/catégories/questions/whyAttachmentToUSConstitutionEvaluated
+learnMore:
+  video:
+    fileUrl: !asset commune/vidéos/exemple.mp4
+    thumbnailUrl: !asset common/images/vidéo.png
+    caption: Regarder la Vidéo - 2 minutes
+  download:
+    fileUrl: /images/télécharger.pdf
+    thumbnailUrl: /images/télécharger.png
+  questions:
+    - !import commune/preuve/catégories/questions/howProveServedHonorablyInMilitary
+selectEvidence:
+  title: !markdown Quelles sont les preuves que vous pourrez envoyer à **prouver que vous avez vécu aux états-UNIS de façon continue depuis**
+  description: !markdown 'Lorsque cela est possible, la preuve de plus que vous pouvez envoyer, le mieux. Si vous choisissez une option ci-dessous et de trouver plus tard que vous ne pouvez pas l''obtenir, de retour ici pour modifier vos choix avant de vous fichier.'
+  evidenceTypeGroups:
+    - 
+      label: Exemple
+      evidenceTypes:
+        - !import commune/preuve/types/militaryServiceRecord
 evidenceOmission:
+  <<: !import 'commune/preuve/catégories/omission/base'
   explanation:
     required: true
+    title: Pourquoi ne pas vous fournir de preuves pour prouver que vous êtes marié à un Citoyen AMÉRICAIN?
+    instructions: 'Vous pouvez inclure une description de vos efforts pour obtenir des preuves, et tout ce que vous pensez est important pour l''agent d''immigration à prendre en compte. S''il vous plaît écrivez des phrases complètes.'
+  confirmation:
+    title: Comprenez-vous les risques de ne pas fournir des preuves pour prouver que vous êtes marié à un Citoyen AMÉRICAIN?
+    label: 'Oui, je comprends que, même si mon explication ci-dessus est la bonne, si je n''ai aucune preuve pour répondre à cette exigence quand je file, ma demande pourrait être retardé, et je peut recevoir une Demande de Preuve (RFE) avec une date butoir de réponse.'
+  learnMore:
+    questions:
+      - 
+        label: Comment cela affectera ma demande?
+        content: !markdown |
+          L'agent d'immigration qui examine votre demande vous voulez voir
+          des éléments de preuve qui prouve que chaque exigence. La soumission de votre application
+          sans preuves à l'appui qui pourrait entraîner des retards, et, dans certains cas,
+          même le refus.
+      - 
+        label: Si je peux bénéficier d'une autre manière dois-je continuer à prouver qu'à cette exigence?
+        content: !markdown |
+          Si vous n'avez pas été un résident permanent (carte verte) pour au
+          moins de 4 ans et 9 mois, vous pouvez toujours être admissible à la citoyenneté AMÉRICAINE
+          sur une autre base. Vous pouvez revenir à votre demande de révision de la
+          d'autres options d'admissibilité et de modifier votre réponse.
+      - 
+        label: Puis-je continuer sans fournir de preuves?
+        content: !markdown |
+          Si vous avez été un résident permanent (carte verte) pour au moins 4
+          ans et 9 mois, et vous avez une bonne raison pourquoi vous ne pouvez pas fournir l'
+          la preuve requise, vous pouvez toujours choisir de continuer. Veuillez soumettre une
+          explication de l'agent d'immigration qui examine votre cas à expliquer
+          pourquoi vous ne pouvez pas prouver à cette exigence en ce moment.
+content1: !markdown |
+  Pour prouver que votre sexe a légalement changé, vous devrez présenter les documents suivants:
+  
+  - Une copie de votre carte verte
+  - Une copie de la documentation montrant votre changement de sexe, tels que:
+  - Officielle de la cour pour changer de sexe
+  - Un certificat médical reconnaissant que le changement de sexe
+  - Modifié le certificat de naissance
+  - Nouveau passeport biographiques page
+  - Nouveau permis de conduire
+pageId2: exemple
+title2: Avant de procéder...
+subTitle2: Veuillez lire cet avertissement important
+icon2: images/exemple.svg
+footerMessage2: Aller à la page suivante pour démarrer le montage de votre dossier de Demande...
+warningMessage2: !markdown |
+  L'USCIS exige que les candidats à la citoyenneté des états-UNIS ont une durée non écoulée de la carte verte qui est valide pour au moins six mois de plus.
+  
+  **\\*Votre date limite de dépôt est le 05 juillet 2016.\\* Si vous manquez cette date, vous devrez appliquer pour renouveler votre carte verte avant, vous pouvez déposer votre demande de citoyenneté des états-UNIS.**
+pageId33: exemple
+title33: Fournitures
+subTitle33: Ce dont vous aurez besoin
+instructions3: >
+  Pour construire votre dossier de Demande, vous aurez besoin de:
+footerMessage3: >
+  Aller à la page suivante pour démarrer le montage de votre dossier de Demande...
+items3:
+  - 
+    label: !markdown |
+      **Un exemplaire imprimé de ce dépôt de paquets** sur 8,5” x 11” papier
+      (environ la même taille que A4)
+    icon: !asset common/images/exemple.svg
+  - 
+    label: !markdown |
+      Claire **zone de travail** (de bureau, de table, de sol, etc)
+    icon: !asset common/images/exemple.svg
+  - 
+    label: !markdown |
+      **À l'encre noire** pour signer des documents et des listes de vérification complète
+    icon: !asset common/images/exemple.svg
+contentBeforeList12: !markdown |
+  Cher **USCIS Agent de l'Immigration**,
+  
+  Sur la page suivante, vous trouverez un formulaire G-1450, "l'Autorisation pour les Transactions par Carte de Crédit pour payer ma demande de frais de dépôt de ${{value 'context.filingPacketData.filingFees.totalAmount'}}{{value 'context.filingPacketData.filingFees.lineItemsDescription'}}.
+finalReview12:
+  instruction12: avec une fixation correcte
+  content12: !markdown |
+    **** La “Carte de Crédit” version suivie par un rempli et signé G-1450
+    **--OU--** le “Chèque/mandat” la version avec chèque/attaché par un trombone
+  image12: !asset common/images/sectionCardOrCheck.svg
+  Forms attached: ""
+listType: les formulaires de liste
+body1: !markdown |
+  Cher **USCIS Agent de l'Immigration**,
+  
+  J', Oscar Sesequis par la présente à déposer une N-400, états-UNIS Demande de Citoyenneté avec les joints les documents suivants:
+  
+  {{value 'context.sectionList'}}
+  
+  Veuillez me contacter si vous avez des questions ou besoin de plus de documentation.
+  
+  Signé,
+caseNumber11: L'USCIS
+contentBeforeList11: !markdown |
+  Cher **USCIS Agent de l'Immigration**,
+  
+  J', {{value 'application.applicant.name.first'}} {{value 'application.applicant.name.last'}} par la présente à déposer une N-400, états-UNIS Demande de Citoyenneté avec les joints les documents suivants:
+sss: 1
