@@ -8,34 +8,34 @@ selectEvidence1:
   evidenceTypeGroups1:
     - 
       evidenceTypes1:
-        - !import '共通/evidence/プ/documentaionShowingPoliticalPartymembership'
-        - !import '共通/evidence/プ/confirmationThatVolunteeredForUSpoliticalparty'
-        - !import '共通/evidence/プ/confirmationOfParticipationReligiouscommunity'
-        - !import '共通/evidence/プ/creditCardStatement'
+        - !import 共通/evidence/プ/documentaionShowingPoliticalPartymembership
+        - !import 共通/evidence/プ/confirmationThatVolunteeredForUSpoliticalparty
+        - !import 共通/evidence/プ/confirmationOfParticipationReligiouscommunity
+        - !import 共通/evidence/プ/creditCardStatement
 learnMore1:
   questions1:
-    - !import '共通/evidence/カテゴリ/ご不明な点がございましたら/howProveAffiliationCommunistPartyendedbefore16thbirthday'
-    - !import 'common/evidence/categories/questions/whatIfNoDocumentationShowsCommunistpartyaffiliationendedbefore16thbirthday'
-    - !import '共通/evidence/カテゴリ/ご不明な点がございましたら/whatIfNodocumentsToProvePastAffiliationwithcommunistparty'
-    - !import '共通/evidence/カテゴリ/ご不明な点がございましたら/whyAttachmentToUSConstitutionEvaluated'
+    - !import 共通/evidence/カテゴリ/ご不明な点がございましたら/howProveAffiliationCommunistPartyendedbefore16thbirthday
+    - !import common/evidence/categories/questions/whatIfNoDocumentationShowsCommunistpartyaffiliationendedbefore16thbirthday
+    - !import 共通/evidence/カテゴリ/ご不明な点がございましたら/whatIfNodocumentsToProvePastAffiliationwithcommunistparty
+    - !import 共通/evidence/カテゴリ/ご不明な点がございましたら/whyAttachmentToUSConstitutionEvaluated
 learnMore:
   video:
-    fileUrl: !asset '共通／ビデオをインターネットなど/例です。mp4'
-    thumbnailUrl: !asset '共通/画像/ビデオです。png'
+    fileUrl: !asset 共通／ビデオをインターネットなど/例です。mp4
+    thumbnailUrl: !asset 共通/画像/ビデオです。png
     caption: 映像-2分
   download:
     fileUrl: /images/ダウンロードできます。pdf
     thumbnailUrl: /images/ダウンロードできます。png
   questions:
-    - !import '共通/evidence/カテゴリ/ご不明な点がございましたら/howProveServedHonorablyInMilitary'
+    - !import 共通/evidence/カテゴリ/ご不明な点がございましたら/howProveServedHonorablyInMilitary
 selectEvidence:
-  title: !markdown 'どの証拠を確保することができるのかをお送り**証明などに住んでいた米国から継続**'
+  title: !markdown どの証拠を確保することができるのかをお送り**証明などに住んでいた米国から継続**
   description: !markdown '可能な場合は、エビデンス（根拠）に送ることができ、より良います。 を選択する項目は下降ぐことはできませんので、返却はこちらを変更選択する前にファイルです。'
   evidenceTypeGroups:
     - 
       label: 例
       evidenceTypes:
-        - !import '共通/evidence/プ/militaryServiceRecord'
+        - !import 共通/evidence/プ/militaryServiceRecord
 evidenceOmission:
   <<: !import '共通/evidence/カテゴリ/省略/ベース'
   explanation:
@@ -49,20 +49,45 @@ evidenceOmission:
     questions:
       - 
         label: どのように影響するのは私ださい。
-        content: "外務者レビ書に記載された仕様(項目のみ\n証拠することを証明する各要です。 お申込み\nな根拠が遅れる場合\nも否定です。"
+        content: !markdown |
+          外務者レビ書に記載された仕様(項目のみ
+          証拠することを証明する各要です。 お申込み
+          な根拠が遅れる場合
+          も否定です。
       - 
         label: だから格別の言い方をしなければなりませんか。を証明するために制限はありますか？
-        content: "また永住者(グリーンカードホルダー）\n少なくとも4年9ヶ月かけるのが得のための米国市民権\n他のベースです。 きごへの適用の見直し\nその他の資格オプションを変更してください。"
+        content: !markdown |
+          また永住者(グリーンカードホルダー）
+          少なくとも4年9ヶ月かけるのが得のための米国市民権
+          他のベースです。 きごへの適用の見直し
+          その他の資格オプションを変更してください。
       - 
         label: きなく提供する証拠すか？
-        content: "また永住者(グリーンカードホルダー）の少なくとも4\n年9ヶ月にだいたい理由を提供できないの\n必要な証拠できるものを選択して続行します。 を提出してください\n説明の際に入国審査官者レビ場合の説明\nなぜできないことを証明この要件です。"
-content1: "ることを証明性別は法令の変更、提出してください:\n\n-コピーグリーンカード\n-のコピー書類を提出すると変更では、性別、など\n-公式裁判所の命令の変更男女別\n-医療機器認証の認識の変化の男女\n改正出生証明書\n新しいパスポートの履歴のページ\n-運転免許証"
+        content: !markdown |
+          また永住者(グリーンカードホルダー）の少なくとも4
+          年9ヶ月にだいたい理由を提供できないの
+          必要な証拠できるものを選択して続行します。 を提出してください
+          説明の際に入国審査官者レビ場合の説明
+          なぜできないことを証明この要件です。
+content1: !markdown |
+  ることを証明性別は法令の変更、提出してください:
+  
+  -コピーグリーンカード
+  -のコピー書類を提出すると変更では、性別、など
+  -公式裁判所の命令の変更男女別
+  -医療機器認証の認識の変化の男女
+  改正出生証明書
+  新しいパスポートの履歴のページ
+  -運転免許証
 pageId2: 例
 title2: 前進---
 subTitle2: お読みくださいこの重要な警告
 icon2: 画像の一例です。svg
 footerMessage2: 次のページ組み立て始め用パッケージ---
-warningMessage2: "USCIS申請のための米国籍をおいて未経過緑のカードの有効期限は少なくともいくことが何よりもます。\n\n**\\\\*お願締め切りは月05日2016年度ます。* ただこの締切日を適用しなければなりますの更新緑のカードできるファイルでのお申込み米国の国籍をとれません。**"
+warningMessage2: !markdown |
+  USCIS申請のための米国籍をおいて未経過緑のカードの有効期限は少なくともいくことが何よりもます。
+  
+  **\\*お願締め切りは月05日2016年度ます。* ただこの締切日を適用しなければなりますの更新緑のカードできるファイルでのお申込み米国の国籍をとれません。**
 pageId33: 例
 title33: 備品
 subTitle33: 何をする必要がありま
@@ -72,22 +97,43 @@ footerMessage3: >
   次のページ組み立て始め用パッケージ---
 items3:
   - 
-    label: "**印のコピーをこの出願のパケット**8.5\"x11\"論文\n(とほぼ同じサイズA4)"
-    icon: !asset '共通/画像の一例です。svg'
+    label: !markdown |
+      **印のコピーをこの出願のパケット**8.5"x11"論文
+      (とほぼ同じサイズA4)
+    icon: !asset 共通/画像の一例です。svg
   - 
-    label: 明**エリアで**(デスク内)、テーブルは、階など)
-    icon: !asset '共通/画像の一例です。svg'
+    label: !markdown |
+      明**エリアで**(デスク内)、テーブルは、階など)
+    icon: !asset 共通/画像の一例です。svg
   - 
-    label: '**黒インクペン**印の書類は、完全にチェックリスト'
-    icon: !asset '共通/画像の一例です。svg'
-contentBeforeList12: "Dear**USCIS入国審査官**は、\n\n以下のページの構成の自由度が高まり、完成したG-1450は、\"認可クレジットカードの取引\"の支払い及び出願等手数料${{value 'context.filingPacketData.filingFees.totalAmount'}}{{value 'context.filingPacketData.filingFees.lineItemsDescription'}}ます。"
+    label: !markdown |
+      **黒インクペン**印の書類は、完全にチェックリスト
+    icon: !asset 共通/画像の一例です。svg
+contentBeforeList12: !markdown |
+  Dear**USCIS入国審査官**は、
+  
+  以下のページの構成の自由度が高まり、完成したG-1450は、"認可クレジットカードの取引"の支払い及び出願等手数料${{value 'context.filingPacketData.filingFees.totalAmount'}}{{value 'context.filingPacketData.filingFees.lineItemsDescription'}}ます。
 finalReview12:
   instruction12: 正しい取付
-  content12: "****\"クレジットカード\"バージョンの後に完成し、署名したG-1450\n**--\"または\"-**は、\"チェックイン／マネース\"バージョン確認する為により取り付けプ"
-  image12: !asset '共通/images/sectionCardOrCheckます。svg'
+  content12: !markdown |
+    ****"クレジットカード"バージョンの後に完成し、署名したG-1450
+    **--"または"-**は、"チェックイン／マネース"バージョン確認する為により取り付けプ
+  image12: !asset 共通/images/sectionCardOrCheckます。svg
   Forms attached: ""
 listType: 形態-リスト
-body1: "Dear**USCIS入国審査官**は、\n\n私は、オスカー Sesequis以下のファイルはN-400は、米国市民権申請には下記の添付書類：\n\n{{value 'context.sectionList'}}\n\nご連絡くださいお問い必要とします。\n\n署名"
+body1: !markdown |
+  Dear**USCIS入国審査官**は、
+  
+  私は、オスカー Sesequis以下のファイルはN-400は、米国市民権申請には下記の添付書類：
+  
+  {{value 'context.sectionList'}}
+  
+  ご連絡くださいお問い必要とします。
+  
+  署名
 caseNumber11: USCIS
-contentBeforeList11: "Dear**USCIS入国審査官**は、\n\nI,{{value 'application.applicant.name.first'}} {{value 'application.applicant.name.last'}}以下のファイルはN-400は、米国市民権申請には下記の添付書類："
+contentBeforeList11: !markdown |
+  Dear**USCIS入国審査官**は、
+  
+  I,{{value 'application.applicant.name.first'}} {{value 'application.applicant.name.last'}}以下のファイルはN-400は、米国市民権申請には下記の添付書類：
 sss: 1
