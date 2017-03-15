@@ -1,20 +1,20 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: wp-phpunitcrowdindev3\n"
+"Project-Id-Version: 123456\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-28 11:07+0300\n"
-"PO-Revision-Date: 2017-03-15 10:45+0200\n"
+"PO-Revision-Date: 2017-03-02 08:48+0200\n"
 "Last-Translator: mikolay <mikolay@crowdin.com>\n"
-"Language-Team: French\n"
+"Language-Team: Russian, Ukraine\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: crowdin.com\n"
-"X-Crowdin-Project: wp-phpunitcrowdindev3\n"
-"X-Crowdin-Language: fr\n"
+"X-Crowdin-Project: 123456\n"
+"X-Crowdin-Language: ru-UA\n"
 "X-Crowdin-File: /master/en/js.en.po\n"
-"Language: fr_FR\n"
+"Language: ru_UA\n"
 
 #: www/js/lib/files.js
 #: www/js/lib/items.js
@@ -164,6 +164,7 @@ msgid "%s word"
 msgid_plural "%s words"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
 
 #: www/js/lib/guiders/guiders-1.2.8.js
 #: www/js/front/mobile_support.js
