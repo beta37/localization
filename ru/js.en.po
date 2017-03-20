@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: 123456\n"
+"Project-Id-Version: wordpress1-1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-28 11:07+0300\n"
-"PO-Revision-Date: 2017-03-02 08:48+0200\n"
+"PO-Revision-Date: 2017-03-20 03:37-0400\n"
 "Last-Translator: mikolay <mikolay@crowdin.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: crowdin.com\n"
-"X-Crowdin-Project: 123456\n"
+"X-Crowdin-Project: wordpress1-1\n"
 "X-Crowdin-Language: ru\n"
 "X-Crowdin-File: /master/en/js.en.po\n"
 "Language: ru_RU\n"
@@ -20,156 +20,156 @@ msgstr ""
 #: www/js/lib/items.js
 #: www/js/editor/plugins/plugins.js
 msgid "Error loading data."
-msgstr ""
+msgstr "Загрузка данных ошибка."
 
 #: www/js/lib/files.js
 msgid "Retry"
-msgstr ""
+msgstr "Повторить"
 
 #: www/js/lib/files.js
 msgid "Nothing to dislpay"
-msgstr ""
+msgstr "Ничего токовищем"
 
 #: www/js/lib/files.js
 #: www/js/lib/items.js
 msgid "Nothing to display"
-msgstr ""
+msgstr "Нечего отображать"
 
 #: www/js/lib/files.js
 #: www/js/front/project_members.js
 #: www/js/front/profile_resources.js
 msgid "Name"
-msgstr ""
+msgstr "Название"
 
 #: www/js/lib/files.js
 #: www/js/front/project_files.js
 msgid "Go Back"
-msgstr ""
+msgstr "Вернуться"
 
 #: www/js/lib/ui/editor-menu.js
 #: www/js/front/project_files.js
 msgid "Get %1$s version of %2$s for offline translation"
-msgstr ""
+msgstr "Вам %1$s версия %2$s для автономного перевода"
 
 #: www/js/lib/ui/editor-menu.js
 #: www/js/front/project_files.js
 msgid "Get %1$s version of %2$s"
-msgstr ""
+msgstr "Вам %1$s версия %2$s"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "all files"
-msgstr ""
+msgstr "все файлы"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Get %1$s xliff version of %2$s for offline translation"
-msgstr ""
+msgstr "Вам %1$s Формат xliff версия %2$s для автономного перевода"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Get %1$s xliff version of %2$s"
-msgstr ""
+msgstr "Вам %1$s Формат xliff версия %2$s"
 
 #: www/js/lib/ui/editor-menu.js
 #: www/js/editor/plugins/change_visibility.js
 #: www/js/editor/views/translation.js
 msgid "Make String Visible"
-msgstr ""
+msgstr "Сделать Строку Видимой"
 
 #: www/js/lib/ui/editor-menu.js
 #: www/js/editor/plugins/change_visibility.js
 #: www/js/editor/views/translation.js
 msgid "Hide String"
-msgstr ""
+msgstr "Скрыть Строку"
 
 #: www/js/lib/ui/editor-menu.js
 #: www/js/editor/views/translation.js
 #: www/js/assets_editor/views/translation.js
 msgid "Add Context"
-msgstr ""
+msgstr "Добавить Контекст"
 
 #: www/js/lib/ui/editor-menu.js
 #: www/js/editor/views/translation.js
 #: www/js/assets_editor/views/translation.js
 msgid "Edit Context"
-msgstr ""
+msgstr "Редактирование Контекста"
 
 #: www/js/lib/ui/editor-menu.js
 #: www/js/editor/views/translation.js
 #: www/js/assets_editor/views/translation.js
 msgid "Request Context"
-msgstr ""
+msgstr "Контекст Запроса"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Search in the Project"
-msgstr ""
+msgstr "Поиск по проекту"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Search in the File"
-msgstr ""
+msgstr "Поиск в файле"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "All strings"
-msgstr ""
+msgstr "Все строки"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "%1$s - %2$s - %3$s translation"
-msgstr ""
+msgstr "%1$s - %2$s - %3$s перевод"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Open %1$s %2$s translation page"
-msgstr ""
+msgstr "Открыть %1$s %2$s страница перевод"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Open %s translation page"
-msgstr ""
+msgstr "Открыть страницу перевод %s"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "%s Translations"
-msgstr ""
+msgstr "%s Перевод"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Not allowed for this file"
-msgstr ""
+msgstr "Не допускается для этого файла"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Download a fresh version of this file translations"
-msgstr ""
+msgstr "Скачать свежую версию этого перевод файл"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Upload and merge existing translations with the current ones at %s"
-msgstr ""
+msgstr "Загрузить и объединить существующие переводы с текущих на %s"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Download file in xliff format for offline translation"
-msgstr ""
+msgstr "Скачать файл в формате xliff для автономного перевода"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Upload translation from xliff format file and merge existing translations with the current ones at %s"
-msgstr ""
+msgstr "Загрузить перевод из файла формата xliff и слияния существующих переводов с текущих на %s"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Proofreading Mode"
-msgstr ""
+msgstr "Режим Вычитка"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Voting Mode"
-msgstr ""
+msgstr "Режим Голосования"
 
 #: www/js/lib/ui/editor-menu.js
 msgid "Untranslated: %s, not approved: %s"
-msgstr ""
+msgstr "Непереведенные: %s, не утверждены: %s"
 
 #: www/js/lib/ui/editor-menu.js
 #: www/js/editor/plugins/plugins.js
 msgid "%s word"
 msgid_plural "%s words"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%s слово"
+msgstr[1] "%s слова"
+msgstr[2] "%s слова"
 
 #: www/js/lib/guiders/guiders-1.2.8.js
 #: www/js/front/mobile_support.js
 msgid "Back"
-msgstr ""
+msgstr "Назад"
 
 #: www/js/lib/guiders/guiders-1.2.8.js
 #: www/js/editor/plugins/custom_filter.js
@@ -190,213 +190,213 @@ msgstr ""
 #: www/js/front/integration.js
 #: www/js/professional_translations/controls/professional_translations.js
 msgid "Close"
-msgstr ""
+msgstr "Рядом"
 
 #: www/js/lib/guiders/guiders-1.2.8.js
 #: www/js/editor/quick_user_guide_guiders.js
 msgid "Next"
-msgstr ""
+msgstr "Далее"
 
 #: www/js/lib/form_validation/formValidator.js
 msgid "Invalid email"
-msgstr ""
+msgstr "Неверный адрес электронной почты"
 
 #: www/js/lib/form_validation/formValidator.js
 #: www/js/validators/validator.js
 msgid "Did you mean %s?"
-msgstr ""
+msgstr "Вы имели в виду %s?"
 
 #: www/js/lib/form_validation/formValidator.js
 msgid "Please enter a valid URL"
-msgstr ""
+msgstr "Пожалуйста, введите действительный URL-адрес"
 
 #: www/js/lib/clipboard.js
 msgid "String URL"
-msgstr ""
+msgstr "Строку URL"
 
 #: www/js/lib/clipboard.js
 msgid "Copy to clipboard:"
-msgstr ""
+msgstr "Копировать в буфер обмена:"
 
 #: www/js/lib/highlight/highlight.js
 msgid "Tags should not be translated"
-msgstr ""
+msgstr "Теги не должны быть переведены"
 
 #: www/js/lib/highlight/highlight.js
 msgid "XML tags should not be translated"
-msgstr ""
+msgstr "XML-теги не должны быть переведены"
 
 #: www/js/lib/highlight/highlight.js
 msgid "HTML entities should not be translated"
-msgstr ""
+msgstr "HTML-сущности не следует переводить"
 
 #: www/js/lib/highlight/highlight.js
 msgid "This is line break"
-msgstr ""
+msgstr "Это разрыв строки"
 
 #: www/js/lib/highlight/highlight.js
 msgid "This variable should not be translated"
-msgstr ""
+msgstr "Эта переменная не должна быть переведена"
 
 #: www/js/lib/highlight/highlight.js
 msgid "Special symbols should not be translated"
-msgstr ""
+msgstr "Специальные символы не должны быть переведены"
 
 #: www/js/lib/highlight/highlight.js
 msgid "Space characters should not be translated"
-msgstr ""
+msgstr "Пробелы не должны быть переведены"
 
 #: www/js/lib/highlight/highlight.js
 msgid "Tab should not be translated"
-msgstr ""
+msgstr "Вкладки не должны быть переведены"
 
 #: www/js/lib/jquery.jgrowl.js
 msgid "Close all"
-msgstr ""
+msgstr "Закрыть все"
 
 #: www/js/lib/items.js
 msgid "All <b>%d</b> items on this page are selected."
-msgstr ""
+msgstr "Все <b>%d</b> на этой странице выбраны."
 
 #: www/js/lib/items.js
 msgid "One item on this page is selected."
-msgstr ""
+msgstr "Один пункт на этой странице, выбрана."
 
 #: www/js/lib/items.js
 #: www/js/proofread_editor/controls/phrases.js
 msgid "Select all <b>%d</b> that match current filtering rule"
-msgstr ""
+msgstr "Выбрать все <b>%d</b>, которые соответствуют текущие правила фильтрации"
 
 #: www/js/lib/items.js
 msgid "All <b>%d</b> items are selected."
-msgstr ""
+msgstr "Все <b>%d</b> элементы выбраны."
 
 #: www/js/lib/items.js
 msgid "First page"
-msgstr ""
+msgstr "Первая страница"
 
 #: www/js/lib/items.js
 msgid "Last page"
-msgstr ""
+msgstr "Последняя страница"
 
 #: www/js/lib/items.js
 msgid "Clear selection"
-msgstr ""
+msgstr "Очистить выбор"
 
 #: www/js/lib/items.js
 msgid "%1$d &mdash; %2$d of %3$d"
-msgstr ""
+msgstr "%1$d &mdash; %2$d из %3$d"
 
 #: www/js/lib/fileuploader.js
 msgid "{file} has invalid extension. Allowed are: {extensions}."
-msgstr ""
+msgstr "{file} имеет недопустимое расширение. Разрешенные: {extensions}."
 
 #: www/js/lib/fileuploader.js
 msgid "{file} is too large, maximum file size is {sizeLimit}."
-msgstr ""
+msgstr "{file} слишком большой, максимальный размер файла {sizeLimit}."
 
 #: www/js/lib/fileuploader.js
 msgid "{file} is too small, minimum file size is {minSizeLimit}."
-msgstr ""
+msgstr "{file} слишком мал, минимальный размер файла {minSizeLimit}."
 
 #: www/js/lib/fileuploader.js
 msgid "{file} is empty, try selecting another file."
-msgstr ""
+msgstr "{file} пуст, попробуйте выбрать другой файл."
 
 #: www/js/lib/fileuploader.js
 msgid "The files are being uploaded, if you leave now the upload will be cancelled."
-msgstr ""
+msgstr "Файлы загружаются, если вы оставите теперь загрузка будет отменена."
 
 #: www/js/validators/validator.js
 msgid "User name must be at least 3 characters."
-msgstr ""
+msgstr "Имя пользователя должно быть не менее 3 символов."
 
 #: www/js/validators/validator.js
 msgid "Please use only letters (a-z), numbers, and signs %s."
-msgstr ""
+msgstr "Пожалуйста, используйте только буквы (A-Z), цифры и знаки %s."
 
 #: www/js/validators/validator.js
 msgid "The language name should not be longer than 50 characters."
-msgstr ""
+msgstr "Название языка не должны быть длиннее 50 символов."
 
 #: www/js/validators/validator.js
 msgid "Please use only letters (a-z)."
-msgstr ""
+msgstr "Пожалуйста, используйте только буквы (а-Z)."
 
 #: www/js/validators/validator.js
 msgid "The crowdin code should not be less than 2 and longer than 4 characters."
-msgstr ""
+msgstr "Код crowdin, а не должно быть менее 2 и более 4 символов."
 
 #: www/js/validators/validator.js
 msgid "Three letters code must have 3 characters."
-msgstr ""
+msgstr "Три буквы кода должны иметь 3 персонажа."
 
 #: www/js/validators/validator.js
 msgid "Please use only letters (a-z) and sign %s."
-msgstr ""
+msgstr "Пожалуйста, используйте только буквы (A-Z) и знак %s."
 
 #: www/js/validators/validator.js
 msgid "The locale code should not be longer than 7 characters."
-msgstr ""
+msgstr "Код языка не должно быть длиннее 7 символов."
 
 #: www/js/validators/validator.js
 msgid "Identifier must be longer than 3 characters."
-msgstr ""
+msgstr "Идентификатор должен быть длиннее 3 символов."
 
 #: www/js/validators/validator.js
 #: www/js/front/integration.js
 msgid "No spaces or special characters allowed."
-msgstr ""
+msgstr "Без пробелов или специальных символов."
 
 #: www/js/validators/validator.js
 #: www/js/front/profile_settings.js
 msgid "Password is too short (minimum is 6 characters)"
-msgstr ""
+msgstr "Пароль слишком короткий (минимум 6 символов)"
 
 #: www/js/validators/validator.js
 msgid "The passwords don't match, please try again."
-msgstr ""
+msgstr "Пароли не совпадают, пожалуйста, попробуйте снова."
 
 #: www/js/validators/validator.js
 msgid "Invalid email."
-msgstr ""
+msgstr "Неверный адрес электронной почты."
 
 #: www/js/validators/validator.js
 msgid "Invalid date."
-msgstr ""
+msgstr "Недопустимая Дата."
 
 #: www/js/validators/validator.js
 msgid "This option is required."
-msgstr ""
+msgstr "Этот параметр является обязательным."
 
 #: www/js/validators/validator.js
 msgid "You must select at least one target language."
-msgstr ""
+msgstr "Вы должны выбрать по крайней мере один целевой язык."
 
 #: www/js/validators/validator.js
 msgid "Url is not valid."
-msgstr ""
+msgstr "URL-адрес не является допустимым."
 
 #: www/js/editor/hotkeys.js
 #: www/js/proofread_editor/controls/suggestions.js
 msgid "Save Translation"
-msgstr ""
+msgstr "Сохранить Перевод"
 
 #: www/js/editor/hotkeys.js
 msgid "Skip String"
-msgstr ""
+msgstr "Пропустить Строку"
 
 #: www/js/editor/hotkeys.js
 msgid "Previous String"
-msgstr ""
+msgstr "Предыдущие Строки"
 
 #: www/js/editor/hotkeys.js
 msgid "Show/Hide Right Panel"
-msgstr ""
+msgstr "Показать/Скрыть Правую Панель"
 
 #: www/js/editor/hotkeys.js
 msgid "Copy Translation From Source"
-msgstr ""
+msgstr "Копия Перевода С Источника"
 
 #: www/js/editor/hotkeys.js
 #: www/js/editor/controls/suggestions.js
@@ -405,7 +405,7 @@ msgstr ""
 #: www/js/assets_editor/controls/suggestions.js
 #: www/js/assets_editor/views/suggestions.js
 msgid "Approve"
-msgstr ""
+msgstr "Утвердить"
 
 #: www/js/editor/hotkeys.js
 #: www/js/editor/controls/suggestions.js
@@ -414,7 +414,7 @@ msgstr ""
 #: www/js/assets_editor/controls/suggestions.js
 #: www/js/assets_editor/views/suggestions.js
 msgid "Disapprove"
-msgstr ""
+msgstr "Неодобряю"
 
 #: www/js/editor/hotkeys.js
 #: www/js/editor/controls/suggestions.js
@@ -422,7 +422,7 @@ msgstr ""
 #: www/js/proofread_editor/controls/suggestions.js
 #: www/js/assets_editor/controls/suggestions.js
 msgid "Vote Up"
-msgstr ""
+msgstr "Голосовать"
 
 #: www/js/editor/hotkeys.js
 #: www/js/editor/controls/suggestions.js
@@ -430,73 +430,73 @@ msgstr ""
 #: www/js/proofread_editor/controls/suggestions.js
 #: www/js/assets_editor/controls/suggestions.js
 msgid "Vote Down"
-msgstr ""
+msgstr "Голосование"
 
 #: www/js/editor/hotkeys.js
 msgid "Show/Hide String"
-msgstr ""
+msgstr "Показать/Скрыть Строку"
 
 #: www/js/editor/hotkeys.js
 msgid "Show/Hide String Context"
-msgstr ""
+msgstr "Показать/Скрыть Строку Контексте"
 
 #: www/js/editor/hotkeys.js
 msgid "Edit String Context"
-msgstr ""
+msgstr "Редактировать Строковом Контексте"
 
 #: www/js/editor/hotkeys.js
 msgid "Request String Comment"
-msgstr ""
+msgstr "Запрос Строку Комментария"
 
 #: www/js/editor/hotkeys.js
 msgid "Search"
-msgstr ""
+msgstr "Поиск"
 
 #: www/js/editor/hotkeys.js
 #: www/js/editor/plugins/replace.js
 msgid "Replace in Suggestions"
-msgstr ""
+msgstr "Замените в предложениях"
 
 #: www/js/editor/hotkeys.js
 #: www/js/editor/plugins/plugins.js
 msgid "Open File"
-msgstr ""
+msgstr "Открыть Файл"
 
 #: www/js/editor/hotkeys.js
 msgid "Next File"
-msgstr ""
+msgstr "Следующий Файл"
 
 #: www/js/editor/hotkeys.js
 msgid "Previous File"
-msgstr ""
+msgstr "Предыдущий Файл"
 
 #: www/js/editor/hotkeys.js
 msgid "Show/Hide File Context"
-msgstr ""
+msgstr "Показать/Скрыть Контекстное Файла"
 
 #: www/js/editor/hotkeys.js
 msgid "Edit File Context"
-msgstr ""
+msgstr "Редактировать Файл Контекста"
 
 #: www/js/editor/hotkeys.js
 msgid "Request File Comment"
-msgstr ""
+msgstr "Просьба Прокомментировать Файл"
 
 #: www/js/editor/hotkey_bindings.js
 msgid "Save Translation (%s)"
-msgstr ""
+msgstr "Сохранить Перевод (%s)"
 
 #: www/js/editor/hotkey_bindings.js
 msgid "Previous String (%s)"
-msgstr ""
+msgstr "Предыдущие Строки (%s)"
 
 #: www/js/editor/hotkey_bindings.js
 msgid "Skip String (%s)"
-msgstr ""
+msgstr "Пропустить Строку (%s)"
 
 #: www/js/editor/plugins/context_editor.js
 msgid "Screenshots"
-msgstr ""
+msgstr "Скриншоты"
 
 #: www/js/editor/plugins/context_editor.js
 #: www/js/editor/plugins/plugins.js
@@ -525,7 +525,7 @@ msgstr ""
 #: www/js/src/autofix.js
 #: www/js/assets_editor/controls/suggestions.js
 msgid "Cancel"
-msgstr ""
+msgstr "Отменить"
 
 #: www/js/editor/plugins/context_editor.js
 #: www/js/editor/plugins/editor_settings.js
@@ -542,23 +542,23 @@ msgstr ""
 #: www/js/front/integration.js
 #: www/js/professional_translations/views/vendor.js
 msgid "Save"
-msgstr ""
+msgstr "Сохранить"
 
 #: www/js/editor/plugins/plugins.js
 msgid "Hide Context"
-msgstr ""
+msgstr "Скрыть Контексте"
 
 #: www/js/editor/plugins/plugins.js
 msgid "Show Context"
-msgstr ""
+msgstr "Показать Контексте"
 
 #: www/js/editor/plugins/plugins.js
 msgid "Search through translation memory"
-msgstr ""
+msgstr "Поиск через памяти переводов"
 
 #: www/js/editor/plugins/plugins.js
 #: www/js/front/tag_screenshot.js
 #: www/js/front/target_languages.js
 #: www/js/front/profile_resources.js
 msgid "Clear"
-msgstr ""
+msgstr "Понятно"
