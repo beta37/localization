@@ -1,139 +1,139 @@
 ---
-ref: example
+ref: пример
 pageHeading:
-  <<: !import 'common/pageHeadings/evidenceRequirement'
-  title: 'Prove you have lived in the U.S. since June 15, 2007'
-  description: !markdown 'You answered in your application that **you have lived in the U.S. continuously since June 15, 2007.** The immigration officer reviewing your application will need to see evidence that this is true.'
+  <<: !import 'общие/pageHeadings/evidenceRequirement'
+  title: 'Доказать, что вы жили в США с 15 июня 2007 года'
+  description: !markdown 'Вы ответили на Вашу заявку, что **вы прожили в США непрерывно с 15 июня 2007 года.** Иммиграционный офицер рассматривает ваше заявление нужно увидеть доказательства, что это правда.'
 selectEvidence1:
   evidenceTypeGroups1:
     - 
       evidenceTypes1:
-        - !import common/evidence/types/documentaionShowingPoliticalPartyMembership
-        - !import common/evidence/types/confirmationThatVolunteeredForUSPoliticalParty
-        - !import common/evidence/types/confirmationOfParticipationReligiousCommunity
-        - !import common/evidence/types/creditCardStatement
+        - !import общая/свидетельство/видах/documentaionShowingPoliticalPartymembership
+        - !import общая/свидетельство/видах/confirmationThatVolunteeredForUSpoliticalparty
+        - !import общая/свидетельство/видах/confirmationOfParticipationReligiouscommunity
+        - !import общая/свидетельство/видах/creditCardStatement
 learnMore1:
   questions1:
-    - !import common/evidence/categories/questions/howProveAffiliationCommunistPartyEndedBefore16thBirthday
-    - !import common/evidence/categories/questions/whatIfNoDocumentationShowsCommunistPartyAffiliationEndedBefore16thBirthday
-    - !import common/evidence/categories/questions/whatIfNodocumentsToProvePastAffiliationWithCommunistParty
-    - !import common/evidence/categories/questions/whyAttachmentToUSConstitutionEvaluated
+    - !import общая/свидетельство/категории/вопросы/howProveAffiliationCommunistPartyendedbefore16thbirthday
+    - !import common/evidence/categories/questions/whatIfNoDocumentationShowsCommunistpartyaffiliationendedbefore16thbirthday
+    - !import общая/свидетельство/категории/вопросы/whatIfNodocumentsToProvePastAffiliationwithcommunistparty
+    - !import общая/свидетельство/категории/вопросы/whyAttachmentToUSConstitutionEvaluated
 learnMore:
   video:
-    fileUrl: !asset common/videos/example.mp4
-    thumbnailUrl: !asset common/images/video.png
-    caption: Watch Video - 2 minutes
+    fileUrl: !asset общие/видео/пример.МР4
+    thumbnailUrl: !asset общее/фото/видео.ПНГ
+    caption: Смотреть видео - 2 минуты
   download:
-    fileUrl: /images/download.pdf
-    thumbnailUrl: /images/download.png
+    fileUrl: /картинок/загрузить.Формат PDF
+    thumbnailUrl: /картинок/загрузить.ПНГ
   questions:
-    - !import common/evidence/categories/questions/howProveServedHonorablyInMilitary
+    - !import общая/свидетельство/категории/вопросы/howProveServedHonorablyInMilitary
 selectEvidence:
-  title: !markdown What evidence will you be able to send to **prove you have lived in the U.S. continuously since**
-  description: !markdown 'When possible, the more evidence you can send, the better. If you choose an item below and later find you can’t get it, return here to change your selections before you file.'
+  title: !markdown Какие доказательства вы сможете отправить на **доказать, что вы проживали в США непрерывно с**
+  description: !markdown 'Когда это возможно, чем больше доказательств вы можете отправить, тем лучше. Если вы выбираете пункт ниже и позже Вы не можете получить его, вернуться сюда, чтобы изменить свой выбор, прежде чем файл.'
   evidenceTypeGroups:
     - 
-      label: Example
+      label: Пример
       evidenceTypes:
-        - !import common/evidence/types/militaryServiceRecord
+        - !import общая/свидетельство/видах/militaryServiceRecord
 evidenceOmission:
-  <<: !import 'common/evidence/categories/omission/base'
+  <<: !import 'общая/свидетельство/категории/бездействие/базы'
   explanation:
     required: true
-    title: Why won't you be providing evidence to prove you are married to a U.S. Citizen?
-    instructions: 'You may include a description of your efforts to get evidence, and anything else you think is important for the immigration officer to consider. Please write in complete sentences.'
+    title: Почему Вы не хотите предоставить доказательства, чтобы доказать, что вы в браке с гражданином США?
+    instructions: 'Вы можете включить описание вашего усилия, чтобы получить доказательства, и что-нибудь еще вы считаете важным для иммиграционного офицера, чтобы рассмотреть. Пожалуйста, пишите полными предложениями.'
   confirmation:
-    title: Do you understand the risks of not providing evidence to prove you are married to a U.S. Citizen?
-    label: 'Yes, I understand that even if my explanation above is good, if I do not provide any evidence to meet this requirement when I file, my application may be delayed, and I may receive a Request for Evidence (RFE) with a response deadline.'
+    title: Вы понимаете риски не предоставления доказательств, чтобы доказать, что вы в браке с гражданином США?
+    label: 'Да, я понимаю, что даже если мое объяснение выше-это хорошо, если я не представила никаких доказательств, чтобы удовлетворить это требование, когда я файл, мое приложение может затянуться, и я, возможно, получите запрос на доказательство (радиостанция) со сроком ответа.'
   learnMore:
     questions:
       - 
-        label: How will this affect my application?
+        label: Как это повлияет на мое заявление?
         content: !markdown |
-          The immigration officer who reviews your application will want to see
-          evidence that proves each requirement. Submitting your application
-          without supporting evidence could lead to delays, and in some cases
-          even denial.
+          Иммиграционный офицер, который проверяет вашу заявку будут хотеть увидеть
+          доказательств того, что доказывает каждое требование. Подачи заявки
+          без доказательств может привести к задержкам, а в некоторых случаях
+          даже отрицание.
       - 
-        label: If I qualify another way do I still have to prove this requirement?
+        label: Если я квалифицирую другой способ я все еще должен доказать это требование?
         content: !markdown |
-          If you have not been a permanent resident (green card holder) for at
-          least 4 years and 9 months, you might still qualify for U.S. citizenship
-          on another basis. You can go back to your application to review the
-          other eligibility options and change your answer.
+          Если у вас не было постоянного жителя (обладателя Грин-карты) в
+          не менее 4 лет и 9 месяцев, вы можете претендовать на гражданство США
+          на другой основе. Вы можете вернуться в ваше приложение для рассмотрения
+          другие варианты приемлемости и изменить свой ответ.
       - 
-        label: Can I continue without providing evidence?
+        label: Я могу продолжать без предоставления доказательств?
         content: !markdown |
-          If you have been a permanent resident (green card holder) for at least 4
-          years and 9 months and you have a good reason why you cannot provide the
-          required evidence, you can still choose to continue. Please submit an
-          explanation to the immigration officer who reviews your case to explain
-          why you cannot prove this requirement at this time.
+          Если вы были постоянного резидента (зеленые карты) не менее 4
+          лет и 9 месяцев и у вас есть хорошая причина, почему Вы не можете предоставить
+          необходимые доказательства, вы все равно можете продолжить. Просьба представить
+          пояснение к иммиграционному офицеру, который рассмотрит ваше дело объяснить
+          почему Вы не можете доказать, что это требование в настоящее время.
 content1: !markdown |
-  To prove that your gender has legally changed, you will need to submit the following:
+  Чтобы доказать, что ваш пол имеет юридически изменен, Вам необходимо представить следующие:
   
-  - A copy of your green card
-  - A copy of documentation showing your change of gender, such as:
-  - Official court order for a change of gender
-  - Medical certification recognizing change of gender
-  - Amended birth certificate
-  - New passport biographical page
-  - New driver’s license
-pageId2: example
-title2: Before you proceed...
-subTitle2: Please read this important warning
-icon2: images/example.svg
-footerMessage2: Go to the next page to start assembling your Application Package...
+  - Копия гринкарты
+  - Копия документа, подтверждающего изменение пола, например:
+  - Официальное судебного приказа для изменения пола
+  - Медицинское освидетельствование признания смены пола
+  - Внесены изменения свидетельства о рождении
+  - Новая биографическая страница паспорта
+  - Новые водительские права
+pageId2: пример
+title2: Прежде чем продолжить...
+subTitle2: Пожалуйста, прочитайте это важное предупреждение
+icon2: изображения/образец.свг
+footerMessage2: Перейти на следующую страницу, чтобы начать собирать свой пакет документов...
 warningMessage2: !markdown |
-  USCIS requires that applicants for U.S. citizenship have an unexpired green card that is valid for at least six more months.
+  Uscis требует, чтобы кандидаты на получение гражданства США действующая Зеленая карта, действительный не менее шести месяцев.
   
-  **\*Your filing deadline is July 05, 2016.\* If you miss this deadline you will need to apply to renew your green card before you can file your application for U.S. citizenship.**
-pageId33: example
-title33: Supplies
-subTitle33: What you'll need
+  **\\*Крайний срок подачи заявок является 05 июля 2016 года.\\* Если Вы не уложитесь в этот срок вы должны подать заявление на продление гринкарты, прежде чем вы можете подать заявление на получение гражданства США.**
+pageId33: пример
+title33: Поставки
+subTitle33: Что вам потребуется
 instructions3: >
-  To build your Application Package, you will need:
+  Чтобы собрать пакет приложения, вам понадобится:
 footerMessage3: >
-  Go to the next page to start assembling your Application Package...
+  Перейти на следующую страницу, чтобы начать собирать свой пакет документов...
 items3:
   - 
     label: !markdown |
-      **Printed copy of this filing packet** on 8.5” x 11” paper
-      (about the same size as A4)
-    icon: !asset common/images/example.svg
+      **Печатную копию этого пакета подачи** на 8,5” х 11” бумаги
+      (примерно такого же размера, как А4)
+    icon: !asset общие/изображения/пример.свг
   - 
     label: !markdown |
-      A clear **area to work** (desk, table, floor, etc)
-    icon: !asset common/images/example.svg
+      Ясный **район для работы** (письменный стол, стол, пол и т. д.)
+    icon: !asset общие/изображения/пример.свг
   - 
     label: !markdown |
-      **Black ink pen** to sign documents and complete checklists
-    icon: !asset common/images/example.svg
+      **Черные чернила ручка** для подписания документов и полные списки
+    icon: !asset общие/изображения/пример.свг
 contentBeforeList12: !markdown |
-  Dear **USCIS Immigration Officer**,
+  Уважаемый **офицер службы гражданства и иммиграции США иммиграции**,
   
-  On the following page, you will find a completed form G-1450, "Authorization for Credit Card Transactions" to pay my application filing fees of ${{value 'context.filingPacketData.filingFees.totalAmount'}}{{value 'context.filingPacketData.filingFees.lineItemsDescription'}}.
+  На следующей странице вы найдете заполненная форма G-1450, "авторизация операций по кредитным картам", чтобы оплатить подачу заявки пошлины в размере {{value 'context.filingPacketData.filingFees.totalAmount'}}{{value 'context.filingPacketData.filingFees.lineItemsDescription'}}.
 finalReview12:
-  instruction12: with correct attachment
+  instruction12: при правильном вложении
   content12: !markdown |
-    **EITHER** the “Credit Card” version followed by a completed and signed G-1450
-    **--OR--** the “Check/Money Order” version with check/money order attached by paperclip
-  image12: !asset common/images/sectionCardOrCheck.svg
+    **Либо** “Кредитная карта” версия сопровождаться заполненной и подписанной г-1450
+    **- Или - ** “проверьте/денежный перевод” вариант с чек/денежный перевод прикрепляется скрепка
+  image12: !asset общее/фото/sectionCardOrCheck.свг
   Forms attached: ""
-listType: forms-list
+listType: форм-список
 body1: !markdown |
-  Dear **USCIS Immigration Officer**,
+  Уважаемый **офицер службы гражданства и иммиграции США иммиграции**,
   
-  I, Oscar Sesequis hereby file an N-400, U.S. Citizenship Application with the following attached documents:
+  Я, Оскар Sesequis настоящим подать Н-400, Гражданство США заявление с приложением следующих документов:
   
   {{value 'context.sectionList'}}
   
-  Please contact me should you have any questions or need further documentation.
+  Пожалуйста свяжитесь я если вы имеете любые вопросы или нужны дополнительные документы.
   
-  Signed,
-caseNumber11: USCIS
+  Подпись,
+caseNumber11: В uscis
 contentBeforeList11: !markdown |
-  Dear **USCIS Immigration Officer**,
+  Уважаемый **офицер службы гражданства и иммиграции США иммиграции**,
   
-  I, {{value 'application.applicant.name.first'}} {{value 'application.applicant.name.last'}} hereby file an N-400, U.S. Citizenship Application with the following attached documents:
+  Я, {{value 'application.applicant.name.first'}} {{value 'application.applicant.name.last'}} настоящим файла с N-400, США Гражданство заявление с приложением следующих документов:
 sss: 1
