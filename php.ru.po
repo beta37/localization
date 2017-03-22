@@ -20,7 +20,7 @@ msgstr ""
 #: glossary/importers/xlsx_glossary_importer.class.php:17
 #, php-format
 msgid "Imported file \"%s\" is not valid or broken"
-msgstr ""
+msgstr "редагована стрічка, яка повинна оверайднутися після синхронізації"
 
 #: tm/importers/tmx_tm_importer.class.php:153
 #, php-format
