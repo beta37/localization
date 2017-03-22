@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: new-test-project-to-delete\n"
+"Project-Id-Version: wordpress1-1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-21 14:06+0000\n"
-"PO-Revision-Date: 2017-03-22 08:54+0200\n"
-"Last-Translator: ciri <Mikolay191237+137@gmail.com>\n"
+"PO-Revision-Date: 2017-03-22 03:00-0400\n"
+"Last-Translator: mikolay <mikolay@crowdin.com>\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: crowdin.com\n"
-"X-Crowdin-Project: new-test-project-to-delete\n"
+"X-Crowdin-Project: wordpress1-1\n"
 "X-Crowdin-Language: uk\n"
 "X-Crowdin-File: /master/php.en.po\n"
 
@@ -20,12 +20,12 @@ msgstr ""
 #: glossary/importers/xlsx_glossary_importer.class.php:17
 #, php-format
 msgid "Imported file \"%s\" is not valid or broken"
-msgstr "Імпортований файл \"%s\" не є допустимим або зламані"
+msgstr ""
 
 #: tm/importers/tmx_tm_importer.class.php:153
 #, php-format
 msgid "Source language of the TMX file (%1$s) is not supported by %2$s."
-msgstr "Мова оригіналу файлу tmx (%1$s) не підтримується %2$s."
+msgstr ""
 
 #: tm/importers/tmx_tm_importer.class.php:165
 #, php-format
@@ -164,11 +164,11 @@ msgstr ""
 #: src/utils/source_backup.class.php:719
 #: bin/migrations/345_recalculate_translation_identfiers.bin.php:230
 msgid "An error occurred while restoring a file"
-msgstr "Сталася помилка при відновленні файлу"
+msgstr ""
 
 #: src/utils/source_backup.class.php:700
 msgid "Unable to restore file. Backup not found"
-msgstr "Не вдається відновити файл. Резервне копіювання не знайдено"
+msgstr ""
 
 #: src/utils/source_backup.class.php:731
 #: mvc/controllers/project_actions.class.php:507
@@ -186,7 +186,7 @@ msgstr ""
 
 #: src/utils/machine_translation/microsoft_translator.class.php:472
 msgid "Microsoft Machine Translation Service quota has zero balance."
-msgstr "Переклад квоти Майкрософт машини сервіс має нульовий баланс."
+msgstr ""
 
 #: src/utils/xml_checker.class.php:6
 #, php-format
@@ -201,7 +201,7 @@ msgstr ""
 #: src/utils/xml_checker.class.php:25
 #, php-format
 msgid "Imported %s localization file is not valid. XML validation module said: %s. Total errors: %s"
-msgstr "Імпортований файл локалізації %s не діє. Модуль валідації XML сказав: %s. Загальне число помилок: %s"
+msgstr ""
 
 #: src/utils/thread_view.class.php:76
 #: mvc/templates/translation/header.tpl.php:121
@@ -531,7 +531,7 @@ msgstr ""
 #: src/utils/validation/validator.class.php:604
 #, php-format
 msgid "Translated text is too long. Project manager set translated string max. length to be %d symbols or less."
-msgstr "Перекладений текст надто довгий. Менеджер проекту перекладені рядки максимум. довжина %d символів або менше."
+msgstr ""
 
 #: src/utils/validation/validator.class.php:611
 msgid "Translated text is too long."
@@ -551,7 +551,7 @@ msgstr ""
 
 #: src/utils/validation/validator.class.php:700
 msgid "Probably you forgot some formatting tags."
-msgstr "Ймовірно, Ви забули деякі теги форматування."
+msgstr ""
 
 #: src/utils/validation/validator.class.php:700
 msgid "It looks like you have added too many formatting tags in the translation."
@@ -882,7 +882,7 @@ msgstr[2] ""
 #: src/utils/validation/validator.class.php:1974
 #, php-format
 msgid "Instead translation contains %s that is not in source."
-msgstr "Замість перекладу містить %s, що не в джерелі."
+msgstr ""
 
 #: src/utils/validation/validator.class.php:2084
 #: src/utils/common.class.php:317
@@ -893,128 +893,128 @@ msgstr ""
 
 #: src/utils/mime.class.php:7
 msgid "GetText Translation"
-msgstr "Переклад Gettext"
+msgstr ""
 
 #: src/utils/common.class.php:9 src/utils/common.class.php:18
 #: mvc/controllers/project_actions.class.php:5018
 msgid "Never"
-msgstr "Ніколи"
+msgstr ""
 
 #: src/utils/common.class.php:22
 msgid "a second ago"
-msgstr "секунду назад"
+msgstr ""
 
 #: src/utils/common.class.php:35
 #, php-format
 msgid "1 second ago"
 msgid_plural "%d seconds ago"
-msgstr[0] "1 секунду назад"
-msgstr[1] "%d секунд тому"
-msgstr[2] "%d секунд тому"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: src/utils/common.class.php:36
 #, php-format
 msgid "1 minute ago"
 msgid_plural "%d minutes ago"
-msgstr[0] "1 хвилину тому"
-msgstr[1] "%d хвилин тому"
-msgstr[2] "%d хвилин тому"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: src/utils/common.class.php:37
 #, php-format
 msgid "1 hour ago"
 msgid_plural "%d hours ago"
-msgstr[0] "1 годину назад"
-msgstr[1] "%d годин тому"
-msgstr[2] "%d годин тому"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: src/utils/common.class.php:38
 #, php-format
 msgid "1 day ago"
 msgid_plural "%d days ago"
-msgstr[0] "1 день тому"
-msgstr[1] "%d днів тому"
-msgstr[2] "%d днів тому"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: src/utils/common.class.php:39
 #, php-format
 msgid "1 week ago"
 msgid_plural "%d weeks ago"
-msgstr[0] "1 тиждень тому"
-msgstr[1] "%d тижні тому"
-msgstr[2] "%d тижні тому"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: src/utils/common.class.php:40
 #, php-format
 msgid "1 month ago"
 msgid_plural "%d months ago"
-msgstr[0] "1 місяць тому"
-msgstr[1] "%d місяців тому"
-msgstr[2] "%d місяців тому"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: src/utils/common.class.php:41
 #, php-format
 msgid "1 year ago"
 msgid_plural "%d years ago"
-msgstr[0] "1 рік тому"
-msgstr[1] "%d років тому"
-msgstr[2] "%d років тому"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: src/utils/common.class.php:45
 #, php-format
 msgid "1 second from now"
 msgid_plural "%d seconds from now"
-msgstr[0] "1 секунду,"
-msgstr[1] "%d секунд"
-msgstr[2] "%d секунд"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: src/utils/common.class.php:46
 #, php-format
 msgid "1 minute from now"
 msgid_plural "%d minutes from now"
-msgstr[0] "1 хвилину"
-msgstr[1] "%d хвилин"
-msgstr[2] "%d хвилин"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: src/utils/common.class.php:47
 #, php-format
 msgid "1 hour from now"
 msgid_plural "%d hours from now"
-msgstr[0] "1 година"
-msgstr[1] "%d годин"
-msgstr[2] "%d годин"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: src/utils/common.class.php:48
 #, php-format
 msgid "1 day from now"
 msgid_plural "%d days from now"
-msgstr[0] "1 день"
-msgstr[1] "%d днів"
-msgstr[2] "%d днів"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: src/utils/common.class.php:49
 #, php-format
 msgid "1 week from now"
 msgid_plural "%d weeks from now"
-msgstr[0] "1 тиждень"
-msgstr[1] "%d тижня"
-msgstr[2] "%d тижня"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: src/utils/common.class.php:50
 #, php-format
 msgid "1 month from now"
 msgid_plural "%d months from now"
-msgstr[0] "1 місяць"
-msgstr[1] "%d місяців"
-msgstr[2] "%d місяців"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: src/utils/common.class.php:51
 #, php-format
 msgid "1 year from now"
 msgid_plural "%d years from now"
-msgstr[0] "1 рік"
-msgstr[1] "%d років"
-msgstr[2] "%d років"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: src/utils/common.class.php:256
 msgid "B"
@@ -1392,7 +1392,7 @@ msgstr ""
 
 #: src/core/view.class.php:444
 msgid "Main"
-msgstr "Головна"
+msgstr ""
 
 #: src/core/view.class.php:458
 msgid "localization"
@@ -2871,7 +2871,7 @@ msgstr ""
 #: modules/uploaders/upload_factory.class.php:212
 #, php-format
 msgid "File %s greater than %s and can't be imported"
-msgstr "Файл %s більше, ніж %s і не може бути імпортований"
+msgstr ""
 
 #: modules/uploaders/upload_factory.class.php:216
 msgid "An error occurred while trying to unpack the archive"
