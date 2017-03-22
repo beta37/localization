@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: new-test-project-to-delete\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-21 14:06+0000\n"
-"PO-Revision-Date: 2017-03-22 08:50+0200\n"
+"PO-Revision-Date: 2017-03-22 08:54+0200\n"
 "Last-Translator: ciri <Mikolay191237+137@gmail.com>\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -164,11 +164,11 @@ msgstr ""
 #: src/utils/source_backup.class.php:719
 #: bin/migrations/345_recalculate_translation_identfiers.bin.php:230
 msgid "An error occurred while restoring a file"
-msgstr ""
+msgstr "Произошла ошибка при восстановлении файла"
 
 #: src/utils/source_backup.class.php:700
 msgid "Unable to restore file. Backup not found"
-msgstr ""
+msgstr "Не удалось восстановить файл. Резервное копирование не найден"
 
 #: src/utils/source_backup.class.php:731
 #: mvc/controllers/project_actions.class.php:507
@@ -186,7 +186,7 @@ msgstr ""
 
 #: src/utils/machine_translation/microsoft_translator.class.php:472
 msgid "Microsoft Machine Translation Service quota has zero balance."
-msgstr ""
+msgstr "Перевод квоты Майкрософт машины сервис имеет нулевой баланс."
 
 #: src/utils/xml_checker.class.php:6
 #, php-format
@@ -201,7 +201,7 @@ msgstr ""
 #: src/utils/xml_checker.class.php:25
 #, php-format
 msgid "Imported %s localization file is not valid. XML validation module said: %s. Total errors: %s"
-msgstr ""
+msgstr "Импортированный файл локализации %s не действует. Модуль XML валидации сказал: %s. Общее число ошибок: %s"
 
 #: src/utils/thread_view.class.php:76
 #: mvc/templates/translation/header.tpl.php:121
@@ -531,7 +531,7 @@ msgstr ""
 #: src/utils/validation/validator.class.php:604
 #, php-format
 msgid "Translated text is too long. Project manager set translated string max. length to be %d symbols or less."
-msgstr ""
+msgstr "Переведенный текст слишком длинный. Менеджер проекта переведенные строки максимум. длина %d символов или меньше."
 
 #: src/utils/validation/validator.class.php:611
 msgid "Translated text is too long."
@@ -551,7 +551,7 @@ msgstr ""
 
 #: src/utils/validation/validator.class.php:700
 msgid "Probably you forgot some formatting tags."
-msgstr ""
+msgstr "Вероятно, Вы забыли некоторые теги форматирования."
 
 #: src/utils/validation/validator.class.php:700
 msgid "It looks like you have added too many formatting tags in the translation."
@@ -882,7 +882,7 @@ msgstr[2] ""
 #: src/utils/validation/validator.class.php:1974
 #, php-format
 msgid "Instead translation contains %s that is not in source."
-msgstr ""
+msgstr "Вместо перевода содержит %s, что не в источнике."
 
 #: src/utils/validation/validator.class.php:2084
 #: src/utils/common.class.php:317
@@ -893,128 +893,128 @@ msgstr ""
 
 #: src/utils/mime.class.php:7
 msgid "GetText Translation"
-msgstr ""
+msgstr "Перевод Gettext"
 
 #: src/utils/common.class.php:9 src/utils/common.class.php:18
 #: mvc/controllers/project_actions.class.php:5018
 msgid "Never"
-msgstr ""
+msgstr "Никогда"
 
 #: src/utils/common.class.php:22
 msgid "a second ago"
-msgstr ""
+msgstr "секунду назад"
 
 #: src/utils/common.class.php:35
 #, php-format
 msgid "1 second ago"
 msgid_plural "%d seconds ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "1 секунду назад"
+msgstr[1] "%d секунд назад"
+msgstr[2] "%d секунд назад"
 
 #: src/utils/common.class.php:36
 #, php-format
 msgid "1 minute ago"
 msgid_plural "%d minutes ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "1 минуту назад"
+msgstr[1] "%d минут назад"
+msgstr[2] "%d минут назад"
 
 #: src/utils/common.class.php:37
 #, php-format
 msgid "1 hour ago"
 msgid_plural "%d hours ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "1 час назад"
+msgstr[1] "%d часов назад"
+msgstr[2] "%d часов назад"
 
 #: src/utils/common.class.php:38
 #, php-format
 msgid "1 day ago"
 msgid_plural "%d days ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "1 день назад"
+msgstr[1] "%d дней назад"
+msgstr[2] "%d дней назад"
 
 #: src/utils/common.class.php:39
 #, php-format
 msgid "1 week ago"
 msgid_plural "%d weeks ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "1 неделю назад"
+msgstr[1] "%d недели назад"
+msgstr[2] "%d недели назад"
 
 #: src/utils/common.class.php:40
 #, php-format
 msgid "1 month ago"
 msgid_plural "%d months ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "1 месяц назад"
+msgstr[1] "%d месяцев назад"
+msgstr[2] "%d месяцев назад"
 
 #: src/utils/common.class.php:41
 #, php-format
 msgid "1 year ago"
 msgid_plural "%d years ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "1 год назад"
+msgstr[1] "%d лет назад"
+msgstr[2] "%d лет назад"
 
 #: src/utils/common.class.php:45
 #, php-format
 msgid "1 second from now"
 msgid_plural "%d seconds from now"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "1 секунду,"
+msgstr[1] "%d секунд"
+msgstr[2] "%d секунд"
 
 #: src/utils/common.class.php:46
 #, php-format
 msgid "1 minute from now"
 msgid_plural "%d minutes from now"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "1 минуту"
+msgstr[1] "%d минут"
+msgstr[2] "%d минут"
 
 #: src/utils/common.class.php:47
 #, php-format
 msgid "1 hour from now"
 msgid_plural "%d hours from now"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "1 час"
+msgstr[1] "%d часов"
+msgstr[2] "%d часов"
 
 #: src/utils/common.class.php:48
 #, php-format
 msgid "1 day from now"
 msgid_plural "%d days from now"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "1 день"
+msgstr[1] "%d дней"
+msgstr[2] "%d дней"
 
 #: src/utils/common.class.php:49
 #, php-format
 msgid "1 week from now"
 msgid_plural "%d weeks from now"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "1 неделю"
+msgstr[1] "%d недели"
+msgstr[2] "%d недели"
 
 #: src/utils/common.class.php:50
 #, php-format
 msgid "1 month from now"
 msgid_plural "%d months from now"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "1 месяц"
+msgstr[1] "%d месяцев"
+msgstr[2] "%d месяцев"
 
 #: src/utils/common.class.php:51
 #, php-format
 msgid "1 year from now"
 msgid_plural "%d years from now"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "1 год"
+msgstr[1] "%d лет"
+msgstr[2] "%d лет"
 
 #: src/utils/common.class.php:256
 msgid "B"
@@ -1392,7 +1392,7 @@ msgstr ""
 
 #: src/core/view.class.php:444
 msgid "Main"
-msgstr ""
+msgstr "Главная"
 
 #: src/core/view.class.php:458
 msgid "localization"
@@ -2871,7 +2871,7 @@ msgstr ""
 #: modules/uploaders/upload_factory.class.php:212
 #, php-format
 msgid "File %s greater than %s and can't be imported"
-msgstr ""
+msgstr "Файл %s больше, чем %s и не может быть импортирован"
 
 #: modules/uploaders/upload_factory.class.php:216
 msgid "An error occurred while trying to unpack the archive"
