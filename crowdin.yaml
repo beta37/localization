@@ -1,4 +1,3 @@
 files:
-  - source: /en/*
+  - source: /laboratornipereklasti.docx
     translation: '%original_file_name%'
-    scheme: 'identifier,source_or_translation'
