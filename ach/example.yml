@@ -1,0 +1,105 @@
+---
+ref: 'crwdns101675:0crwdne101675:0'
+pageHeading:
+  <<: !import 'crwdns101676:0crwdne101676:0'
+  title: 'crwdns101677:0crwdne101677:0'
+  description: !markdown 'crwdns101678:0crwdne101678:0'
+selectEvidence1:
+  evidenceTypeGroups1:
+    - 
+      evidenceTypes1:
+        - !import 'crwdns101679:0crwdne101679:0'
+        - !import 'crwdns101680:0crwdne101680:0'
+        - !import 'crwdns101681:0crwdne101681:0'
+        - !import 'crwdns101682:0crwdne101682:0'
+learnMore1:
+  questions1:
+    - !import 'crwdns101683:0crwdne101683:0'
+    - !import 'crwdns101684:0crwdne101684:0'
+    - !import 'crwdns101685:0crwdne101685:0'
+    - !import 'crwdns101686:0crwdne101686:0'
+learnMore:
+  video:
+    fileUrl: !asset 'crwdns101687:0crwdne101687:0'
+    thumbnailUrl: !asset 'crwdns101688:0crwdne101688:0'
+    caption: 'crwdns101689:0crwdne101689:0'
+  download:
+    fileUrl: 'crwdns101690:0crwdne101690:0'
+    thumbnailUrl: 'crwdns101691:0crwdne101691:0'
+  questions:
+    - !import 'crwdns101692:0crwdne101692:0'
+selectEvidence:
+  title: !markdown 'crwdns101693:0crwdne101693:0'
+  description: !markdown 'crwdns101694:0crwdne101694:0'
+  evidenceTypeGroups:
+    - 
+      label: 'crwdns101695:0crwdne101695:0'
+      evidenceTypes:
+        - !import 'crwdns101696:0crwdne101696:0'
+evidenceOmission:
+  <<: !import 'crwdns101697:0crwdne101697:0'
+  explanation:
+    required: true
+    title: 'crwdns101698:0crwdne101698:0'
+    instructions: 'crwdns101699:0crwdne101699:0'
+  confirmation:
+    title: 'crwdns101700:0crwdne101700:0'
+    label: 'crwdns101701:0crwdne101701:0'
+  learnMore:
+    questions:
+      - 
+        label: 'crwdns101702:0crwdne101702:0'
+        content: !markdown |
+          crwdns101703:0crwdne101703:0
+      - 
+        label: 'crwdns101704:0crwdne101704:0'
+        content: !markdown |
+          crwdns101705:0crwdne101705:0
+      - 
+        label: 'crwdns101706:0crwdne101706:0'
+        content: !markdown |
+          crwdns101707:0crwdne101707:0
+content1: !markdown |
+  crwdns101708:0crwdne101708:0
+pageId2: 'crwdns101709:0crwdne101709:0'
+title2: 'crwdns101710:0crwdne101710:0'
+subTitle2: 'crwdns101711:0crwdne101711:0'
+icon2: 'crwdns101712:0crwdne101712:0'
+footerMessage2: 'crwdns101713:0crwdne101713:0'
+warningMessage2: !markdown |
+  crwdns101714:0crwdne101714:0
+pageId33: 'crwdns101715:0crwdne101715:0'
+title33: 'crwdns101716:0crwdne101716:0'
+subTitle33: 'crwdns101717:0crwdne101717:0'
+instructions3: >
+  crwdns101718:0crwdne101718:0
+footerMessage3: >
+  crwdns101719:0crwdne101719:0
+items3:
+  - 
+    label: !markdown |
+      crwdns101720:0crwdne101720:0
+    icon: !asset 'crwdns101721:0crwdne101721:0'
+  - 
+    label: !markdown |
+      crwdns101722:0crwdne101722:0
+    icon: !asset 'crwdns101723:0crwdne101723:0'
+  - 
+    label: !markdown |
+      crwdns101724:0crwdne101724:0
+    icon: !asset 'crwdns101725:0crwdne101725:0'
+contentBeforeList12: !markdown |
+  crwdns101726:0{{value 'context.filingPacketData.filingFees.totalAmount'}}crwdnd101726:0{{value 'context.filingPacketData.filingFees.lineItemsDescription'}}crwdne101726:0
+finalReview12:
+  instruction12: 'crwdns101727:0crwdne101727:0'
+  content12: !markdown |
+    crwdns101728:0crwdne101728:0
+  image12: !asset 'crwdns101729:0crwdne101729:0'
+  Forms attached: 'crwdns101730:0crwdne101730:0'
+listType: 'crwdns101731:0crwdne101731:0'
+body1: !markdown |
+  crwdns101732:0{{value 'context.sectionList'}}crwdne101732:0
+caseNumber11: 'crwdns101733:0crwdne101733:0'
+contentBeforeList11: !markdown |
+  crwdns101734:0{{value 'application.applicant.name.first'}}crwdnd101734:0{{value 'application.applicant.name.last'}}crwdne101734:0
+sss: 0
