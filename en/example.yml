@@ -1,3 +1,5 @@
+test_string: "This is test string"
+
 ref: example
 pageHeading:
   <<: !import common/pageHeadings/evidenceRequirement
