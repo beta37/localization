@@ -1,0 +1,564 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: authorize\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-28 11:07+0300\n"
+"PO-Revision-Date: 2017-06-27 04:59-0400\n"
+"Last-Translator: mikolay <mikolay@crowdin.com>\n"
+"Language-Team: Polish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: authorize\n"
+"X-Crowdin-Language: pl\n"
+"X-Crowdin-File: /master/en/js.en.po\n"
+"Language: pl_PL\n"
+
+#: www/js/lib/files.js
+#: www/js/lib/items.js
+#: www/js/editor/plugins/plugins.js
+msgid "Error loading data."
+msgstr "Pobieranie danych błąd."
+
+#: www/js/lib/files.js
+msgid "Retry"
+msgstr "Powtórzyć"
+
+#: www/js/lib/files.js
+msgid "Nothing to dislpay"
+msgstr "Nic токовищем"
+
+#: www/js/lib/files.js
+#: www/js/lib/items.js
+msgid "Nothing to display"
+msgstr "Nic nie wyświetla"
+
+#: www/js/lib/files.js
+#: www/js/front/project_members.js
+#: www/js/front/profile_resources.js
+msgid "Name"
+msgstr "Nazwa"
+
+#: www/js/lib/files.js
+#: www/js/front/project_files.js
+msgid "Go Back"
+msgstr "Powrót"
+
+#: www/js/lib/ui/editor-menu.js
+#: www/js/front/project_files.js
+msgid "Get %1$s version of %2$s for offline translation"
+msgstr "Ci %1$s wersja %2$s do samodzielnego tłumaczenia"
+
+#: www/js/lib/ui/editor-menu.js
+#: www/js/front/project_files.js
+msgid "Get %1$s version of %2$s"
+msgstr "Ci %1$s wersja %2$s"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "all files"
+msgstr "wszystkie pliki"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "Get %1$s xliff version of %2$s for offline translation"
+msgstr "Ci %1$s Format xliff wersja %2$s do samodzielnego tłumaczenia"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "Get %1$s xliff version of %2$s"
+msgstr "Ci %1$s Format xliff wersja %2$s"
+
+#: www/js/lib/ui/editor-menu.js
+#: www/js/editor/plugins/change_visibility.js
+#: www/js/editor/views/translation.js
+msgid "Make String Visible"
+msgstr "Zrobić Wiersz Widoczny"
+
+#: www/js/lib/ui/editor-menu.js
+#: www/js/editor/plugins/change_visibility.js
+#: www/js/editor/views/translation.js
+msgid "Hide String"
+msgstr "Ukryj Pasek"
+
+#: www/js/lib/ui/editor-menu.js
+#: www/js/editor/views/translation.js
+#: www/js/assets_editor/views/translation.js
+msgid "Add Context"
+msgstr "Dodać Kontekst"
+
+#: www/js/lib/ui/editor-menu.js
+#: www/js/editor/views/translation.js
+#: www/js/assets_editor/views/translation.js
+msgid "Edit Context"
+msgstr "Edycja Kontekstu"
+
+#: www/js/lib/ui/editor-menu.js
+#: www/js/editor/views/translation.js
+#: www/js/assets_editor/views/translation.js
+msgid "Request Context"
+msgstr "Kontekst Żądania"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "Search in the Project"
+msgstr "Wyszukiwanie według projektu"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "Search in the File"
+msgstr "Wyszukaj w pliku"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "All strings"
+msgstr "Wszystkie wiersze"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "%1$s - %2$s - %3$s translation"
+msgstr "%1$s - %2$s - %3$s tłumaczenie"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "Open %1$s %2$s translation page"
+msgstr "Otworzyć %1$s %2$s strona tłumaczenia"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "Open %s translation page"
+msgstr "Otwórz stronę tłumaczenia %s"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "%s Translations"
+msgstr "%s Tłumaczenie"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "Not allowed for this file"
+msgstr "Nie jest dozwolone dla tego pliku"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "Download a fresh version of this file translations"
+msgstr "Pobierz najnowszą wersję tego tłumaczenia plik"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "Upload and merge existing translations with the current ones at %s"
+msgstr "Pobrać i połączyć istniejące tłumaczenia z obecnych na %s"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "Download file in xliff format for offline translation"
+msgstr "Pobierz plik w formacie xliff do samodzielnego tłumaczenia"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "Upload translation from xliff format file and merge existing translations with the current ones at %s"
+msgstr "Pobierz tłumaczenie z pliku formatu xliff i scalania istniejących tłumaczeń z obecnych na %s"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "Proofreading Mode"
+msgstr "Tryb Korekta"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "Voting Mode"
+msgstr "Tryb Głosowania"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "Untranslated: %s, not approved: %s"
+msgstr "Nieprzetłumaczone: %s, nie zatwierdzone: %s"
+
+#: www/js/lib/ui/editor-menu.js
+#: www/js/editor/plugins/plugins.js
+msgid "%s word"
+msgid_plural "%s words"
+msgstr[0] "%s słowo"
+msgstr[1] "%s słowa"
+msgstr[2] "%s słowa"
+
+#: www/js/lib/guiders/guiders-1.2.8.js
+#: www/js/front/mobile_support.js
+msgid "Back"
+msgstr "Temu"
+
+#: www/js/lib/guiders/guiders-1.2.8.js
+#: www/js/editor/plugins/custom_filter.js
+#: www/js/editor/quick_user_guide_guiders.js
+#: www/js/front/resources.js
+#: www/js/front/file_upload.js
+#: www/js/front/organization_settings.js
+#: www/js/front/projects.js
+#: www/js/front/project_members.js
+#: www/js/front/profile_projects.js
+#: www/js/front/tag_screenshot.js
+#: www/js/front/edit_project.js
+#: www/js/front/profile_resources.js
+#: www/js/front/web_hooks_details.js
+#: www/js/front/profile_tasks.js
+#: www/js/front/file_download.js
+#: www/js/front/file_manager.js
+#: www/js/front/integration.js
+#: www/js/professional_translations/controls/professional_translations.js
+msgid "Close"
+msgstr "Obok"
+
+#: www/js/lib/guiders/guiders-1.2.8.js
+#: www/js/editor/quick_user_guide_guiders.js
+msgid "Next"
+msgstr "Dalej"
+
+#: www/js/lib/form_validation/formValidator.js
+msgid "Invalid email"
+msgstr "Nieprawidłowy adres e-mail"
+
+#: www/js/lib/form_validation/formValidator.js
+#: www/js/validators/validator.js
+msgid "Did you mean %s?"
+msgstr "Czy miałeś na myśli %s?"
+
+#: www/js/lib/form_validation/formValidator.js
+msgid "Please enter a valid URL"
+msgstr "Wpisz poprawny adres URL"
+
+#: www/js/lib/clipboard.js
+msgid "String URL"
+msgstr "Wiersz URL"
+
+#: www/js/lib/clipboard.js
+msgid "Copy to clipboard:"
+msgstr "Kopiuj do schowka:"
+
+#: www/js/lib/highlight/highlight.js
+msgid "Tags should not be translated"
+msgstr "Tagi nie powinny być tłumaczone"
+
+#: www/js/lib/highlight/highlight.js
+msgid "XML tags should not be translated"
+msgstr "XML-tagi nie powinny być tłumaczone"
+
+#: www/js/lib/highlight/highlight.js
+msgid "HTML entities should not be translated"
+msgstr "HTML istocie nie powinno się tłumaczyć"
+
+#: www/js/lib/highlight/highlight.js
+msgid "This is line break"
+msgstr "Jest to podział wiersza"
+
+#: www/js/lib/highlight/highlight.js
+msgid "This variable should not be translated"
+msgstr "Zmienna ta nie powinna być przetłumaczona"
+
+#: www/js/lib/highlight/highlight.js
+msgid "Special symbols should not be translated"
+msgstr "Znaki specjalne nie powinny być tłumaczone"
+
+#: www/js/lib/highlight/highlight.js
+msgid "Space characters should not be translated"
+msgstr "Luki nie powinny być tłumaczone"
+
+#: www/js/lib/highlight/highlight.js
+msgid "Tab should not be translated"
+msgstr "Karty nie powinny być tłumaczone"
+
+#: www/js/lib/jquery.jgrowl.js
+msgid "Close all"
+msgstr "Zamknąć wszystkie"
+
+#: www/js/lib/items.js
+msgid "All <b>%d</b> items on this page are selected."
+msgstr "Wszystkie <b>%d</b> na tej stronie są wybrane."
+
+#: www/js/lib/items.js
+msgid "One item on this page is selected."
+msgstr "Jeden punkt na tej stronie, wybrany."
+
+#: www/js/lib/items.js
+#: www/js/proofread_editor/controls/phrases.js
+msgid "Select all <b>%d</b> that match current filtering rule"
+msgstr "Wybrać wszystkie <b>%d</b>, które spełniają obecne zasady filtrowania"
+
+#: www/js/lib/items.js
+msgid "All <b>%d</b> items are selected."
+msgstr "Wszystkie <b>%d</b> elementy są zaznaczone."
+
+#: www/js/lib/items.js
+msgid "First page"
+msgstr "Pierwsza strona"
+
+#: www/js/lib/items.js
+msgid "Last page"
+msgstr "Ostatnia strona"
+
+#: www/js/lib/items.js
+msgid "Clear selection"
+msgstr "Wyczyść wybór"
+
+#: www/js/lib/items.js
+msgid "%1$d &mdash; %2$d of %3$d"
+msgstr "%1$d &mdash; %2$d z %3$d"
+
+#: www/js/lib/fileuploader.js
+msgid "{file} has invalid extension. Allowed are: {extensions}."
+msgstr "{file} ma nieprawidłowe rozszerzenie. Dozwolone: {extensions}."
+
+#: www/js/lib/fileuploader.js
+msgid "{file} is too large, maximum file size is {sizeLimit}."
+msgstr "{file} zbyt duży, maksymalny rozmiar pliku {sizeLimit}."
+
+#: www/js/lib/fileuploader.js
+msgid "{file} is too small, minimum file size is {minSizeLimit}."
+msgstr "{file} jest zbyt mały, minimalny rozmiar pliku {minSizeLimit}."
+
+#: www/js/lib/fileuploader.js
+msgid "{file} is empty, try selecting another file."
+msgstr "{file} jest pusta, spróbuj wybrać inny plik."
+
+#: www/js/lib/fileuploader.js
+msgid "The files are being uploaded, if you leave now the upload will be cancelled."
+msgstr "Pliki są pobierane, jeśli zostawisz teraz pobieranie zostanie anulowane."
+
+#: www/js/validators/validator.js
+msgid "User name must be at least 3 characters."
+msgstr "Nazwa użytkownika musi mieć co najmniej 3 znaki."
+
+#: www/js/validators/validator.js
+msgid "Please use only letters (a-z), numbers, and signs %s."
+msgstr "Proszę używać tylko litery (A-Z), cyfry i znaki %s."
+
+#: www/js/validators/validator.js
+msgid "The language name should not be longer than 50 characters."
+msgstr "Nazwa języka nie powinien być dłuższy niż 50 znaków."
+
+#: www/js/validators/validator.js
+msgid "Please use only letters (a-z)."
+msgstr "Proszę używać tylko litery (a-Z)."
+
+#: www/js/validators/validator.js
+msgid "The crowdin code should not be less than 2 and longer than 4 characters."
+msgstr "Kod crowdin, a nie powinna być mniejsza niż 2, a maksymalnie 4 znaki."
+
+#: www/js/validators/validator.js
+msgid "Three letters code must have 3 characters."
+msgstr "Trzy litery kodu powinny mieć 3 postaci."
+
+#: www/js/validators/validator.js
+msgid "Please use only letters (a-z) and sign %s."
+msgstr "Proszę używać tylko litery (A-Z) i znak %s."
+
+#: www/js/validators/validator.js
+msgid "The locale code should not be longer than 7 characters."
+msgstr "Kod języka nie powinno być dłuższe niż 7 znaków."
+
+#: www/js/validators/validator.js
+msgid "Identifier must be longer than 3 characters."
+msgstr "Identyfikator powinien być dłuższy niż 3 znaków."
+
+#: www/js/validators/validator.js
+#: www/js/front/integration.js
+msgid "No spaces or special characters allowed."
+msgstr "Bez spacji lub znaków specjalnych."
+
+#: www/js/validators/validator.js
+#: www/js/front/profile_settings.js
+msgid "Password is too short (minimum is 6 characters)"
+msgstr "Hasło zbyt krótkie (minimum 6 znaków)"
+
+#: www/js/validators/validator.js
+msgid "The passwords don't match, please try again."
+msgstr "Hasła nie są takie same, proszę spróbować ponownie."
+
+#: www/js/validators/validator.js
+msgid "Invalid email."
+msgstr "Nieprawidłowy adres e-mail."
+
+#: www/js/validators/validator.js
+msgid "Invalid date."
+msgstr "Nieprawidłowa Data."
+
+#: www/js/validators/validator.js
+msgid "This option is required."
+msgstr "Ten parametr jest wymagany."
+
+#: www/js/validators/validator.js
+msgid "You must select at least one target language."
+msgstr "Musisz wybrać co najmniej jeden język docelowy."
+
+#: www/js/validators/validator.js
+msgid "Url is not valid."
+msgstr "URL-adres nie jest prawidłowy."
+
+#: www/js/editor/hotkeys.js
+#: www/js/proofread_editor/controls/suggestions.js
+msgid "Save Translation"
+msgstr "Zapisz Tłumaczenie"
+
+#: www/js/editor/hotkeys.js
+msgid "Skip String"
+msgstr "Pominąć Wiersz"
+
+#: www/js/editor/hotkeys.js
+msgid "Previous String"
+msgstr "Poprzednie Polecenia"
+
+#: www/js/editor/hotkeys.js
+msgid "Show/Hide Right Panel"
+msgstr "Pokaż/Ukryj Prawy Panel"
+
+#: www/js/editor/hotkeys.js
+msgid "Copy Translation From Source"
+msgstr "Kopia Tłumaczenia Z Źródła"
+
+#: www/js/editor/hotkeys.js
+#: www/js/editor/controls/suggestions.js
+#: www/js/editor/views/suggestions.js
+#: www/js/proofread_editor/controls/suggestions.js
+#: www/js/assets_editor/controls/suggestions.js
+#: www/js/assets_editor/views/suggestions.js
+msgid "Approve"
+msgstr "Zatwierdzić"
+
+#: www/js/editor/hotkeys.js
+#: www/js/editor/controls/suggestions.js
+#: www/js/editor/views/suggestions.js
+#: www/js/proofread_editor/controls/suggestions.js
+#: www/js/assets_editor/controls/suggestions.js
+#: www/js/assets_editor/views/suggestions.js
+msgid "Disapprove"
+msgstr "Неодобряю"
+
+#: www/js/editor/hotkeys.js
+#: www/js/editor/controls/suggestions.js
+#: www/js/editor/views/suggestions.js
+#: www/js/proofread_editor/controls/suggestions.js
+#: www/js/assets_editor/controls/suggestions.js
+msgid "Vote Up"
+msgstr "Głosować"
+
+#: www/js/editor/hotkeys.js
+#: www/js/editor/controls/suggestions.js
+#: www/js/editor/views/suggestions.js
+#: www/js/proofread_editor/controls/suggestions.js
+#: www/js/assets_editor/controls/suggestions.js
+msgid "Vote Down"
+msgstr "Głosowanie"
+
+#: www/js/editor/hotkeys.js
+msgid "Show/Hide String"
+msgstr "Pokaż/Ukryj Pasek"
+
+#: www/js/editor/hotkeys.js
+msgid "Show/Hide String Context"
+msgstr "Pokaż/Ukryj Pasek Kontekście"
+
+#: www/js/editor/hotkeys.js
+msgid "Edit String Context"
+msgstr "Edytować Kontekście"
+
+#: www/js/editor/hotkeys.js
+msgid "Request String Comment"
+msgstr "Zapytanie Ciąg Komentarza"
+
+#: www/js/editor/hotkeys.js
+msgid "Search"
+msgstr "Wyszukiwanie"
+
+#: www/js/editor/hotkeys.js
+#: www/js/editor/plugins/replace.js
+msgid "Replace in Suggestions"
+msgstr "Wymień w zdaniach"
+
+#: www/js/editor/hotkeys.js
+#: www/js/editor/plugins/plugins.js
+msgid "Open File"
+msgstr "Otwórz Plik"
+
+#: www/js/editor/hotkeys.js
+msgid "Next File"
+msgstr "Następujący Plik"
+
+#: www/js/editor/hotkeys.js
+msgid "Previous File"
+msgstr "Poprzedni Plik"
+
+#: www/js/editor/hotkeys.js
+msgid "Show/Hide File Context"
+msgstr "Pokaż/Ukryj Menu Kontekstowe Pliku"
+
+#: www/js/editor/hotkeys.js
+msgid "Edit File Context"
+msgstr "Edytować Plik Kontekstu"
+
+#: www/js/editor/hotkeys.js
+msgid "Request File Comment"
+msgstr "Proszę O Komentarz Plik"
+
+#: www/js/editor/hotkey_bindings.js
+msgid "Save Translation (%s)"
+msgstr "Zapisz Tłumaczenie (%s)"
+
+#: www/js/editor/hotkey_bindings.js
+msgid "Previous String (%s)"
+msgstr "Poprzednie Wiersze (%s)"
+
+#: www/js/editor/hotkey_bindings.js
+msgid "Skip String (%s)"
+msgstr "Pominąć Wiersz (%s)"
+
+#: www/js/editor/plugins/context_editor.js
+msgid "Screenshots"
+msgstr "Screeny"
+
+#: www/js/editor/plugins/context_editor.js
+#: www/js/editor/plugins/plugins.js
+#: www/js/editor/plugins/replace.js
+#: www/js/editor/plugins/editor_settings.js
+#: www/js/editor/plugins/editor_hotkeys.js
+#: www/js/editor/plugins/context_request.js
+#: www/js/editor/controls/right_panel.js
+#: www/js/editor/controls/suggestions.js
+#: www/js/editor/controls/translation.js
+#: www/js/editor/controls/glossary.js
+#: www/js/proofread_editor/controls/suggestions.js
+#: www/js/proofread_editor/controls/translation.js
+#: www/js/front/profile_common_functions.js
+#: www/js/front/projects.js
+#: www/js/front/project_members.js
+#: www/js/front/edit_project.js
+#: www/js/front/workflows.js
+#: www/js/front/profile_resources.js
+#: www/js/front/profile_settings.js
+#: www/js/front/file_download.js
+#: www/js/front/file_manager.js
+#: www/js/professional_translations/controls/professional_translations.js
+#: www/js/professional_translations/views/vendor.js
+#: www/js/src/common_functions.js
+#: www/js/src/autofix.js
+#: www/js/assets_editor/controls/suggestions.js
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: www/js/editor/plugins/context_editor.js
+#: www/js/editor/plugins/editor_settings.js
+#: www/js/editor/plugins/editor_hotkeys.js
+#: www/js/editor/controls/right_panel.js
+#: www/js/editor/controls/glossary.js
+#: www/js/proofread_editor/controls/suggestions.js
+#: www/js/front/tag_screenshot.js
+#: www/js/front/edit_project.js
+#: www/js/front/workflows.js
+#: www/js/front/profile_resources.js
+#: www/js/front/yaml_configurator.js
+#: www/js/front/file_manager.js
+#: www/js/front/integration.js
+#: www/js/professional_translations/views/vendor.js
+msgid "Save"
+msgstr "Zapisz"
+
+#: www/js/editor/plugins/plugins.js
+msgid "Hide Context"
+msgstr "Ukryj Kontekście"
+
+#: www/js/editor/plugins/plugins.js
+msgid "Show Context"
+msgstr "Pokaż Kontekście"
+
+#: www/js/editor/plugins/plugins.js
+msgid "Search through translation memory"
+msgstr "Wyszukiwanie w pamięci tłumaczeń"
+
+#: www/js/editor/plugins/plugins.js
+#: www/js/front/tag_screenshot.js
+#: www/js/front/target_languages.js
+#: www/js/front/profile_resources.js
+msgid "Clear"
+msgstr "Jasne"
