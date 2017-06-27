@@ -1,7 +1,7 @@
-ANNÉE
-Les LOCATIONS
-JOURS
-L'hiver
-Printemps
-L'été
-L'automne
+YEAR
+MOUNTH
+DAYS
+Winter
+Spring
+Summer
+Autumn
