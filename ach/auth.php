@@ -22,8 +22,8 @@ return [
     |
     */
 
-    'failed'   => 'crwdns101653:0crwdne101653:0',
-    'throttle' => 'crwdns101654:0crwdne101654:0',
-    'testing field' => 'crwdns101655:0crwdne101655:0'.
+    'failed'   => 'These credentials do not match our records.',
+    'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
+    'testing field' => 'testing field (changed) upd2'.
 
 ];
