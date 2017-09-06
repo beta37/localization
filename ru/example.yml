@@ -1,4 +1,5 @@
 ---
+test_string: "This is test string"
 ref: пример
 pageHeading:
   <<: !import 'общие/pageHeadings/evidenceRequirement'
