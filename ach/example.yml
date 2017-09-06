@@ -1,105 +1,140 @@
 ---
-ref: 'crwdns101675:0crwdne101675:0'
+test_string: "This is test string"
+ref: example
 pageHeading:
-  <<: !import 'crwdns101676:0crwdne101676:0'
-  title: 'crwdns101677:0crwdne101677:0'
-  description: !markdown 'crwdns101678:0crwdne101678:0'
+  <<: !import 'common/pageHeadings/evidenceRequirement'
+  title: 'Prove you have lived in the U.S. since June 15, 2007'
+  description: !markdown 'You answered in your application that **you have lived in the U.S. continuously since June 15, 2007.** The immigration officer reviewing your application will need to see evidence that this is true.'
 selectEvidence1:
   evidenceTypeGroups1:
     - 
       evidenceTypes1:
-        - !import 'crwdns101679:0crwdne101679:0'
-        - !import 'crwdns101680:0crwdne101680:0'
-        - !import 'crwdns101681:0crwdne101681:0'
-        - !import 'crwdns101682:0crwdne101682:0'
+        - !import common/evidence/types/documentaionShowingPoliticalPartyMembership
+        - !import common/evidence/types/confirmationThatVolunteeredForUSPoliticalParty
+        - !import common/evidence/types/confirmationOfParticipationReligiousCommunity
+        - !import common/evidence/types/creditCardStatement
 learnMore1:
   questions1:
-    - !import 'crwdns101683:0crwdne101683:0'
-    - !import 'crwdns101684:0crwdne101684:0'
-    - !import 'crwdns101685:0crwdne101685:0'
-    - !import 'crwdns101686:0crwdne101686:0'
+    - !import common/evidence/categories/questions/howProveAffiliationCommunistPartyEndedBefore16thBirthday
+    - !import common/evidence/categories/questions/whatIfNoDocumentationShowsCommunistPartyAffiliationEndedBefore16thBirthday
+    - !import common/evidence/categories/questions/whatIfNodocumentsToProvePastAffiliationWithCommunistParty
+    - !import common/evidence/categories/questions/whyAttachmentToUSConstitutionEvaluated
 learnMore:
   video:
-    fileUrl: !asset 'crwdns101687:0crwdne101687:0'
-    thumbnailUrl: !asset 'crwdns101688:0crwdne101688:0'
-    caption: 'crwdns101689:0crwdne101689:0'
+    fileUrl: !asset common/videos/example.mp4
+    thumbnailUrl: !asset common/images/video.png
+    caption: Watch Video - 2 minutes
   download:
-    fileUrl: 'crwdns101690:0crwdne101690:0'
-    thumbnailUrl: 'crwdns101691:0crwdne101691:0'
+    fileUrl: /images/download.pdf
+    thumbnailUrl: /images/download.png
   questions:
-    - !import 'crwdns101692:0crwdne101692:0'
+    - !import common/evidence/categories/questions/howProveServedHonorablyInMilitary
 selectEvidence:
-  title: !markdown 'crwdns101693:0crwdne101693:0'
-  description: !markdown 'crwdns101694:0crwdne101694:0'
+  title: !markdown What evidence will you be able to send to **prove you have lived in the U.S. continuously since**
+  description: !markdown 'When possible, the more evidence you can send, the better. If you choose an item below and later find you can’t get it, return here to change your selections before you file.'
   evidenceTypeGroups:
     - 
-      label: 'crwdns101695:0crwdne101695:0'
+      label: Example
       evidenceTypes:
-        - !import 'crwdns101696:0crwdne101696:0'
+        - !import common/evidence/types/militaryServiceRecord
 evidenceOmission:
-  <<: !import 'crwdns101697:0crwdne101697:0'
+  <<: !import 'common/evidence/categories/omission/base'
   explanation:
     required: true
-    title: 'crwdns101698:0crwdne101698:0'
-    instructions: 'crwdns101699:0crwdne101699:0'
+    title: Why won't you be providing evidence to prove you are married to a U.S. Citizen?
+    instructions: 'You may include a description of your efforts to get evidence, and anything else you think is important for the immigration officer to consider. Please write in complete sentences.'
   confirmation:
-    title: 'crwdns101700:0crwdne101700:0'
-    label: 'crwdns101701:0crwdne101701:0'
+    title: Do you understand the risks of not providing evidence to prove you are married to a U.S. Citizen?
+    label: 'Yes, I understand that even if my explanation above is good, if I do not provide any evidence to meet this requirement when I file, my application may be delayed, and I may receive a Request for Evidence (RFE) with a response deadline.'
   learnMore:
     questions:
       - 
-        label: 'crwdns101702:0crwdne101702:0'
+        label: How will this affect my application?
         content: !markdown |
-          crwdns101703:0crwdne101703:0
+          The immigration officer who reviews your application will want to see
+          evidence that proves each requirement. Submitting your application
+          without supporting evidence could lead to delays, and in some cases
+          even denial.
       - 
-        label: 'crwdns101704:0crwdne101704:0'
+        label: If I qualify another way do I still have to prove this requirement?
         content: !markdown |
-          crwdns101705:0crwdne101705:0
+          If you have not been a permanent resident (green card holder) for at
+          least 4 years and 9 months, you might still qualify for U.S. citizenship
+          on another basis. You can go back to your application to review the
+          other eligibility options and change your answer.
       - 
-        label: 'crwdns101706:0crwdne101706:0'
+        label: Can I continue without providing evidence?
         content: !markdown |
-          crwdns101707:0crwdne101707:0
+          If you have been a permanent resident (green card holder) for at least 4
+          years and 9 months and you have a good reason why you cannot provide the
+          required evidence, you can still choose to continue. Please submit an
+          explanation to the immigration officer who reviews your case to explain
+          why you cannot prove this requirement at this time.
 content1: !markdown |
-  crwdns101708:0crwdne101708:0
-pageId2: 'crwdns101709:0crwdne101709:0'
-title2: 'crwdns101710:0crwdne101710:0'
-subTitle2: 'crwdns101711:0crwdne101711:0'
-icon2: 'crwdns101712:0crwdne101712:0'
-footerMessage2: 'crwdns101713:0crwdne101713:0'
+  To prove that your gender has legally changed, you will need to submit the following:
+  
+  - A copy of your green card
+  - A copy of documentation showing your change of gender, such as:
+  - Official court order for a change of gender
+  - Medical certification recognizing change of gender
+  - Amended birth certificate
+  - New passport biographical page
+  - New driver’s license
+pageId2: example
+title2: Before you proceed...
+subTitle2: Please read this important warning
+icon2: images/example.svg
+footerMessage2: Go to the next page to start assembling your Application Package...
 warningMessage2: !markdown |
-  crwdns101714:0crwdne101714:0
-pageId33: 'crwdns101715:0crwdne101715:0'
-title33: 'crwdns101716:0crwdne101716:0'
-subTitle33: 'crwdns101717:0crwdne101717:0'
+  USCIS requires that applicants for U.S. citizenship have an unexpired green card that is valid for at least six more months.
+  
+  **\*Your filing deadline is July 05, 2016.\* If you miss this deadline you will need to apply to renew your green card before you can file your application for U.S. citizenship.**
+pageId33: example
+title33: Supplies
+subTitle33: What you'll need
 instructions3: >
-  crwdns101718:0crwdne101718:0
+  To build your Application Package, you will need:
 footerMessage3: >
-  crwdns101719:0crwdne101719:0
+  Go to the next page to start assembling your Application Package...
 items3:
   - 
     label: !markdown |
-      crwdns101720:0crwdne101720:0
-    icon: !asset 'crwdns101721:0crwdne101721:0'
+      **Printed copy of this filing packet** on 8.5” x 11” paper
+      (about the same size as A4)
+    icon: !asset common/images/example.svg
   - 
     label: !markdown |
-      crwdns101722:0crwdne101722:0
-    icon: !asset 'crwdns101723:0crwdne101723:0'
+      A clear **area to work** (desk, table, floor, etc)
+    icon: !asset common/images/example.svg
   - 
     label: !markdown |
-      crwdns101724:0crwdne101724:0
-    icon: !asset 'crwdns101725:0crwdne101725:0'
+      **Black ink pen** to sign documents and complete checklists
+    icon: !asset common/images/example.svg
 contentBeforeList12: !markdown |
-  crwdns101726:0{{value 'context.filingPacketData.filingFees.totalAmount'}}crwdnd101726:0{{value 'context.filingPacketData.filingFees.lineItemsDescription'}}crwdne101726:0
+  Dear **USCIS Immigration Officer**,
+  
+  On the following page, you will find a completed form G-1450, "Authorization for Credit Card Transactions" to pay my application filing fees of ${{value 'context.filingPacketData.filingFees.totalAmount'}}{{value 'context.filingPacketData.filingFees.lineItemsDescription'}}.
 finalReview12:
-  instruction12: 'crwdns101727:0crwdne101727:0'
+  instruction12: with correct attachment
   content12: !markdown |
-    crwdns101728:0crwdne101728:0
-  image12: !asset 'crwdns101729:0crwdne101729:0'
-  Forms attached: 'crwdns101730:0crwdne101730:0'
-listType: 'crwdns101731:0crwdne101731:0'
+    **EITHER** the “Credit Card” version followed by a completed and signed G-1450
+    **--OR--** the “Check/Money Order” version with check/money order attached by paperclip
+  image12: !asset common/images/sectionCardOrCheck.svg
+  Forms attached: ""
+listType: forms-list
 body1: !markdown |
-  crwdns101732:0{{value 'context.sectionList'}}crwdne101732:0
-caseNumber11: 'crwdns101733:0crwdne101733:0'
+  Dear **USCIS Immigration Officer**,
+  
+  I, Oscar Sesequis hereby file an N-400, U.S. Citizenship Application with the following attached documents:
+  
+  {{value 'context.sectionList'}}
+  
+  Please contact me should you have any questions or need further documentation.
+  
+  Signed,
+caseNumber11: USCIS
 contentBeforeList11: !markdown |
-  crwdns101734:0{{value 'application.applicant.name.first'}}crwdnd101734:0{{value 'application.applicant.name.last'}}crwdne101734:0
-sss: 0
+  Dear **USCIS Immigration Officer**,
+  
+  I, {{value 'application.applicant.name.first'}} {{value 'application.applicant.name.last'}} hereby file an N-400, U.S. Citizenship Application with the following attached documents:
+sss: 1
