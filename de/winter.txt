@@ -1,7 +1,6 @@
-JAHR
-MONAT
-TAGE
-Winter
-Frühling
-Sommer
-Herbst
+
+
+
+
+
+
