@@ -1,0 +1,10 @@
+<item>
+  <title>Meine super Seite (bearbeitet)</title>
+  <meta>
+    <description>Super Seite beschreibt unsere service</description>
+    <keywords>service,Beschreibung</keywords>
+  </meta>
+  <content type="text/html -">
+    <![CDATA[<b>This</b> ist HTML-Inhalt.]]>
+  </content>
+</item>
