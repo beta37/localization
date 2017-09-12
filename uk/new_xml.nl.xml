@@ -1,0 +1,10 @@
+<item>
+  <title>Супер моя сторінка (редагувати)</title>
+  <meta>
+    <description>Супер сторінка описує нашу службу</description>
+    <keywords>обслуговування,опис</keywords>
+  </meta>
+  <content type="текст/HTML">
+    <![CDATA[<b>This</b> є HTML-Контенту.]]>
+  </content>
+</item>
