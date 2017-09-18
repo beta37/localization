@@ -1,0 +1,10 @@
+---
+files:
+  - 
+    source: /en/*
+    ignore:
+      - '*.csv'
+    translation: /%two_letters_code%/%original_file_name%.po
+    languages_mapping:
+      two_letters_code:
+        pt-BR: pt-BR
