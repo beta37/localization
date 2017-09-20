@@ -8,34 +8,34 @@ selectEvidence1:
   evidenceTypeGroups1:
     - 
       evidenceTypes1:
-        - !import 'ciekawostki/świadectwo/rodzaju/documentaionShowingPoliticalPartymembership'
-        - !import 'ciekawostki/świadectwo/rodzaju/confirmationThatVolunteeredForUSpoliticalparty'
-        - !import 'ciekawostki/świadectwo/rodzaju/confirmationOfParticipationReligiouscommunity'
-        - !import 'ciekawostki/świadectwo/rodzaju/creditCardStatement'
+        - !import ciekawostki/świadectwo/rodzaju/documentaionShowingPoliticalPartymembership
+        - !import ciekawostki/świadectwo/rodzaju/confirmationThatVolunteeredForUSpoliticalparty
+        - !import ciekawostki/świadectwo/rodzaju/confirmationOfParticipationReligiouscommunity
+        - !import ciekawostki/świadectwo/rodzaju/creditCardStatement
 learnMore1:
   questions1:
-    - !import 'ciekawostki/świadectwo/kategorie/pytania/howProveAffiliationCommunistPartyendedbefore16thbirthday'
-    - !import 'common/evidence/categories/questions/whatIfNoDocumentationShowsCommunistpartyaffiliationendedbefore16thbirthday'
-    - !import 'ciekawostki/świadectwo/kategorie/pytania/whatIfNodocumentsToProvePastAffiliationwithcommunistparty'
-    - !import 'ciekawostki/świadectwo/kategorie/pytania/whyAttachmentToUSConstitutionEvaluated'
+    - !import ciekawostki/świadectwo/kategorie/pytania/howProveAffiliationCommunistPartyendedbefore16thbirthday
+    - !import common/evidence/categories/questions/whatIfNoDocumentationShowsCommunistpartyaffiliationendedbefore16thbirthday
+    - !import ciekawostki/świadectwo/kategorie/pytania/whatIfNodocumentsToProvePastAffiliationwithcommunistparty
+    - !import ciekawostki/świadectwo/kategorie/pytania/whyAttachmentToUSConstitutionEvaluated
 learnMore:
   video:
-    fileUrl: !asset 'ogólne/filmy/przykład.MP4'
-    thumbnailUrl: !asset 'całkowita/zdjęcia/filmy.APG'
+    fileUrl: !asset ogólne/filmy/przykład.MP4
+    thumbnailUrl: !asset całkowita/zdjęcia/filmy.APG
     caption: Oglądaj wideo - 2 minuty
   download:
     fileUrl: /zdjęcia/pobierz.Format PDF
     thumbnailUrl: /zdjęcia/pobierz.APG
   questions:
-    - !import 'ciekawostki/świadectwo/kategorie/pytania/howProveServedHonorablyInMilitary'
+    - !import ciekawostki/świadectwo/kategorie/pytania/howProveServedHonorablyInMilitary
 selectEvidence:
-  title: !markdown 'Jakie dowody można wysłać na **udowodnić, że mieszkali w USA nieprzerwanie od**'
+  title: !markdown Jakie dowody można wysłać na **udowodnić, że mieszkali w USA nieprzerwanie od**
   description: !markdown 'Gdy jest to możliwe, im więcej dowodów można wysłać, tym lepiej. Jeśli wybierzesz opcję poniżej i później nie można uzyskać go, wróć tutaj, aby zmienić swój wybór, zanim plik.'
   evidenceTypeGroups:
     - 
       label: Przykład
       evidenceTypes:
-        - !import 'ciekawostki/świadectwo/rodzaju/militaryServiceRecord'
+        - !import ciekawostki/świadectwo/rodzaju/militaryServiceRecord
 evidenceOmission:
   <<: !import 'ciekawostki/świadectwo/kategorie/zaniechania/bazy'
   explanation:
@@ -49,20 +49,45 @@ evidenceOmission:
     questions:
       - 
         label: Jak to wpłynie na mój wniosek?
-        content: "Oficer imigracyjny, który sprawdza wniosek będzie chciał zobaczyć\ndowodów tego, co dowodzi, że każde wymaganie. Zgłoszenia\nbez dowodów może doprowadzić do opóźnienia, a w niektórych przypadkach\nnawet zaprzeczenie."
+        content: !markdown |
+          Oficer imigracyjny, który sprawdza wniosek będzie chciał zobaczyć
+          dowodów tego, co dowodzi, że każde wymaganie. Zgłoszenia
+          bez dowodów może doprowadzić do opóźnienia, a w niektórych przypadkach
+          nawet zaprzeczenie.
       - 
         label: Jeśli квалифицирую inny sposób wciąż musi udowodnić to wymóg?
-        content: "Jeśli u ciebie nie było stałego rezydenta (posiadacz Zielonej karty) w\nnie mniej niż 4 lat i 9 miesięcy, możesz ubiegać się o obywatelstwo USA\nna innej podstawie. Możesz wrócić do swojej aplikacji do przeglądu\ninne opcje dopuszczalności i zmienić swoją odpowiedź."
+        content: !markdown |
+          Jeśli u ciebie nie było stałego rezydenta (posiadacz Zielonej karty) w
+          nie mniej niż 4 lat i 9 miesięcy, możesz ubiegać się o obywatelstwo USA
+          na innej podstawie. Możesz wrócić do swojej aplikacji do przeglądu
+          inne opcje dopuszczalności i zmienić swoją odpowiedź.
       - 
         label: Mogę kontynuować bez podania dowodów?
-        content: "Jeśli były stałego rezydenta (zielone karty) nie mniej niż 4\nlat i 9 miesięcy i masz dobry powód, dlaczego nie można dostarczyć\nniezbędne dowody, nadal można kontynuować. Uprzejmie przedstawić\nwyjaśnienie do urzędnika imigracji, który rozpatrzy sprawę wyjaśnić\ndlaczego nie możesz udowodnić, że jest to wymóg w dzisiejszych czasach."
-content1: "Aby udowodnić, że płeć ma prawnie zmienione, należy przedstawić następujące:\n\n- Kopia zieloną kartę\n- Kopia dokumentu potwierdzającego zmianę płci, np.:\n- Oficjalna nakazu sądowego do zmiany płci\n- Badania lekarskie uznania zmiany płci\n- Wprowadzono zmiany aktu urodzenia\n- Nowa biograficzne strona paszportu\n- Nowe prawo jazdy"
+        content: !markdown |
+          Jeśli były stałego rezydenta (zielone karty) nie mniej niż 4
+          lat i 9 miesięcy i masz dobry powód, dlaczego nie można dostarczyć
+          niezbędne dowody, nadal można kontynuować. Uprzejmie przedstawić
+          wyjaśnienie do urzędnika imigracji, który rozpatrzy sprawę wyjaśnić
+          dlaczego nie możesz udowodnić, że jest to wymóg w dzisiejszych czasach.
+content1: !markdown |
+  Aby udowodnić, że płeć ma prawnie zmienione, należy przedstawić następujące:
+  
+  - Kopia zieloną kartę
+  - Kopia dokumentu potwierdzającego zmianę płci, np.:
+  - Oficjalna nakazu sądowego do zmiany płci
+  - Badania lekarskie uznania zmiany płci
+  - Wprowadzono zmiany aktu urodzenia
+  - Nowa biograficzne strona paszportu
+  - Nowe prawo jazdy
 pageId2: przykład
 title2: Przed przystąpieniem do...
 subTitle2: Proszę, przeczytaj to ważne ostrzeżenie
 icon2: obraz/próbka.csa
 footerMessage2: Przejdź na następną stronę, aby zacząć zbierać swój pakiet dokumentów...
-warningMessage2: "Uscis wymaga, aby kandydaci do otrzymania obywatelstwa USA działająca Zielona karta, ważny przez co najmniej sześć miesięcy.\n\n**\\\\*Termin składania wniosków upływa 05 lipca 2016 roku.\\\\* Jeśli nie dotrzymasz tego terminu należy złożyć wniosek o przedłużenie zielonej karty, zanim będzie można ubiegać się o obywatelstwo USA.**"
+warningMessage2: !markdown |
+  Uscis wymaga, aby kandydaci do otrzymania obywatelstwa USA działająca Zielona karta, ważny przez co najmniej sześć miesięcy.
+  
+  **\\\\*Termin składania wniosków upływa 05 lipca 2016 roku.\\\\* Jeśli nie dotrzymasz tego terminu należy złożyć wniosek o przedłużenie zielonej karty, zanim będzie można ubiegać się o obywatelstwo USA.**
 pageId33: przykład
 title33: Dostawy
 subTitle33: Co jest potrzebne
@@ -72,22 +97,43 @@ footerMessage3: >
   Przejdź na następną stronę, aby zacząć zbierać swój pakiet dokumentów...
 items3:
   - 
-    label: "**Wydrukowaną kopię tego pakietu zgłoszenia** na 8,5\" x 11\" papieru\n(o tej samej wielkości, jak w A4)"
-    icon: !asset 'ogólne/zdjęcia/przykład.csa'
+    label: !markdown |
+      **Wydrukowaną kopię tego pakietu zgłoszenia** na 8,5" x 11" papieru
+      (o tej samej wielkości, jak w A4)
+    icon: !asset ogólne/zdjęcia/przykład.csa
   - 
-    label: Jasny **obszar do pracy** (biurko, stół, podłoga, itp.)
-    icon: !asset 'ogólne/zdjęcia/przykład.csa'
+    label: !markdown |
+      Jasny **obszar do pracy** (biurko, stół, podłoga, itp.)
+    icon: !asset ogólne/zdjęcia/przykład.csa
   - 
-    label: '**Czarny atrament długopis** do podpisywania dokumentów i pełne listy'
-    icon: !asset 'ogólne/zdjęcia/przykład.csa'
-contentBeforeList12: "Szanowny **oficer obywatelstwa i imigracji USA imigracji**,\n\nNa następnej stronie znajdziesz formularz G-1450, \"autoryzacja transakcji kartą kredytową\", aby zapłacić za złożenie wniosku cła w wysokości {{value 'context.filingPacketData.filingFees.totalAmount'}}{{value 'context.filingPacketData.filingFees.lineItemsDescription'}}."
+    label: !markdown |
+      **Czarny atrament długopis** do podpisywania dokumentów i pełne listy
+    icon: !asset ogólne/zdjęcia/przykład.csa
+contentBeforeList12: !markdown |
+  Szanowny **oficer obywatelstwa i imigracji USA imigracji**,
+  
+  Na następnej stronie znajdziesz formularz G-1450, "autoryzacja transakcji kartą kredytową", aby zapłacić za złożenie wniosku cła w wysokości {{value 'context.filingPacketData.filingFees.totalAmount'}}{{value 'context.filingPacketData.filingFees.lineItemsDescription'}}.
 finalReview12:
   instruction12: przy odpowiednim załączniku
-  content12: "**Lub** \"karta Kredytowa\" wersja towarzyszyć wypełnionej i podpisanej przez g-1450\n* * Lub ** \"sprawdź/przelew\" wariant z czek/przelew dołączony klips"
-  image12: !asset 'całkowita/zdjęcia/sectionCardOrCheck.csa'
+  content12: !markdown |
+    **Lub** "karta Kredytowa" wersja towarzyszyć wypełnionej i podpisanej przez g-1450
+    * * Lub ** "sprawdź/przelew" wariant z czek/przelew dołączony klips
+  image12: !asset całkowita/zdjęcia/sectionCardOrCheck.csa
   Forms attached: ""
 listType: form-lista
-body1: "Szanowny **oficer obywatelstwa i imigracji USA imigracji**,\n\nJa, Oskar Sesequis niniejszym złożyć N-400, Obywatelstwo USA oświadczenie z aplikacją następujących dokumentów:\n\n{{value 'context.sectionList'}}\n\nProsimy o kontakt jeżeli masz jakiekolwiek pytania lub potrzebują dodatkowych dokumentów.\n\nPodpis,"
+body1: !markdown |
+  Szanowny **oficer obywatelstwa i imigracji USA imigracji**,
+  
+  Ja, Oskar Sesequis niniejszym złożyć N-400, Obywatelstwo USA oświadczenie z aplikacją następujących dokumentów:
+  
+  {{value 'context.sectionList'}}
+  
+  Prosimy o kontakt jeżeli masz jakiekolwiek pytania lub potrzebują dodatkowych dokumentów.
+  
+  Podpis,
 caseNumber11: W uscis
-contentBeforeList11: "Szanowny **oficer obywatelstwa i imigracji USA imigracji**,\n\nJa {{value 'application.applicant.name.first'}} {{value 'application.applicant.name.last'}} niniejszym pliku z N-400, USA Obywatelstwo oświadczenie z aplikacją następujących dokumentów:"
+contentBeforeList11: !markdown |
+  Szanowny **oficer obywatelstwa i imigracji USA imigracji**,
+  
+  Ja {{value 'application.applicant.name.first'}} {{value 'application.applicant.name.last'}} niniejszym pliku z N-400, USA Obywatelstwo oświadczenie z aplikacją następujących dokumentów:
 sss: 1
