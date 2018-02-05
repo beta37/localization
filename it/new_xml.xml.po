@@ -1,0 +1,10 @@
+<item>
+  <title></title>
+  <meta>
+    <description></description>
+    <keywords></keywords>
+  </meta>
+  <content type="">
+    <![CDATA[]]>
+  </content>
+</item>
