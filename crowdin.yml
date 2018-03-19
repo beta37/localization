@@ -4,3 +4,11 @@ files:
     translatable_elements:
       - /content/subject
       - /content/body
+  - source: /en/simple.xlsx
+    translation: /test/%language%/%two_letters_code%/%original_file_name%
+    languages_mapping:
+      language:
+        uk: asddd/asd
+      two_letters_code:
+        uk: '123'
+    scheme: 'identifier,source_phrase,translation'
