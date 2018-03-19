@@ -1,0 +1,6 @@
+files:
+  - source: /en/test.xml
+    translation: /%two_letters_code%/%original_path%
+    translatable_elements:
+      - /content/subject
+      - /content/body
