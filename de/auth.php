@@ -22,8 +22,8 @@ return [
     |
     */
 
-    'failed'   => 'Diese Anmeldeinformationen entsprechen nicht unseren Aufzeichnungen.',
-    'throttle' => 'Zu viele login-versuche. Bitte versuchen Sie es erneut in :Sekunden Sekunden.',
-    'testing field' => 'Testbereich (geändert) upd2'.
+    'failed'   => 'These credentials do not match our records.',
+    'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
+    'testing field' => 'testing field (changed) upd2'.
 
 ];
