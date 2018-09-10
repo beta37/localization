@@ -22,8 +22,8 @@ return [
     |
     */
 
-    'failed'   => 'Эти учетные данные не совпадают с нашими записями.',
-    'throttle' => 'Слишком много попыток входа. Пожалуйста, попробуйте через :секунд секунд.',
-    'testing field' => 'полевые испытания (изменен) upd2'.
+    'failed'   => 'These credentials do not match our records.',
+    'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
+    'testing field' => 'testing field (changed) upd2'.
 
 ];

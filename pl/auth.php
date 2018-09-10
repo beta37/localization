@@ -22,8 +22,8 @@ return [
     |
     */
 
-    'failed'   => 'Poświadczenia te nie pokrywają się z naszymi wpisami.',
-    'throttle' => 'Zbyt wiele prób logowania. Proszę spróbuj przez :sekund.',
-    'testing field' => 'testy w terenie (zmieniony) upd2'.
+    'failed'   => 'These credentials do not match our records.',
+    'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
+    'testing field' => 'testing field (changed) upd2'.
 
 ];
