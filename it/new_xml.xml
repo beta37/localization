@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
 <item>
-  <title></title>
+  <title>My super page (edited)</title>
   <meta>
-    <description></description>
-    <keywords></keywords>
+    <description>Super page describes our service</description>
+    <keywords>service,description</keywords>
   </meta>
-  <content type="">
-    <![CDATA[]]>
-  </content>
+  <content type="text/html"><![CDATA[
+    <b>This</b> is HTML content.
+  ]]></content>
 </item>
