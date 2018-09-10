@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+  <subject><![CDATA[
+    crwdns1224104:0crwdne1224104:0
+  ]]></subject>
+  <body><![CDATA[
+    crwdns1224105:0crwdne1224105:0
+  ]]></body>
+  <body_email>
+    <![CDATA[Email for Awesome apples]]>
+  </body_email>
+  <body_chat>
+    <![CDATA[Awesome apples]]>
+  </body_chat>
+  <body_web_callback>
+    <![CDATA[<p>Awesome Apples</p>]]>
+  </body_web_callback>
+  <body_qna>
+    <![CDATA[Awesome apples1]]>
+  </body_qna>
+  <body_phone>
+    <![CDATA[Awesome apples2]]>
+  </body_phone>
+  <body_facebook>
+    <![CDATA[Awesome apples3]]>
+  </body_facebook>
+</content>
