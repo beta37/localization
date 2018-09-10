@@ -1,0 +1,565 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: asdfasfd\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-28 11:07+0300\n"
+"PO-Revision-Date: 2018-09-10 12:37\n"
+"Last-Translator: ARC <tomiqwww@yahoo.com>\n"
+"Language-Team: Afar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: asdfasfd\n"
+"X-Crowdin-Language: aa\n"
+"X-Crowdin-File: /l10n_l10n_master_new2/en/js.en.po\n"
+"\n"
+"Language: aa_ER\n"
+
+#: www/js/lib/files.js
+#: www/js/lib/items.js
+#: www/js/editor/plugins/plugins.js
+msgid "Error loading data."
+msgstr "crwdns1224206:0crwdne1224206:0"
+
+#: www/js/lib/files.js
+msgid "Retry"
+msgstr "crwdns1224207:0crwdne1224207:0"
+
+#: www/js/lib/files.js
+msgid "Nothing to dislpay"
+msgstr "crwdns1224208:0crwdne1224208:0"
+
+#: www/js/lib/files.js
+#: www/js/lib/items.js
+msgid "Nothing to display"
+msgstr "crwdns1224209:0crwdne1224209:0"
+
+#: www/js/lib/files.js
+#: www/js/front/project_members.js
+#: www/js/front/profile_resources.js
+msgid "Name"
+msgstr "crwdns1224210:0crwdne1224210:0"
+
+#: www/js/lib/files.js
+#: www/js/front/project_files.js
+msgid "Go Back"
+msgstr "crwdns1224211:0crwdne1224211:0"
+
+#: www/js/lib/ui/editor-menu.js
+#: www/js/front/project_files.js
+msgid "Get %1$s version of %2$s for offline translation"
+msgstr "crwdns1224212:0%1$scrwdnd1224212:0%2$scrwdne1224212:0"
+
+#: www/js/lib/ui/editor-menu.js
+#: www/js/front/project_files.js
+msgid "Get %1$s version of %2$s"
+msgstr "crwdns1224213:0%1$scrwdnd1224213:0%2$scrwdne1224213:0"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "all files"
+msgstr "crwdns1224214:0crwdne1224214:0"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "Get %1$s xliff version of %2$s for offline translation"
+msgstr "crwdns1224215:0%1$scrwdnd1224215:0%2$scrwdne1224215:0"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "Get %1$s xliff version of %2$s"
+msgstr "crwdns1224216:0%1$scrwdnd1224216:0%2$scrwdne1224216:0"
+
+#: www/js/lib/ui/editor-menu.js
+#: www/js/editor/plugins/change_visibility.js
+#: www/js/editor/views/translation.js
+msgid "Make String Visible"
+msgstr "crwdns1224217:0crwdne1224217:0"
+
+#: www/js/lib/ui/editor-menu.js
+#: www/js/editor/plugins/change_visibility.js
+#: www/js/editor/views/translation.js
+msgid "Hide String"
+msgstr "crwdns1224218:0crwdne1224218:0"
+
+#: www/js/lib/ui/editor-menu.js
+#: www/js/editor/views/translation.js
+#: www/js/assets_editor/views/translation.js
+msgid "Add Context"
+msgstr "crwdns1224219:0crwdne1224219:0"
+
+#: www/js/lib/ui/editor-menu.js
+#: www/js/editor/views/translation.js
+#: www/js/assets_editor/views/translation.js
+msgid "Edit Context"
+msgstr "crwdns1224220:0crwdne1224220:0"
+
+#: www/js/lib/ui/editor-menu.js
+#: www/js/editor/views/translation.js
+#: www/js/assets_editor/views/translation.js
+msgid "Request Context"
+msgstr "crwdns1224221:0crwdne1224221:0"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "Search in the Project"
+msgstr "crwdns1224222:0crwdne1224222:0"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "Search in the File"
+msgstr "crwdns1224223:0crwdne1224223:0"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "All strings"
+msgstr "crwdns1224224:0crwdne1224224:0"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "%1$s - %2$s - %3$s translation"
+msgstr "crwdns1224225:0%1$scrwdnd1224225:0%2$scrwdnd1224225:0%3$scrwdne1224225:0"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "Open %1$s %2$s translation page"
+msgstr "crwdns1224226:0%1$scrwdnd1224226:0%2$scrwdne1224226:0"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "Open %s translation page"
+msgstr "crwdns1224227:0%scrwdne1224227:0"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "%s Translations"
+msgstr "crwdns1224228:0%scrwdne1224228:0"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "Not allowed for this file"
+msgstr "crwdns1224229:0crwdne1224229:0"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "Download a fresh version of this file translations"
+msgstr "crwdns1224230:0crwdne1224230:0"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "Upload and merge existing translations with the current ones at %s"
+msgstr "crwdns1224231:0%scrwdne1224231:0"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "Download file in xliff format for offline translation"
+msgstr "crwdns1224232:0crwdne1224232:0"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "Upload translation from xliff format file and merge existing translations with the current ones at %s"
+msgstr "crwdns1224233:0%scrwdne1224233:0"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "Proofreading Mode"
+msgstr "crwdns1224234:0crwdne1224234:0"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "Voting Mode"
+msgstr "crwdns1224235:0crwdne1224235:0"
+
+#: www/js/lib/ui/editor-menu.js
+msgid "Untranslated: %s, not approved: %s"
+msgstr "crwdns1224236:0%scrwdnd1224236:0%scrwdne1224236:0"
+
+#: www/js/lib/ui/editor-menu.js
+#: www/js/editor/plugins/plugins.js
+msgid "%s word"
+msgid_plural "%s words"
+msgstr[0] "crwdns1224237:1%scrwdne1224237:1"
+msgstr[1] "crwdns1224237:5%scrwdne1224237:5"
+
+#: www/js/lib/guiders/guiders-1.2.8.js
+#: www/js/front/mobile_support.js
+msgid "Back"
+msgstr "crwdns1224238:0crwdne1224238:0"
+
+#: www/js/lib/guiders/guiders-1.2.8.js
+#: www/js/editor/plugins/custom_filter.js
+#: www/js/editor/quick_user_guide_guiders.js
+#: www/js/front/resources.js
+#: www/js/front/file_upload.js
+#: www/js/front/organization_settings.js
+#: www/js/front/projects.js
+#: www/js/front/project_members.js
+#: www/js/front/profile_projects.js
+#: www/js/front/tag_screenshot.js
+#: www/js/front/edit_project.js
+#: www/js/front/profile_resources.js
+#: www/js/front/web_hooks_details.js
+#: www/js/front/profile_tasks.js
+#: www/js/front/file_download.js
+#: www/js/front/file_manager.js
+#: www/js/front/integration.js
+#: www/js/professional_translations/controls/professional_translations.js
+msgid "Close"
+msgstr "crwdns1224239:0crwdne1224239:0"
+
+#: www/js/lib/guiders/guiders-1.2.8.js
+#: www/js/editor/quick_user_guide_guiders.js
+msgid "Next"
+msgstr "crwdns1224240:0crwdne1224240:0"
+
+#: www/js/lib/form_validation/formValidator.js
+msgid "Invalid email"
+msgstr "crwdns1224241:0crwdne1224241:0"
+
+#: www/js/lib/form_validation/formValidator.js
+#: www/js/validators/validator.js
+msgid "Did you mean %s?"
+msgstr "crwdns1224242:0%scrwdne1224242:0"
+
+#: www/js/lib/form_validation/formValidator.js
+msgid "Please enter a valid URL"
+msgstr "crwdns1224243:0crwdne1224243:0"
+
+#: www/js/lib/clipboard.js
+msgid "String URL"
+msgstr "crwdns1224244:0crwdne1224244:0"
+
+#: www/js/lib/clipboard.js
+msgid "Copy to clipboard:"
+msgstr "crwdns1224245:0crwdne1224245:0"
+
+#: www/js/lib/highlight/highlight.js
+msgid "Tags should not be translated"
+msgstr "crwdns1224246:0crwdne1224246:0"
+
+#: www/js/lib/highlight/highlight.js
+msgid "XML tags should not be translated"
+msgstr "crwdns1224247:0crwdne1224247:0"
+
+#: www/js/lib/highlight/highlight.js
+msgid "HTML entities should not be translated"
+msgstr "crwdns1224248:0crwdne1224248:0"
+
+#: www/js/lib/highlight/highlight.js
+msgid "This is line break"
+msgstr "crwdns1224249:0crwdne1224249:0"
+
+#: www/js/lib/highlight/highlight.js
+msgid "This variable should not be translated"
+msgstr "crwdns1224250:0crwdne1224250:0"
+
+#: www/js/lib/highlight/highlight.js
+msgid "Special symbols should not be translated"
+msgstr "crwdns1224251:0crwdne1224251:0"
+
+#: www/js/lib/highlight/highlight.js
+msgid "Space characters should not be translated"
+msgstr "crwdns1224252:0crwdne1224252:0"
+
+#: www/js/lib/highlight/highlight.js
+msgid "Tab should not be translated"
+msgstr "crwdns1224253:0crwdne1224253:0"
+
+#: www/js/lib/jquery.jgrowl.js
+msgid "Close all"
+msgstr "crwdns1224254:0crwdne1224254:0"
+
+#: www/js/lib/items.js
+msgid "All <b>%d</b> items on this page are selected."
+msgstr "crwdns1224255:0%dcrwdne1224255:0"
+
+#: www/js/lib/items.js
+msgid "One item on this page is selected."
+msgstr "crwdns1224256:0crwdne1224256:0"
+
+#: www/js/lib/items.js
+#: www/js/proofread_editor/controls/phrases.js
+msgid "Select all <b>%d</b> that match current filtering rule"
+msgstr "crwdns1224257:0%dcrwdne1224257:0"
+
+#: www/js/lib/items.js
+msgid "All <b>%d</b> items are selected."
+msgstr "crwdns1224258:0%dcrwdne1224258:0"
+
+#: www/js/lib/items.js
+msgid "First page"
+msgstr "crwdns1224259:0crwdne1224259:0"
+
+#: www/js/lib/items.js
+msgid "Last page"
+msgstr "crwdns1224260:0crwdne1224260:0"
+
+#: www/js/lib/items.js
+msgid "Clear selection"
+msgstr "crwdns1224261:0crwdne1224261:0"
+
+#: www/js/lib/items.js
+msgid "%1$d &mdash; %2$d of %3$d"
+msgstr "crwdns1224262:0%1$dcrwdnd1224262:0%2$dcrwdnd1224262:0%3$dcrwdne1224262:0"
+
+#: www/js/lib/fileuploader.js
+msgid "{file} has invalid extension. Allowed are: {extensions}."
+msgstr "crwdns1224263:0{file}crwdnd1224263:0{extensions}crwdne1224263:0"
+
+#: www/js/lib/fileuploader.js
+msgid "{file} is too large, maximum file size is {sizeLimit}."
+msgstr "crwdns1224264:0{file}crwdnd1224264:0{sizeLimit}crwdne1224264:0"
+
+#: www/js/lib/fileuploader.js
+msgid "{file} is too small, minimum file size is {minSizeLimit}."
+msgstr "crwdns1224265:0{file}crwdnd1224265:0{minSizeLimit}crwdne1224265:0"
+
+#: www/js/lib/fileuploader.js
+msgid "{file} is empty, try selecting another file."
+msgstr "crwdns1224266:0{file}crwdne1224266:0"
+
+#: www/js/lib/fileuploader.js
+msgid "The files are being uploaded, if you leave now the upload will be cancelled."
+msgstr "crwdns1224267:0crwdne1224267:0"
+
+#: www/js/validators/validator.js
+msgid "User name must be at least 3 characters."
+msgstr "crwdns1224268:0crwdne1224268:0"
+
+#: www/js/validators/validator.js
+msgid "Please use only letters (a-z), numbers, and signs %s."
+msgstr "crwdns1224269:0%scrwdne1224269:0"
+
+#: www/js/validators/validator.js
+msgid "The language name should not be longer than 50 characters."
+msgstr "crwdns1224270:0crwdne1224270:0"
+
+#: www/js/validators/validator.js
+msgid "Please use only letters (a-z)."
+msgstr "crwdns1224271:0crwdne1224271:0"
+
+#: www/js/validators/validator.js
+msgid "The crowdin code should not be less than 2 and longer than 4 characters."
+msgstr "crwdns1224272:0crwdne1224272:0"
+
+#: www/js/validators/validator.js
+msgid "Three letters code must have 3 characters."
+msgstr "crwdns1224273:0crwdne1224273:0"
+
+#: www/js/validators/validator.js
+msgid "Please use only letters (a-z) and sign %s."
+msgstr "crwdns1224274:0%scrwdne1224274:0"
+
+#: www/js/validators/validator.js
+msgid "The locale code should not be longer than 7 characters."
+msgstr "crwdns1224275:0crwdne1224275:0"
+
+#: www/js/validators/validator.js
+msgid "Identifier must be longer than 3 characters."
+msgstr "crwdns1224276:0crwdne1224276:0"
+
+#: www/js/validators/validator.js
+#: www/js/front/integration.js
+msgid "No spaces or special characters allowed."
+msgstr "crwdns1224277:0crwdne1224277:0"
+
+#: www/js/validators/validator.js
+#: www/js/front/profile_settings.js
+msgid "Password is too short (minimum is 6 characters)"
+msgstr "crwdns1224278:0crwdne1224278:0"
+
+#: www/js/validators/validator.js
+msgid "The passwords don't match, please try again."
+msgstr "crwdns1224279:0crwdne1224279:0"
+
+#: www/js/validators/validator.js
+msgid "Invalid email."
+msgstr "crwdns1224280:0crwdne1224280:0"
+
+#: www/js/validators/validator.js
+msgid "Invalid date."
+msgstr "crwdns1224281:0crwdne1224281:0"
+
+#: www/js/validators/validator.js
+msgid "This option is required."
+msgstr "crwdns1224282:0crwdne1224282:0"
+
+#: www/js/validators/validator.js
+msgid "You must select at least one target language."
+msgstr "crwdns1224283:0crwdne1224283:0"
+
+#: www/js/validators/validator.js
+msgid "Url is not valid."
+msgstr "crwdns1224284:0crwdne1224284:0"
+
+#: www/js/editor/hotkeys.js
+#: www/js/proofread_editor/controls/suggestions.js
+msgid "Save Translation"
+msgstr "crwdns1224285:0crwdne1224285:0"
+
+#: www/js/editor/hotkeys.js
+msgid "Skip String"
+msgstr "crwdns1224286:0crwdne1224286:0"
+
+#: www/js/editor/hotkeys.js
+msgid "Previous String"
+msgstr "crwdns1224287:0crwdne1224287:0"
+
+#: www/js/editor/hotkeys.js
+msgid "Show/Hide Right Panel"
+msgstr "crwdns1224288:0crwdne1224288:0"
+
+#: www/js/editor/hotkeys.js
+msgid "Copy Translation From Source"
+msgstr "crwdns1224289:0crwdne1224289:0"
+
+#: www/js/editor/hotkeys.js
+#: www/js/editor/controls/suggestions.js
+#: www/js/editor/views/suggestions.js
+#: www/js/proofread_editor/controls/suggestions.js
+#: www/js/assets_editor/controls/suggestions.js
+#: www/js/assets_editor/views/suggestions.js
+msgid "Approve"
+msgstr "crwdns1224290:0crwdne1224290:0"
+
+#: www/js/editor/hotkeys.js
+#: www/js/editor/controls/suggestions.js
+#: www/js/editor/views/suggestions.js
+#: www/js/proofread_editor/controls/suggestions.js
+#: www/js/assets_editor/controls/suggestions.js
+#: www/js/assets_editor/views/suggestions.js
+msgid "Disapprove"
+msgstr "crwdns1224291:0crwdne1224291:0"
+
+#: www/js/editor/hotkeys.js
+#: www/js/editor/controls/suggestions.js
+#: www/js/editor/views/suggestions.js
+#: www/js/proofread_editor/controls/suggestions.js
+#: www/js/assets_editor/controls/suggestions.js
+msgid "Vote Up"
+msgstr "crwdns1224292:0crwdne1224292:0"
+
+#: www/js/editor/hotkeys.js
+#: www/js/editor/controls/suggestions.js
+#: www/js/editor/views/suggestions.js
+#: www/js/proofread_editor/controls/suggestions.js
+#: www/js/assets_editor/controls/suggestions.js
+msgid "Vote Down"
+msgstr "crwdns1224293:0crwdne1224293:0"
+
+#: www/js/editor/hotkeys.js
+msgid "Show/Hide String"
+msgstr "crwdns1224294:0crwdne1224294:0"
+
+#: www/js/editor/hotkeys.js
+msgid "Show/Hide String Context"
+msgstr "crwdns1224295:0crwdne1224295:0"
+
+#: www/js/editor/hotkeys.js
+msgid "Edit String Context"
+msgstr "crwdns1224296:0crwdne1224296:0"
+
+#: www/js/editor/hotkeys.js
+msgid "Request String Comment"
+msgstr "crwdns1224297:0crwdne1224297:0"
+
+#: www/js/editor/hotkeys.js
+msgid "Search"
+msgstr "crwdns1224298:0crwdne1224298:0"
+
+#: www/js/editor/hotkeys.js
+#: www/js/editor/plugins/replace.js
+msgid "Replace in Suggestions"
+msgstr "crwdns1224299:0crwdne1224299:0"
+
+#: www/js/editor/hotkeys.js
+#: www/js/editor/plugins/plugins.js
+msgid "Open File"
+msgstr "crwdns1224300:0crwdne1224300:0"
+
+#: www/js/editor/hotkeys.js
+msgid "Next File"
+msgstr "crwdns1224301:0crwdne1224301:0"
+
+#: www/js/editor/hotkeys.js
+msgid "Previous File"
+msgstr "crwdns1224302:0crwdne1224302:0"
+
+#: www/js/editor/hotkeys.js
+msgid "Show/Hide File Context"
+msgstr "crwdns1224303:0crwdne1224303:0"
+
+#: www/js/editor/hotkeys.js
+msgid "Edit File Context"
+msgstr "crwdns1224304:0crwdne1224304:0"
+
+#: www/js/editor/hotkeys.js
+msgid "Request File Comment"
+msgstr "crwdns1224305:0crwdne1224305:0"
+
+#: www/js/editor/hotkey_bindings.js
+msgid "Save Translation (%s)"
+msgstr "crwdns1224306:0%scrwdne1224306:0"
+
+#: www/js/editor/hotkey_bindings.js
+msgid "Previous String (%s)"
+msgstr "crwdns1224307:0%scrwdne1224307:0"
+
+#: www/js/editor/hotkey_bindings.js
+msgid "Skip String (%s)"
+msgstr "crwdns1224308:0%scrwdne1224308:0"
+
+#: www/js/editor/plugins/context_editor.js
+msgid "Screenshots"
+msgstr "crwdns1224309:0crwdne1224309:0"
+
+#: www/js/editor/plugins/context_editor.js
+#: www/js/editor/plugins/plugins.js
+#: www/js/editor/plugins/replace.js
+#: www/js/editor/plugins/editor_settings.js
+#: www/js/editor/plugins/editor_hotkeys.js
+#: www/js/editor/plugins/context_request.js
+#: www/js/editor/controls/right_panel.js
+#: www/js/editor/controls/suggestions.js
+#: www/js/editor/controls/translation.js
+#: www/js/editor/controls/glossary.js
+#: www/js/proofread_editor/controls/suggestions.js
+#: www/js/proofread_editor/controls/translation.js
+#: www/js/front/profile_common_functions.js
+#: www/js/front/projects.js
+#: www/js/front/project_members.js
+#: www/js/front/edit_project.js
+#: www/js/front/workflows.js
+#: www/js/front/profile_resources.js
+#: www/js/front/profile_settings.js
+#: www/js/front/file_download.js
+#: www/js/front/file_manager.js
+#: www/js/professional_translations/controls/professional_translations.js
+#: www/js/professional_translations/views/vendor.js
+#: www/js/src/common_functions.js
+#: www/js/src/autofix.js
+#: www/js/assets_editor/controls/suggestions.js
+msgid "Cancel"
+msgstr "crwdns1224310:0crwdne1224310:0"
+
+#: www/js/editor/plugins/context_editor.js
+#: www/js/editor/plugins/editor_settings.js
+#: www/js/editor/plugins/editor_hotkeys.js
+#: www/js/editor/controls/right_panel.js
+#: www/js/editor/controls/glossary.js
+#: www/js/proofread_editor/controls/suggestions.js
+#: www/js/front/tag_screenshot.js
+#: www/js/front/edit_project.js
+#: www/js/front/workflows.js
+#: www/js/front/profile_resources.js
+#: www/js/front/yaml_configurator.js
+#: www/js/front/file_manager.js
+#: www/js/front/integration.js
+#: www/js/professional_translations/views/vendor.js
+msgid "Save"
+msgstr "crwdns1224311:0crwdne1224311:0"
+
+#: www/js/editor/plugins/plugins.js
+msgid "Hide Context"
+msgstr "crwdns1224312:0crwdne1224312:0"
+
+#: www/js/editor/plugins/plugins.js
+msgid "Show Context"
+msgstr "crwdns1224313:0crwdne1224313:0"
+
+#: www/js/editor/plugins/plugins.js
+msgid "Search through translation memory"
+msgstr "crwdns1224314:0crwdne1224314:0"
+
+#: www/js/editor/plugins/plugins.js
+#: www/js/front/tag_screenshot.js
+#: www/js/front/target_languages.js
+#: www/js/front/profile_resources.js
+msgid "Clear"
+msgstr "crwdns1224315:0crwdne1224315:0"
+
