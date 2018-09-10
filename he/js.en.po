@@ -3,19 +3,19 @@ msgstr ""
 "Project-Id-Version: asdfasfd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-28 11:07+0300\n"
-"PO-Revision-Date: 2018-09-10 14:05\n"
+"PO-Revision-Date: 2018-09-10 14:04\n"
 "Last-Translator: ARC <tomiqwww@yahoo.com>\n"
-"Language-Team: French\n"
+"Language-Team: Hebrew\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\n"
 "X-Generator: crowdin.com\n"
 "X-Crowdin-Project: asdfasfd\n"
-"X-Crowdin-Language: fr\n"
+"X-Crowdin-Language: he\n"
 "X-Crowdin-File: /l10n_l10n_master_new2/en/js.en.po\n"
 "\n"
-"Language: fr_FR\n"
+"Language: he_IL\n"
 
 #: www/js/lib/files.js
 #: www/js/lib/items.js
@@ -165,6 +165,8 @@ msgid "%s word"
 msgid_plural "%s words"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: www/js/lib/guiders/guiders-1.2.8.js
 #: www/js/front/mobile_support.js
