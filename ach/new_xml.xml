@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
 <item>
-  <title>crwdns101846:0crwdne101846:0</title>
+  <title>My super page (edited)</title>
   <meta>
-    <description>crwdns101847:0crwdne101847:0</description>
-    <keywords>crwdns101848:0crwdne101848:0</keywords>
+    <description>Super page describes our service</description>
+    <keywords>service,description</keywords>
   </meta>
-  <content type="crwdns101849:0crwdne101849:0">
-    <![CDATA[crwdns101850:0crwdne101850:0]]>
-  </content>
+  <content type="text/html"><![CDATA[
+    <b>This</b> is HTML content.
+  ]]></content>
 </item>
