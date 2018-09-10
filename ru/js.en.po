@@ -1,19 +1,20 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: wordpress1-1\n"
+"Project-Id-Version: asdfasfd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-28 11:07+0300\n"
-"PO-Revision-Date: 2017-03-20 03:37-0400\n"
-"Last-Translator: mikolay <mikolay@crowdin.com>\n"
+"PO-Revision-Date: 2018-09-10 13:57\n"
+"Last-Translator: ARC <tomiqwww@yahoo.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
 "X-Generator: crowdin.com\n"
-"X-Crowdin-Project: wordpress1-1\n"
+"X-Crowdin-Project: asdfasfd\n"
 "X-Crowdin-Language: ru\n"
-"X-Crowdin-File: /master/en/js.en.po\n"
+"X-Crowdin-File: /l10n_l10n_master_new2/en/js.en.po\n"
+"\n"
 "Language: ru_RU\n"
 
 #: www/js/lib/files.js
@@ -165,6 +166,7 @@ msgid_plural "%s words"
 msgstr[0] "%s слово"
 msgstr[1] "%s слова"
 msgstr[2] "%s слова"
+msgstr[3] ""
 
 #: www/js/lib/guiders/guiders-1.2.8.js
 #: www/js/front/mobile_support.js
@@ -562,3 +564,4 @@ msgstr "Поиск через памяти переводов"
 #: www/js/front/profile_resources.js
 msgid "Clear"
 msgstr "Понятно"
+
