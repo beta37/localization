@@ -22,8 +22,8 @@ return [
     |
     */
 
-    'failed'   => 'これらの資格が一致しない当社の記録です。',
-    'throttle' => '多くのログインを試みます。 て再度試してみてください：秒です。',
-    'testing field' => '試験分野の(変更)upd2'.
+    'failed'   => 'These credentials do not match our records.',
+    'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
+    'testing field' => 'testing field (changed) upd2'.
 
 ];
