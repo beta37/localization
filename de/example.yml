@@ -8,34 +8,34 @@ selectEvidence1:
   evidenceTypeGroups1:
     - 
       evidenceTypes1:
-        - !import 'common/Beweise/Typen/documentaionShowingPoliticalPartymembership'
-        - !import 'common/Beweise/Typen/confirmationThatVolunteeredForUSpoliticalparty'
-        - !import 'common/Beweise/Typen/confirmationOfParticipationReligiouscommunity'
-        - !import 'common/Beweise/Typen/creditCardStatement'
+        - !import common/Beweise/Typen/documentaionShowingPoliticalPartymembership
+        - !import common/Beweise/Typen/confirmationThatVolunteeredForUSpoliticalparty
+        - !import common/Beweise/Typen/confirmationOfParticipationReligiouscommunity
+        - !import common/Beweise/Typen/creditCardStatement
 learnMore1:
   questions1:
-    - !import 'common/Beweise/Kategorien/Fragen/howProveAffiliationCommunistPartyendedbefore16thbirthday'
-    - !import 'common/evidence/categories/questions/whatIfNoDocumentationShowsCommunistpartyaffiliationendedbefore16thbirthday'
-    - !import 'common/Beweise/Kategorien/Fragen/whatIfNodocumentsToProvePastAffiliationwithcommunistparty'
-    - !import 'common/Beweise/Kategorien/Fragen/whyAttachmentToUSConstitutionEvaluated'
+    - !import common/Beweise/Kategorien/Fragen/howProveAffiliationCommunistPartyendedbefore16thbirthday
+    - !import common/evidence/categories/questions/whatIfNoDocumentationShowsCommunistpartyaffiliationendedbefore16thbirthday
+    - !import common/Beweise/Kategorien/Fragen/whatIfNodocumentsToProvePastAffiliationwithcommunistparty
+    - !import common/Beweise/Kategorien/Fragen/whyAttachmentToUSConstitutionEvaluated
 learnMore:
   video:
-    fileUrl: !asset 'common/videos/Beispiel.mp4'
-    thumbnailUrl: !asset 'common/images/video.png'
+    fileUrl: !asset common/videos/Beispiel.mp4
+    thumbnailUrl: !asset common/images/video.png
     caption: Video - 2 Minuten
   download:
     fileUrl: /images/download.pdf
     thumbnailUrl: /images/download.png
   questions:
-    - !import 'common/Beweise/Kategorien/Fragen/howProveServedHonorablyInMilitary'
+    - !import common/Beweise/Kategorien/Fragen/howProveServedHonorablyInMilitary
 selectEvidence:
-  title: !markdown 'Welche Beweise werden Sie in der Lage, um zu senden **beweisen Sie lebte in den USA kontinuierlich seit**'
+  title: !markdown Welche Beweise werden Sie in der Lage, um zu senden **beweisen Sie lebte in den USA kontinuierlich seit**
   description: !markdown 'Wenn möglich, die mehr Beweise, die Sie senden können, desto besser. Wenn Sie ein Element auswählen weiter unten und finden später bekommen Sie es nicht, kehren Sie hierher zurück, um die Auswahl zu ändern, bevor Sie die Datei.'
   evidenceTypeGroups:
     - 
       label: Beispiel
       evidenceTypes:
-        - !import 'common/Beweise/Typen/militaryServiceRecord'
+        - !import common/Beweise/Typen/militaryServiceRecord
 evidenceOmission:
   <<: !import 'common/Beweise/Kategorien/Unterlassung/base'
   explanation:
@@ -49,20 +49,45 @@ evidenceOmission:
     questions:
       - 
         label: Wie wird sich das auf meine Anwendung?
-        content: "Der immigration-officer, die Bewertungen Ihrer Anwendung sehen wollen\nBeweis, der zeigt, dass jede Anforderung. Ihre Bewerbung\nohne Nachweise könnte zu Verzögerungen führen, und in einigen Fällen\nauch Verleugnung."
+        content: !markdown |
+          Der immigration-officer, die Bewertungen Ihrer Anwendung sehen wollen
+          Beweis, der zeigt, dass jede Anforderung. Ihre Bewerbung
+          ohne Nachweise könnte zu Verzögerungen führen, und in einigen Fällen
+          auch Verleugnung.
       - 
         label: Wenn ich mich einen anderen Weg kann ich immer noch zu beweisen, diese Anforderung?
-        content: "Wenn Sie nicht gewesen ein permanent resident (green card holder) für\nmindestens 4 Jahre und 9 Monate, Sie könnten sich noch qualifizieren Sie sich für die US-Staatsbürgerschaft\nauf einer anderen Grundlage. Sie können gehen Sie zurück, um Ihre Anwendung zu überprüfen\nandere EIGNUNG-Optionen und ändern Sie Ihre Antwort."
+        content: !markdown |
+          Wenn Sie nicht gewesen ein permanent resident (green card holder) für
+          mindestens 4 Jahre und 9 Monate, Sie könnten sich noch qualifizieren Sie sich für die US-Staatsbürgerschaft
+          auf einer anderen Grundlage. Sie können gehen Sie zurück, um Ihre Anwendung zu überprüfen
+          andere EIGNUNG-Optionen und ändern Sie Ihre Antwort.
       - 
         label: Kann ich weiterhin ohne Nachweis?
-        content: "Wenn Sie bereits ein permanent resident (green card holder) für mindestens 4\nJahre und 9 Monate und Sie haben einen guten Grund, warum Sie nicht die\nerforderlichen Beweise vorliegen, können Sie noch wählen, um fortzufahren. Bitte senden Sie eine\nErklärung zum immigration officer, der prüft Ihren Fall zu erklären\nwarum Sie nicht nachweisen können, diese Anforderung zu diesem Zeitpunkt."
-content1: "Um zu beweisen, dass Ihr Geschlecht hat sich gesetzlich geändert, Sie benötigen, um die folgenden:\n\n- Eine Kopie Ihrer green card\n- Eine Kopie der Dokumentation zeigt die änderung des Geschlechts, wie zum Beispiel:\n- Offizielles Gericht, um für eine änderung des Geschlechts\n- Medizinische Zertifizierung erkennen, ändern von Geschlecht\n- Die geänderte Geburtsurkunde\n- Neuen Pass biographische Seite\n- Neuer Führerschein"
+        content: !markdown |
+          Wenn Sie bereits ein permanent resident (green card holder) für mindestens 4
+          Jahre und 9 Monate und Sie haben einen guten Grund, warum Sie nicht die
+          erforderlichen Beweise vorliegen, können Sie noch wählen, um fortzufahren. Bitte senden Sie eine
+          Erklärung zum immigration officer, der prüft Ihren Fall zu erklären
+          warum Sie nicht nachweisen können, diese Anforderung zu diesem Zeitpunkt.
+content1: !markdown |
+  Um zu beweisen, dass Ihr Geschlecht hat sich gesetzlich geändert, Sie benötigen, um die folgenden:
+
+  - Eine Kopie Ihrer green card
+  - Eine Kopie der Dokumentation zeigt die änderung des Geschlechts, wie zum Beispiel:
+  - Offizielles Gericht, um für eine änderung des Geschlechts
+  - Medizinische Zertifizierung erkennen, ändern von Geschlecht
+  - Die geänderte Geburtsurkunde
+  - Neuen Pass biographische Seite
+  - Neuer Führerschein
 pageId2: Beispiel
 title2: Bevor Sie fortfahren können...
 subTitle2: Bitte Lesen Sie diese wichtige Warnung
 icon2: images/Beispiel.svg
 footerMessage2: Gehen Sie auf die nächste Seite, um die Montage Ihrer Bewerbungsunterlagen...
-warningMessage2: "USCIS erfordert, dass die Bewerber für die US-Staatsbürgerschaft haben, einen nicht abgelaufenen grüne Karte, die gültig ist für mindestens sechs weitere Monate.\n\n**\\\\*Ihre Abgabefrist ist der Juli 05, 2016.\\\\* Wenn Sie die Frist verpassen, die Sie benötigen, um zu erneuern Sie Ihre green card, bevor Sie Ihren Antrag für die US-Staatsbürgerschaft.**"
+warningMessage2: !markdown |
+  USCIS erfordert, dass die Bewerber für die US-Staatsbürgerschaft haben, einen nicht abgelaufenen grüne Karte, die gültig ist für mindestens sechs weitere Monate.
+
+  **\\\\*Ihre Abgabefrist ist der Juli 05, 2016.\\\\* Wenn Sie die Frist verpassen, die Sie benötigen, um zu erneuern Sie Ihre green card, bevor Sie Ihren Antrag für die US-Staatsbürgerschaft.**
 pageId33: Beispiel
 title33: Versorgt
 subTitle33: Was Sie benötigen
@@ -72,22 +97,43 @@ footerMessage3: >
   Gehen Sie auf die nächste Seite, um die Montage Ihrer Bewerbungsunterlagen...
 items3:
   - 
-    label: "**Gedruckte Kopie dieser Ablage-Paket** auf 8,5\" x 11\" - Papier\n(etwa die gleiche Größe wie A4)"
-    icon: !asset 'common/images/Beispiel.svg'
+    label: !markdown |
+      **Gedruckte Kopie dieser Ablage-Paket** auf 8,5" x 11" - Papier
+      (etwa die gleiche Größe wie A4)
+    icon: !asset common/images/Beispiel.svg
   - 
-    label: Ein klares **Bereich Arbeit** (Schreibtisch, Tisch, Boden, etc)
-    icon: !asset 'common/images/Beispiel.svg'
+    label: !markdown |
+      Ein klares **Bereich Arbeit** (Schreibtisch, Tisch, Boden, etc)
+    icon: !asset common/images/Beispiel.svg
   - 
-    label: '**Black ink pen** zu unterzeichnen von Dokumenten und kompletten Checklisten'
-    icon: !asset 'common/images/Beispiel.svg'
-contentBeforeList12: "Sehr geehrter Herr **USCIS Immigration Officer**,\n\nAuf der folgenden Seite finden Sie eine ausgefüllte Formular G-1450, \"Autorisierung für Kreditkarten-Transaktionen\" zu bezahlen meine Anwendung Anmeldegebühren ${{value 'context.filingPacketData.filingFees.totalAmount'}}{{value 'context.filingPacketData.filingFees.lineItemsDescription'}}."
+    label: !markdown |
+      **Black ink pen** zu unterzeichnen von Dokumenten und kompletten Checklisten
+    icon: !asset common/images/Beispiel.svg
+contentBeforeList12: !markdown |
+  Sehr geehrter Herr **USCIS Immigration Officer**,
+
+  Auf der folgenden Seite finden Sie eine ausgefüllte Formular G-1450, "Autorisierung für Kreditkarten-Transaktionen" zu bezahlen meine Anwendung Anmeldegebühren ${{value 'context.filingPacketData.filingFees.totalAmount'}}{{value 'context.filingPacketData.filingFees.lineItemsDescription'}}.
 finalReview12:
   instruction12: mit der richtigen Anlage
-  content12: "**** Der \"Credit Card\" - version, gefolgt von einem ausgefüllten und unterschriebenen G-1450\n**--ODER--** \"Check/Money Order\" version-check/money order befestigt Büroklammer"
-  image12: !asset 'common/images/sectionCardOrCheck.svg'
+  content12: !markdown |
+    **** Der "Credit Card" - version, gefolgt von einem ausgefüllten und unterschriebenen G-1450
+    **--ODER--** "Check/Money Order" version-check/money order befestigt Büroklammer
+  image12: !asset common/images/sectionCardOrCheck.svg
   Forms attached: ""
 listType: Formulare-Liste
-body1: "Sehr geehrter Herr **USCIS Immigration Officer**,\n\nIch, Oscar Sesequis hiermit-Datei ein N-400, US-Staatsbürgerschaft Anwendung mit folgenden beigefügten Unterlagen:\n\n{{value 'context.sectionList'}}\n\nBitte Kontaktieren Sie mich sollten Sie Fragen haben oder benötigen Sie weitere Unterlagen.\n\nSigniert,"
+body1: !markdown |
+  Sehr geehrter Herr **USCIS Immigration Officer**,
+
+  Ich, Oscar Sesequis hiermit-Datei ein N-400, US-Staatsbürgerschaft Anwendung mit folgenden beigefügten Unterlagen:
+
+  {{value 'context.sectionList'}}
+
+  Bitte Kontaktieren Sie mich sollten Sie Fragen haben oder benötigen Sie weitere Unterlagen.
+
+  Signiert,
 caseNumber11: USCIS
-contentBeforeList11: "Sehr geehrter Herr **USCIS Immigration Officer**,\n\nIch, {{value 'application.applicant.name.first'}} {{value 'application.applicant.name.last'}} hiermit-Datei ein N-400, US-Staatsbürgerschaft Anwendung mit folgenden beigefügten Unterlagen:"
+contentBeforeList11: !markdown |
+  Sehr geehrter Herr **USCIS Immigration Officer**,
+
+  Ich, {{value 'application.applicant.name.first'}} {{value 'application.applicant.name.last'}} hiermit-Datei ein N-400, US-Staatsbürgerschaft Anwendung mit folgenden beigefügten Unterlagen:
 sss: 1
