@@ -1,0 +1,20 @@
+---
+ref: приклад
+pageHeading:
+  title: 'Довести, що ви жили у США з 15 червня 2007 року'
+selectEvidence1:
+  evidenceTypeGroups1:
+    - 
+      evidenceTypes1:
+        - !import загальна/свідоцтво/види/documentaionShowingPoliticalPartymembership
+        - !import загальна/свідоцтво/види/confirmationThatVolunteeredForUSpoliticalparty
+        - !import загальна/свідоцтво/види/confirmationOfParticipationReligiouscommunity
+evidenceOmission:
+  explanation:
+    required: true
+pageId2: приклад
+pageId33: приклад
+contentBeforeList11: !markdown |
+  Шановний **офіцер служби громадянства та імміграції США імміграції**,
+  
+  Я, {{value 'application.applicant.name.first'}} {{value 'application.applicant.name.last'}} справжнім файлу з N-400, США Громадянство заяву з додатком наступних документів:

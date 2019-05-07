@@ -1,0 +1,10 @@
+<item>
+  <title>私のスーパーページ(編集)</title>
+  <meta>
+    <description>スーパーのページを記述しサービス</description>
+    <keywords>サービス内容</keywords>
+  </meta>
+  <content type="text/html">
+    <![CDATA[<b>This</b>はHTMLコンテンツです。]]>
+  </content>
+</item>
